@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-18",
+  "researchRecords": 90,
+  "originClaims": 70,
+  "liveLocatedCities": 23,
+  "recordsWithLocatedAssociations": 54,
+  "recordsWithoutCoordinates": 36,
+  "posterSHA256": "1d15a610d1520928984b8bbfeee344c74790979b11f5cdf528753318f29f6378",
+  "browserChecks": {
+    "directMapDeitySelection": "Enki at Eridu opens its sourced entry",
+    "cityRosterAndLesserKnownFigure": "Girsu popup exposes 12 records; Zargu opens ETCSL 2.1.7, 1058\u20131069",
+    "aliasSearch": "Nudimmud finds Enki",
+    "unlocatedRecord": "Tiamat is accessible with zero active map pins",
+    "birthAndCultDistinction": "Nanshe: birth at Eridu; cult at Nigin. Enki: cult at Eridu. Marduk: cosmic Apsu origin, Babylon cult.",
+    "evidenceFilter": "Explicit city births returns 2 deity records",
+    "navigation": "Zoom button, keyboard arrow and pointer drag change the SVG viewBox",
+    "responsive390px": "23 city groups; no callout overlaps or horizontal overflow; Babylon popup and Marduk detail work",
+    "desktop": "23 city groups; no callout overlaps",
+    "secondaryWorkbench": "Sippar offset updates label and curved leader; reset works; 4000 x 5000 PNG export completes"
+  },
+  "integrity": "Research records, city coordinates, coastline, rivers, canonical SVG and poster PNG preserved; all local HTML links resolve. Responsive check is a browser iframe at 390 px, not a physical phone test."
+}

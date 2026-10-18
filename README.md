@@ -1,8 +1,10 @@
 # The cities of the Mesopotamian gods
 
-A separate, source-led companion to the Greek gods atlas. **The main artifact is a 4000 × 5000 PNG poster.** The original Greek project was read only and was not changed.
+A separate, source-led companion to the Greek gods atlas. **The homepage is an interactive map with directly selectable gods and cities, supported by the full research catalogue.** A 4000 × 5000 PNG poster and editable composition remain available on a secondary tools page. The original Greek project was read only and was not changed.
 
-- [View the poster and research companion](https://khayoon.github.io/mesopotamian-gods-atlas/)
+- [Explore the interactive map](https://khayoon.github.io/mesopotamian-gods-atlas/)
+- [Poster and composition workbench](https://khayoon.github.io/mesopotamian-gods-atlas/poster.html)
+- [Sources and method](https://khayoon.github.io/mesopotamian-gods-atlas/about.html)
 - [Download the full-resolution PNG](https://khayoon.github.io/mesopotamian-gods-atlas/mesopotamian-gods.png)
 - [Editable SVG](docs/mesopotamian-gods.svg)
 - [Research data](docs/data/research.json) and [site coordinates](docs/data/cities.json)
@@ -37,7 +39,11 @@ The project is buildless. Serve the `docs` directory to use the companion:
 python -m http.server 8766 --directory docs
 ```
 
-Open `http://localhost:8766/`. Search the catalogue by name, alias, city or text; filter explicit city births, cosmic/unlocated origins, and cult places. The composition workbench moves SVG label groups and their individual curved leaders while keeping pins fixed, exports a 4000 × 5000 PNG or font-embedded SVG, and saves label offsets. Browser edits are temporary and do not modify the published poster or source catalogue. Inspect edited exports for collisions. The former terrain/flood composition and its visibility control remain at `exploration/`.
+Open `http://localhost:8766/`. Select a deity name or city on the map; city popups expose the complete local roster, including the lesser-known figures omitted from compact overview labels. The live map draws 23 located city groups from the catalogue: 54 deity records have city coordinates, while the other 36 remain accessible through the same search and unlocated view without invented pins. Search accepts names, aliases, cities and text references. Each entry preserves full passages, competing accounts, periods and source links. Selecting an entry highlights its actual city associations; its map symbols distinguish cult, birth, conception and inferred shrine birth. Pan, wheel/pinch zoom, keyboard arrows and zoom buttons explore the same preserved geometry. Deep links use `#deity=enki` or `#city=eridu`.
+
+The secondary `poster.html` page contains the unchanged poster and a workbench that loads only when opened. It moves SVG label groups and their curved leaders while keeping pins fixed, exports a 4000 × 5000 PNG or font-embedded SVG, and saves label offsets. Browser edits do not modify the published poster or research catalogue. Inspect edited exports for collisions. Legacy `#composition` links redirect to that page. The former terrain/flood composition and visibility control remain at `exploration/`.
+
+The interactive basemap reuses the canonical SVG's geographic layers, with independent live label layout and selection controls in `docs/app.js`. Phone-width callouts adjust their positions while every pin stays at its source coordinate. No map library, remote tile service, account or build step is required. `docs/composition.js` handles the separate export tools; `docs/about.html` exposes the research and geographic data downloads.
 
 The reviewed poster can be regenerated with Python 3 and Pillow from the included geographic assets:
 
