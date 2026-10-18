@@ -1,0 +1,428 @@
+{
+  "width": 4000,
+  "height": 5000,
+  "title": [
+    "Where were the",
+    "Mesopotamian gods born?"
+  ],
+  "subtitle": "Ancient birth traditions—and the cities the gods called home.",
+  "readingNote": "Most pins mark cult seats, not births. Local traditions changed across texts and centuries.",
+  "projection": {
+    "lon0": 43.1,
+    "lat0": 33.75,
+    "x0": 650,
+    "y0": 1130,
+    "pxPerLon": 480,
+    "pxPerLat": 565
+  },
+  "labels": [
+    {
+      "cityId": "sippar",
+      "side": "left",
+      "x": 155,
+      "y": 1130,
+      "width": 970,
+      "names": [
+        "Utu / Shamash · Aya"
+      ],
+      "note": "Sippar · solar cult. A hymn places Utu’s birth in E-nun-ana; identifying that shrine with Sippar is an inference. [2,6]",
+      "mark": "inferred",
+      "deityIds": [
+        "utu",
+        "aya"
+      ]
+    },
+    {
+      "cityId": "babylon",
+      "side": "left",
+      "x": 155,
+      "y": 1455,
+      "width": 970,
+      "names": [
+        "Marduk · Sarpanitum"
+      ],
+      "note": "Babylon · Esagil’s divine couple. Marduk is born in the cosmic Apsu in Enuma Elish—not at this city pin. [8]",
+      "mark": "cult",
+      "deityIds": [
+        "marduk",
+        "sarpanitum"
+      ]
+    },
+    {
+      "cityId": "borsippa",
+      "side": "left",
+      "x": 155,
+      "y": 1750,
+      "width": 970,
+      "names": [
+        "Nabu · Tashmetu"
+      ],
+      "note": "Borsippa · Ezida and its divine pair. Nabu’s other consort tradition names Nanaya. [2,8]",
+      "mark": "cult",
+      "deityIds": [
+        "nabu",
+        "tashmetu"
+      ]
+    },
+    {
+      "cityId": "dilbat",
+      "side": "left",
+      "x": 155,
+      "y": 2010,
+      "width": 970,
+      "names": [
+        "Urash · Ninegal"
+      ],
+      "note": "Dilbat · a male agricultural god and his consort; this Urash is distinct from the earth goddess. [8]",
+      "mark": "cult",
+      "deityIds": [
+        "urashdilbat",
+        "ninegaldilbat"
+      ]
+    },
+    {
+      "cityId": "marad",
+      "side": "left",
+      "x": 155,
+      "y": 2260,
+      "width": 970,
+      "names": [
+        "Lugal-Marda"
+      ],
+      "note": "Marad · the city’s divine lord. His temple is the “House, Eye of the Land”. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "lugalmarda"
+      ]
+    },
+    {
+      "cityId": "isin",
+      "side": "left",
+      "x": 155,
+      "y": 2500,
+      "width": 970,
+      "names": [
+        "Ninisina · Damu"
+      ],
+      "note": "Isin · healing goddess and her son. Later healing-goddess identifications do not erase local identities. [1,2]",
+      "mark": "cult",
+      "deityIds": [
+        "ninisina",
+        "damu"
+      ]
+    },
+    {
+      "cityId": "uruk",
+      "side": "left",
+      "x": 155,
+      "y": 2780,
+      "width": 970,
+      "names": [
+        "An · Inanna / Ishtar",
+        "Nanaya · Ninsun"
+      ],
+      "note": "Uruk · several divine households. Nanaya is separately addressed alongside Inanna. [1,2,9]",
+      "mark": "cult",
+      "deityIds": [
+        "an",
+        "inanna",
+        "nanaya",
+        "ninsun"
+      ]
+    },
+    {
+      "cityId": "larsa",
+      "side": "left",
+      "x": 155,
+      "y": 3090,
+      "width": 970,
+      "names": [
+        "Utu / Shamash"
+      ],
+      "note": "Larsa · Ebabbar, a major solar sanctuary. A second cult seat is not a second god. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "utu"
+      ]
+    },
+    {
+      "cityId": "badtibira",
+      "side": "left",
+      "x": 155,
+      "y": 3330,
+      "width": 970,
+      "names": [
+        "Dumuzi"
+      ],
+      "note": "Bad-tibira · the shepherd god’s E-mush, celebrated as Inanna’s bridal chamber. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "dumuzi"
+      ]
+    },
+    {
+      "cityId": "ur",
+      "side": "left",
+      "x": 155,
+      "y": 3590,
+      "width": 970,
+      "names": [
+        "Nanna / Sin · Ningal",
+        "Ninazu — birth at Ur"
+      ],
+      "note": "Nanna’s principal cult city. Ninazu’s hymn says he is born here, then takes his seat at Enegi. [1,2,5]",
+      "mark": "birth",
+      "deityIds": [
+        "nanna",
+        "ningal",
+        "ninazu"
+      ]
+    },
+    {
+      "cityId": "eridu",
+      "side": "left",
+      "x": 155,
+      "y": 3930,
+      "width": 970,
+      "names": [
+        "Enki / Ea · Damgalnuna",
+        "Nanshe — birth at Eridu"
+      ],
+      "note": "Enki’s cult seat. Nanshe’s hymn places her birth here; her cult home lies at Nigin. [1,4,8]",
+      "mark": "birth",
+      "deityIds": [
+        "enki",
+        "damgalnuna",
+        "nanshe"
+      ]
+    },
+    {
+      "cityId": "eshnunna",
+      "side": "right",
+      "x": 2935,
+      "y": 1110,
+      "width": 910,
+      "names": [
+        "Ninazu → Tishpak"
+      ],
+      "note": "Eshnunna · the Temple Hymns praise Ninazu here; Tishpak later holds the leading local position. [1,2]",
+      "mark": "cult",
+      "deityIds": [
+        "ninazu",
+        "tishpak"
+      ]
+    },
+    {
+      "cityId": "der",
+      "side": "right",
+      "x": 2935,
+      "y": 1390,
+      "width": 910,
+      "names": [
+        "Ishtaran"
+      ],
+      "note": "Der · a divine judge, whose shrine is the “Great Pole of the Land”. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "ishtaran"
+      ]
+    },
+    {
+      "cityId": "kutha",
+      "side": "right",
+      "x": 2935,
+      "y": 1620,
+      "width": 910,
+      "names": [
+        "Nergal"
+      ],
+      "note": "Kutha · lord of Meslam and the underworld. Meslamtaea is identified with him in this hymn. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "nergal"
+      ]
+    },
+    {
+      "cityId": "kish",
+      "side": "right",
+      "x": 2935,
+      "y": 1880,
+      "width": 910,
+      "names": [
+        "Zababa"
+      ],
+      "note": "Kish · the warrior god’s E-dub. The hymn praises his power; it does not narrate his birth. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "zababa"
+      ]
+    },
+    {
+      "cityId": "nippur",
+      "side": "right",
+      "x": 2935,
+      "y": 2140,
+      "width": 910,
+      "names": [
+        "Enlil · Ninlil · Nuska · Ninurta",
+        "Nanna — conception"
+      ],
+      "note": "Enlil’s divine court. The canal scene locates Nanna’s conception, not his delivery. [1,3]",
+      "mark": "conception",
+      "deityIds": [
+        "enlil",
+        "ninlil",
+        "nuska",
+        "ninurta",
+        "nanna"
+      ],
+      "nameSize": 54
+    },
+    {
+      "cityId": "adab",
+      "side": "right",
+      "x": 2935,
+      "y": 2500,
+      "width": 910,
+      "names": [
+        "Ninhursaga · Ashgi"
+      ],
+      "note": "Adab · the mother goddess’s E-mah and Ashgi, the city’s god. Kesh is another, less securely located cult seat. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "ninhursaga",
+        "ashgi"
+      ]
+    },
+    {
+      "cityId": "zabalam",
+      "side": "right",
+      "x": 2935,
+      "y": 2790,
+      "width": 910,
+      "names": [
+        "Inanna / Ishtar"
+      ],
+      "note": "Zabalam · a major sanctuary praised separately from Uruk’s Eanna. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "inanna"
+      ]
+    },
+    {
+      "cityId": "umma",
+      "side": "right",
+      "x": 2935,
+      "y": 3020,
+      "width": 910,
+      "names": [
+        "Shara"
+      ],
+      "note": "Umma · the goddess’s princely son and lord of E-mah in the Temple Hymns. [1]",
+      "mark": "cult",
+      "deityIds": [
+        "shara"
+      ]
+    },
+    {
+      "cityId": "girsu",
+      "side": "right",
+      "x": 2935,
+      "y": 3250,
+      "width": 910,
+      "names": [
+        "Ningirsu · Bau",
+        "Shulshagana · Igalim"
+      ],
+      "note": "Girsu · the Lagash state’s sacred centre. Gudea’s text names the divine sons in Ningirsu’s household. [1,7]",
+      "mark": "cult",
+      "deityIds": [
+        "ningirsu",
+        "bau",
+        "shulshagana",
+        "igalim"
+      ]
+    },
+    {
+      "cityId": "lagash",
+      "side": "right",
+      "x": 2935,
+      "y": 3610,
+      "width": 910,
+      "names": [
+        "Gatumdug · Hendursanga",
+        "Shul-utula"
+      ],
+      "note": "Civic mother, divine herald and the rulers’ protective deity in the Lagash state. [7]",
+      "mark": "cult",
+      "deityIds": [
+        "gatumdug",
+        "hendursanga",
+        "shulutula"
+      ]
+    },
+    {
+      "cityId": "nigin",
+      "side": "right",
+      "x": 2935,
+      "y": 3950,
+      "width": 910,
+      "names": [
+        "Nanshe · Nindara"
+      ],
+      "note": "Nigin · Nanshe’s Sirara sanctuary and her consort. Another hymn gives her an unlocated sea-edge birth. [1,2,4]",
+      "mark": "cult",
+      "deityIds": [
+        "nanshe",
+        "nindara"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "number": 1,
+      "short": "The Temple Hymns, ETCSL 4.80.1. City-specific passages in the catalogue.",
+      "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm"
+    },
+    {
+      "number": 2,
+      "short": "ORACC, Ancient Mesopotamian Gods and Goddesses; articles and scholarship cited per deity.",
+      "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html"
+    },
+    {
+      "number": 3,
+      "short": "Enlil and Ninlil 1–53, ETCSL 1.2.1 (Nanna’s conception).",
+      "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm"
+    },
+    {
+      "number": 4,
+      "short": "Hymn to Nanshe 1–9, 251–255, ETCSL 4.14.1 (Eridu birth).",
+      "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4141.htm"
+    },
+    {
+      "number": 5,
+      "short": "Ninazu A 16–22, ETCSL 4.17.1 (Ur birth; Enegi seat).",
+      "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4171.htm"
+    },
+    {
+      "number": 6,
+      "short": "Utu B 7–12, ETCSL 4.32.2; Temple Hymns 479–493 (shrine localisation inferred).",
+      "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4322.htm"
+    },
+    {
+      "number": 7,
+      "short": "Gudea Cylinders, ETCSL 2.1.7; ETCSRI royal inscriptions (Lagash households).",
+      "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm"
+    },
+    {
+      "number": 8,
+      "short": "ORACC RIBo / SAA royal inscriptions; Enuma Elish I 71–84; Samsu-iluna B 33–39.",
+      "url": "https://etana.org/node/581/index.html"
+    },
+    {
+      "number": 9,
+      "short": "Nanaya for Ishbi-Erra 1–16, ETCSL 2.5.1.3; RINAP Ashurbanipal 238, obv. 4′–10′.",
+      "url": "https://etcsl.orinst.ox.ac.uk/section2/tr2513.htm"
+    }
+  ]
+}

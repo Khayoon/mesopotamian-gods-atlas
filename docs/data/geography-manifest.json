@@ -1,0 +1,37 @@
+{
+  "bbox_west_south_east_north": [
+    40.0,
+    25.0,
+    52.0,
+    35.0
+  ],
+  "crs": "WGS 84 longitude/latitude, EPSG:4326",
+  "archive_url": "https://github.com/GenericMappingTools/gshhg-gmt/releases/download/2.3.7/gshhg-bin-2.3.7.zip",
+  "archive_bytes": 118617033,
+  "archive_sha256": "28600e8f7a08645aab43079326df6504212ec5ccb2b4bcf3b5f4f12ed60e82bc",
+  "simplification": "none; polygon/line intersection with bounding rectangle only",
+  "files": {
+    "coastline.geojson": {
+      "input_member": "gshhs_f.b",
+      "input_bytes": 95809336,
+      "input_sha256": "af9215d58ebc525b2d09654a89959829f09e6edc457f3666759cded37be4ecf6",
+      "features": 232,
+      "source_vertices_in_selected_records": 1195259,
+      "original_vertices_inside_frame": 34289,
+      "output_vertices": 34294,
+      "invalid_input_geometries_repaired": 0,
+      "output_sha256": "c175b8ef1332c63591d61ca439732f24015ec610ab1b2ec208a29be4cb3c8d6a"
+    },
+    "rivers.geojson": {
+      "input_member": "wdb_rivers_f.b",
+      "input_bytes": 21377616,
+      "input_sha256": "d91eaa3b22f08535b93f3cb8afeff4e48a43ec33e8a3b798696147fc7e6d4a21",
+      "features": 215,
+      "source_vertices_in_selected_records": 23791,
+      "original_vertices_inside_frame": 21422,
+      "output_vertices": 21424,
+      "invalid_input_geometries_repaired": 0,
+      "output_sha256": "80847d4626178c422af5128e04cee1f3f2d61c8f8bec823372022a20d8ec52d1"
+    }
+  }
+}

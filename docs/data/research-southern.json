@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "nanshe",
+    "name": "Nanshe",
+    "aliases": [
+      "Nanše",
+      "Nance"
+    ],
+    "nameNote": "",
+    "domains": "Justice, dream interpretation, water and abundance",
+    "cityIds": [
+      "nigin",
+      "eridu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "A hymn explicitly locates her birth at Eridu.",
+        "work": "A hymn to Nanshe (ETCSL 4.14.1)",
+        "passage": "1–9; 251–255",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4141.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-city",
+        "cityId": "eridu"
+      },
+      {
+        "summary": "Another hymn describes birth on the seashore.",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "272–282",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "broad-regional-setting",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "nigin",
+        "work": "A hymn to Nanshe (ETCSL 4.14.1)",
+        "passage": "1–9",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4141.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "The poem names Nigin as her sacred city."
+      },
+      {
+        "cityId": "nigin",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "272–282",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian collection; Ur III and Old Babylonian witnesses",
+        "summary": "Her Sirara sanctuary is praised."
+      }
+    ],
+    "notes": "Sirara is the sanctuary associated with Nigin, not a secure second city pin. Birth at Eridu must be distinguished from residence at Nigin. Do not automatically identify her with Nazi among the eight healing births."
+  },
+  {
+    "id": "ninazu",
+    "name": "Ninazu",
+    "aliases": [
+      "Nin-azu"
+    ],
+    "nameNote": "",
+    "domains": "Underworld, snakes, agriculture and martial power",
+    "cityIds": [
+      "enegi",
+      "eshnunna",
+      "ur"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Explicitly born at Ur, then installed at Enegi.",
+        "work": "A balbale to Ninazu (Ninazu A; ETCSL 4.17.1)",
+        "passage": "16–22",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4171.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-city",
+        "cityId": "ur"
+      },
+      {
+        "summary": "The same hymn invokes both Nanna and Enlil as progenitors.",
+        "work": "A balbale to Ninazu (Ninazu A; ETCSL 4.17.1)",
+        "passage": "7–22",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4171.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      },
+      {
+        "summary": "Enlil begets him beside the river of the underworld.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "91–116",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "conception-cosmic",
+        "cityId": null
+      },
+      {
+        "summary": "Ereshkigal is his mother at Enegi; Enlil and Ninlil are parents in the Eshnunna hymn.",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "179–186; 425–447",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "enegi",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "179–186",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian temple hymn collection",
+        "summary": "Egidda is his sanctuary."
+      },
+      {
+        "cityId": "eshnunna",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "425–447",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian temple hymn collection",
+        "summary": "Esikil is his sanctuary."
+      },
+      {
+        "cityId": "ur",
+        "work": "Kathryn Stevens, Ninazu, Ancient Mesopotamian Gods and Goddesses",
+        "passage": "Cult places; Time periods attested",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/ninazu/",
+        "period": "Early Dynastic through first millennium BCE",
+        "summary": "Cult and mortuary festival attested at Ur."
+      }
+    ],
+    "notes": "The conflicting genealogies belong to the evidence. Older scholarship proposed separate northern and southern Ninazu figures; Wiggermann instead argued for one god with local traditions. Do not resolve the issue by counting two gods."
+  },
+  {
+    "id": "nanna",
+    "name": "Nanna",
+    "aliases": [
+      "Suen",
+      "Sin",
+      "Sîn",
+      "Ashimbabbar",
+      "Ašimbabbar",
+      "Dilimbabbar"
+    ],
+    "nameNote": "Sumerian Nanna and Akkadian Suen/Sin are treated here as conventional names of the same moon god; epithets are not separate entries.",
+    "domains": "Moon and calendrical order",
+    "cityIds": [
+      "ur",
+      "gaesh",
+      "nippur"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Enlil and Ninlil conceive the moon god near Nippur's canal.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "1–53",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "conception-city",
+        "cityId": "nippur"
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "ur",
+        "work": "A tigi to Nanna (Nanna I; ETCSL 4.13.09)",
+        "passage": "1–15",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr41309.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Ur is his chosen city."
+      }
+    ],
+    "notes": "The myth narrates insemination, not an explicitly located delivery. Ur is his chief cult city; it must not replace Nippur in this conception tradition."
+  },
+  {
+    "id": "ninlil",
+    "name": "Ninlil",
+    "aliases": [
+      "Sud"
+    ],
+    "nameNote": "Sud is renamed Ninlil within this specific literary narrative; wider identifications need period and local context.",
+    "domains": "Consort of Enlil, divine queenship and grain traditions",
+    "cityIds": [
+      "nippur",
+      "eresh"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Sud grows up in Nisaba's household before marrying Enlil and becoming Ninlil.",
+        "work": "Enlil and Sud (ETCSL 1.2.2)",
+        "passage": "Version A 1–43; 146–170",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr122.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "childhood-city",
+        "cityId": "eresh"
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "eresh",
+        "work": "Enlil and Sud (ETCSL 1.2.2)",
+        "passage": "Version A 9–43",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr122.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Sud's pre-marital home is Nisaba's Eresh."
+      },
+      {
+        "cityId": "nippur",
+        "work": "Enlil and Sud (ETCSL 1.2.2)",
+        "passage": "Version A 146–170",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr122.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Marriage brings her into Enlil's Ekur."
+      }
+    ],
+    "notes": "Eresh is the narrative childhood setting, not an explicit named birth site. This poem's marriage story differs from the sexual encounters in Enlil and Ninlil."
+  },
+  {
+    "id": "nergal",
+    "name": "Nergal",
+    "aliases": [
+      "Meslamtaea",
+      "Meslamta-ea",
+      "Nergal-Meslamta-eda"
+    ],
+    "nameNote": "The compound Nergal-Meslamtaea is the name in this passage; Meslamtaea also occurs independently in other contexts.",
+    "domains": "Death, underworld, plague and war",
+    "cityIds": [
+      "kutha"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Enlil begets Nergal-Meslamtaea at the city-gate threshold after leaving Nippur.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "54–90",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "conception-at-mythic-threshold",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "The literary threshold is not an archaeological birthplace. Do not identify the entire Meslamtaea/Lugalirra twin tradition with Nergal without qualification."
+  },
+  {
+    "id": "enbilulu",
+    "name": "Enbilulu",
+    "aliases": [
+      "Enbililu"
+    ],
+    "nameNote": "",
+    "domains": "Canal oversight and irrigation",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Enlil begets him in the guise of the ferryman.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "117–142",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "conception-cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "The ferryman episode belongs to a mythical passage toward the underworld. No geographic birth pin is assigned."
+  },
+  {
+    "id": "ninurta",
+    "name": "Ninurta",
+    "aliases": [],
+    "nameNote": "Historically associated and syncretized with Ningirsu, but the two retain distinct local cult histories and are not collapsed into one roster entry.",
+    "domains": "Agriculture, war and heroic kingship",
+    "cityIds": [
+      "nippur"
+    ],
+    "originTraditions": [
+      {
+        "summary": "He declares his birth in the mountains; no range is named.",
+        "work": "A hymn to Ninurta (Ninurta C; ETCSL 4.27.03)",
+        "passage": "49–57",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr42703.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "broad-regional-setting",
+        "cityId": null
+      },
+      {
+        "summary": "Nintur bears him; he emerges from the mountain range.",
+        "work": "Ninurta's return to Nippur (ETCSL 1.6.1)",
+        "passage": "1–6",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr161.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "broad-regional-setting",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "Mountain language can also evoke a divine cosmic mountain; it does not justify a precise Zagros birthplace."
+  },
+  {
+    "id": "nisaba",
+    "name": "Nisaba",
+    "aliases": [
+      "Nidaba",
+      "Nissaba",
+      "Nanibgal",
+      "Nunbarshegunu"
+    ],
+    "nameNote": "Nisaba/Nidaba are alternative readings of the divine name. Nanibgal and Nunbarshegunu are names/epithets in the cited sources, not extra gods.",
+    "domains": "Writing, accounting, grain and learned wisdom",
+    "cityIds": [
+      "eresh"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Born of Urash; another passage describes birth in or by mountains.",
+        "work": "A hymn to Nisaba (Nisaba A; ETCSL 4.16.1)",
+        "passage": "Old Babylonian version 1–13; 51–55; earlier version 1–9",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4161.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "eresh",
+        "work": "Enlil and Sud (ETCSL 1.2.2)",
+        "passage": "Version A 27–43",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr122.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Eresh is explicitly called Nisaba's city."
+      }
+    ],
+    "notes": "No ancient text consulted here makes Eresh her birthplace."
+  },
+  {
+    "id": "ningal",
+    "name": "Ningal",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "Moon god's consort and protector of Ur",
+    "cityIds": [
+      "ur"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Ningikuga is named her mother; a marsh courtship supplies no named birth site.",
+        "work": "A balbale to Nanna (Nanna B; ETCSL 4.13.02)",
+        "passage": "32–59",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr41302.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "ur",
+        "work": "Penn Museum, Human Statuette B16229",
+        "passage": "Findspot and catalogue description",
+        "url": "https://collections.penn.museum/collections/object/53090",
+        "period": "Old Babylonian Ur; archaeological find",
+        "summary": "Statuette excavated in Ningal's temple at Ur."
+      }
+    ],
+    "notes": "Marsh imagery is a literary setting, not precise birth coordinates."
+  },
+  {
+    "id": "ningikuga",
+    "name": "Ningikuga",
+    "aliases": [
+      "Ningikug"
+    ],
+    "nameNote": "",
+    "domains": "Mother of Ningal in Nanna's courtship poem",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Nanna's courtship poem names her as Ningal's mother.",
+        "work": "A balbale to Nanna (Nanna B; ETCSL 4.13.02)",
+        "passage": "38–59",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr41302.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "This passage gives parentage, not Ningikuga's own origin or a cult-city location."
+  },
+  {
+    "id": "ninisina",
+    "name": "Ninisina",
+    "aliases": [
+      "Nininsina",
+      "Ninisinna"
+    ],
+    "nameNote": "Syncretized with Gula, Baba and other healing goddesses in some traditions; their distinct cult histories remain visible.",
+    "domains": "Healing, surgery, incantations and midwifery",
+    "cityIds": [
+      "isin"
+    ],
+    "originTraditions": [
+      {
+        "summary": "An and Urash engender her in an unnamed holy chamber.",
+        "work": "A shir-gida to Ninisina (Ninisina A; ETCSL 4.22.1)",
+        "passage": "83–89",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4221.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "conception-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "isin",
+        "work": "A shir-gida to Ninisina (Ninisina A; ETCSL 4.22.1)",
+        "passage": "74–104",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4221.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Her temple and home are at Isin."
+      }
+    ],
+    "notes": "The next stanza describes her house at Isin but does not explicitly locate the preceding conception there."
+  },
+  {
+    "id": "damu",
+    "name": "Damu",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "Healing and medical knowledge",
+    "cityIds": [
+      "isin"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Named the son of Ninisina; no birthplace specified.",
+        "work": "A shir-gida to Ninisina (Ninisina A; ETCSL 4.22.1)",
+        "passage": "1–35",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4221.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "isin",
+        "work": "A shir-gida to Ninisina (Ninisina A; ETCSL 4.22.1)",
+        "passage": "1–35; 74–104",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4221.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Son and medical associate in Ninisina's Isin temple tradition."
+      }
+    ],
+    "notes": "The poem calls him king of Girsi, which is not automatically Girsu. Do not create a Girsu pin from that spelling alone."
+  },
+  {
+    "id": "gatumdug",
+    "name": "Gatumdug",
+    "aliases": [
+      "Ĝatumdug",
+      "Gatamdug"
+    ],
+    "nameNote": "",
+    "domains": "Civic mother and protective goddess",
+    "cityIds": [
+      "lagash",
+      "girsu"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "lagash",
+        "work": "The building of Ningirsu's temple (Gudea Cylinders; ETCSL 2.1.7)",
+        "passage": "45–67",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "summary": "Invoked as mother and founder of Lagash."
+      },
+      {
+        "cityId": "girsu",
+        "work": "Gudea 011 (RIME 3/1.01.07.011; ETCSRI Q000893)",
+        "passage": "1–9",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q000893",
+        "period": "Gudea, Lagash II",
+        "summary": "Gudea builds her temple at Irikug."
+      }
+    ],
+    "notes": "Lagash can denote city or state. The Irikug sanctuary belongs to the Girsu sacred landscape; the civic title does not prove birth at Lagash."
+  },
+  {
+    "id": "hendursanga",
+    "name": "Hendursanga",
+    "aliases": [
+      "Ḫendursaĝa",
+      "Hendursag"
+    ],
+    "nameNote": "",
+    "domains": "Herald, night watch and safe passage",
+    "cityIds": [
+      "lagash"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Nanshe's hymn calls him a child of Utu; no birthplace follows.",
+        "work": "A hymn to Nanshe (ETCSL 4.14.1)",
+        "passage": "83–91",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4141.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "lagash",
+        "work": "Eannatum 1b (ETCSRI Q001057)",
+        "passage": "i 2ff.",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q001057",
+        "period": "Early Dynastic IIIb",
+        "summary": "Protector invoked by Eannatum, ruler of Lagash."
+      },
+      {
+        "cityId": "lagash",
+        "work": "Gudea Statue B (ETCSRI Q001541)",
+        "passage": "vii 60ff.",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q001541",
+        "period": "Gudea, Lagash II",
+        "summary": "Included in the Lagash state's divine witnesses."
+      }
+    ],
+    "notes": "The selected civic association is regional, not an assertion of an exclusive city temple. Identification with Ishum develops historically and is not used to count a second deity here."
+  },
+  {
+    "id": "nindara",
+    "name": "Nindara",
+    "aliases": [
+      "Nindar"
+    ],
+    "nameNote": "",
+    "domains": "Local kingship and the household of Nanshe",
+    "cityIds": [
+      "nigin",
+      "girsu"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "nigin",
+        "work": "A hymn to Hendursanga (Hendursanga A; ETCSL 4.06.1)",
+        "passage": "Segment A 15–30",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4061.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Called king of Nigin and linked to Nanshe."
+      },
+      {
+        "cityId": "girsu",
+        "work": "Gudea 031 (RIME 3/1.01.07.031; ETCSRI Q000904)",
+        "passage": "1–9",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q000904",
+        "period": "Gudea, Lagash II",
+        "summary": "Gudea's building inscription names his Girsu temple."
+      }
+    ],
+    "notes": "No named birthplace recovered in the consulted sources."
+  },
+  {
+    "id": "shulutula",
+    "name": "Shul-utula",
+    "aliases": [
+      "Šul-utul",
+      "Šulutula"
+    ],
+    "nameNote": "",
+    "domains": "Personal and dynastic protective deity",
+    "cityIds": [
+      "lagash"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "lagash",
+        "work": "Enmetena foundation nail, Harvard 2000.274; Deena Ragavan, CDLJ 2010:1",
+        "passage": "§3.1.1, ii 1–2",
+        "url": "https://cdli.earth/articles/cdlj/2010-1",
+        "period": "Early Dynastic IIIb, c. 2400 BCE",
+        "summary": "Named personal god of Enmetena of Lagash."
+      }
+    ],
+    "notes": "Personal patronage supports association with the Lagash dynasty, not a birth story or an exclusive patronage of the city."
+  },
+  {
+    "id": "nanaya",
+    "name": "Nanaya",
+    "aliases": [
+      "Nanāya"
+    ],
+    "nameNote": "Nanaya is not automatically an alias of Inana/Ishtar. Identifications differ by text and period.",
+    "domains": "Love, beauty, wisdom and judgement",
+    "cityIds": [
+      "uruk",
+      "isin"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "uruk",
+        "work": "A tigi to Nanaya for Ishbi-Erra (ETCSL 2.5.1.3)",
+        "passage": "1–16",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr2513.htm",
+        "period": "Early Isin composition; Old Babylonian witnesses",
+        "summary": "Eanna and Uruk are her divine seat."
+      },
+      {
+        "cityId": "isin",
+        "work": "Lipit-Eshtar building inscription (ETCSRI Q004103)",
+        "passage": "i 1ff.",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q004103",
+        "period": "Lipit-Eshtar, nineteenth century BCE",
+        "summary": "King builds her E-me-urur storehouse in Isin."
+      },
+      {
+        "cityId": "uruk",
+        "work": "Ashurbanipal, Uruk/Nanaya inscription (RINAP 5; Q007562)",
+        "passage": "obverse 4′–10′",
+        "url": "https://oracc.museum.upenn.edu/rinap/rinap5/Q007562",
+        "period": "Seventh century BCE",
+        "summary": "Her cult image is returned to Uruk's Ehiliana."
+      }
+    ],
+    "notes": "The return from Elam is a history of a cult image, not a goddess's birth. The hymn addresses Nanaya and Inana separately; association does not require identity."
+  },
+  {
+    "id": "usur-amassa",
+    "name": "Usur-amassa",
+    "aliases": [
+      "Uṣur-amāssa",
+      "Uṣur-amāssu"
+    ],
+    "nameNote": "",
+    "domains": "Goddess in the Uruk divine entourage",
+    "cityIds": [
+      "uruk"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "uruk",
+        "work": "Ashurbanipal 234–236, RINAP 5/2",
+        "passage": "234 reverse i 5′–9′; editorial introduction to 235",
+        "url": "https://oracc.museum.upenn.edu/rinap/downloads/0RINAP5_2_final.pdf",
+        "period": "Seventh century BCE",
+        "summary": "Named with Nanaya and Urkayitu in the return tradition."
+      }
+    ],
+    "notes": "No birth tradition recovered; association is with the Uruk cult ensemble, with restorations and contextual attribution noted in the edition."
+  },
+  {
+    "id": "urkayitu",
+    "name": "Urkayitu",
+    "aliases": [
+      "Urkayītu"
+    ],
+    "nameNote": "",
+    "domains": "Uruk goddess / local divine manifestation",
+    "cityIds": [
+      "uruk"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "uruk",
+        "work": "Ashurbanipal 234–236, RINAP 5/2",
+        "passage": "234 reverse i 5′–9′; introduction to 235",
+        "url": "https://oracc.museum.upenn.edu/rinap/downloads/0RINAP5_2_final.pdf",
+        "period": "Seventh century BCE",
+        "summary": "Named separately beside Nanaya and Usur-amassa."
+      }
+    ],
+    "notes": "Distinct cultic naming does not settle theological identity; do not multiply every local Ishtar manifestation into a separate god. No birthplace is assigned."
+  },
+  {
+    "id": "shulshagana",
+    "name": "Shulshagana",
+    "aliases": [
+      "Šulšagana",
+      "Šul-šagana",
+      "Shulshaga"
+    ],
+    "nameNote": "",
+    "domains": "Ningirsu's household and ritual service",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "A building dedication calls him Ningirsu's beloved child.",
+        "work": "Gudea 073 (RIME 3/1.01.07.073; ETCSRI Q000925)",
+        "passage": "1–9",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q000925",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "Gudea 073 (RIME 3/1.01.07.073; ETCSRI Q000925)",
+        "passage": "1–9",
+        "url": "https://oracc.museum.upenn.edu/etcsri/Q000925",
+        "period": "Gudea, Lagash II",
+        "summary": "Gudea builds his E-kitušakkile."
+      }
+    ],
+    "notes": "Temple location is cult evidence, not a birth place."
+  },
+  {
+    "id": "igalim",
+    "name": "Igalim",
+    "aliases": [
+      "Igalima",
+      "Ig-alima"
+    ],
+    "nameNote": "",
+    "domains": "Ningirsu's household and bailiff",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Named Ningirsu's beloved son in the divine household.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "944–956",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "944–956",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Installed as chief bailiff of Girsu in Ningirsu's household."
+      }
+    ],
+    "notes": "Not a geographically located delivery."
+  },
+  {
+    "id": "zazaru",
+    "name": "Zazaru",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "ishkur-pa-ed",
+    "name": "Ishkur-pa-ed",
+    "aliases": [
+      "Iškur-pa-ed"
+    ],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "ur-agrunta-ea",
+    "name": "Ur-agrunta-ea",
+    "aliases": [
+      "Urnunta-ea"
+    ],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "hegirnunna",
+    "name": "Hegirnunna",
+    "aliases": [
+      "Ḫegir",
+      "Hegirnuna"
+    ],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "heshaga",
+    "name": "Heshaga",
+    "aliases": [
+      "Ḫešaga"
+    ],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "zurgu",
+    "name": "Zurgu",
+    "aliases": [
+      "Zurĝu"
+    ],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "zargu",
+    "name": "Zargu",
+    "aliases": [
+      "Zarĝu"
+    ],
+    "nameNote": "",
+    "domains": "Member of Bau's sevenfold divine household",
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "One of Bau's septuplets, offspring of Ningirsu.",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, late third millennium BCE",
+        "locationType": "genealogy-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The building of Ningirsu's temple (ETCSL 2.1.7)",
+        "passage": "1058–1069",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm",
+        "period": "Gudea, Lagash II",
+        "summary": "Listed as a member of Ningirsu's E-ninnu household."
+      }
+    ],
+    "notes": "Group membership is explicit; the text does not separately locate their births. Readings of minor divine names vary across editions."
+  },
+  {
+    "id": "ninsar",
+    "name": "Ninsar",
+    "aliases": [
+      "Ninšar",
+      "Ninnisig"
+    ],
+    "nameNote": "",
+    "domains": "Divine generational / creation narrative",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Ninhursanga bears Ninsar to Enki.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "69–87",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "The story opens in Dilmun (1–62), but the birth episodes do not name their locality. Dina Katz, Enki and Ninhursaga, Part One: The Story of Dilmun, Bibliotheca Orientalis 64 (2007), 567–592, especially 571–572, argues for a second story in the southern Sumerian marshes. This is a scholarly inference, not a securely identified birthplace. Accessible scholarship: https://www.researchgate.net/profile/Dina-Katz-2/publication/315216135_Enki_and_Ninhursaga_Part_One/links/6384b80d554def61937e73a4/Enki-and-Ninhursaga-Part-One.pdf . Alternative continuous readings have placed the whole sequence in Dilmun; retain the disagreement."
+  },
+  {
+    "id": "ninkura",
+    "name": "Ninkura",
+    "aliases": [
+      "Ninkurra"
+    ],
+    "nameNote": "",
+    "domains": "Divine generational / creation narrative",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Ninsar bears Ninkura to Enki.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "97–107",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "uttu",
+    "name": "Uttu",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "Divine generational / creation narrative",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Ninkura bears Uttu; a manuscript inserts Ninimma as mother.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "117–126; variant 126A–126CC",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "ninimma",
+    "name": "Ninimma",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "Divine writing, ritual knowledge and birth",
+    "cityIds": [
+      "nippur"
+    ],
+    "originTraditions": [
+      {
+        "summary": "A variant makes Ninimma Ninkura's daughter and Uttu's mother.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "126A–126CC",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "nippur",
+        "work": "A song to Ninimma (Ninimma A; ETCSL 4.21.1)",
+        "passage": "Segment A 1–18; B 1–11",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4211.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Divine scribe and ritual lady in Enlil's Ekur."
+      }
+    ],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "abu",
+    "name": "Abu",
+    "aliases": [
+      "Ab-u"
+    ],
+    "nameNote": "",
+    "domains": "One of eight remedial births",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful head.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "254–263",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "ninsikila-healing",
+    "name": "Ninsikila (healing birth)",
+    "aliases": [],
+    "nameNote": "Do not automatically equate the remedial-birth Ninsikila, assigned lordship of Magan in 272–280, with the Dilmun goddess Meskilak/Ninsikila in the opening story.",
+    "domains": "One of eight remedial births",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful hair.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "254–263",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "ningiriutud",
+    "name": "Ningiriutud",
+    "aliases": [
+      "Ningiriudu"
+    ],
+    "nameNote": "",
+    "domains": "One of eight remedial births",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful nose.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "254–263",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "ninkasi",
+    "name": "Ninkasi",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "Brewing and beer",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful mouth.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "254–263",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      },
+      {
+        "summary": "Born of flowing water; Enki is father, Ninti mother.",
+        "work": "A hymn to Ninkasi (ETCSL 4.23.1)",
+        "passage": "1–12",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4231.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition. Her hymn's parentage and watery birth formulation differ from the remedial-birth episode."
+  },
+  {
+    "id": "nazi",
+    "name": "Nazi",
+    "aliases": [],
+    "nameNote": "Nazi is the ETCSL name in this episode. An equation with Nanshe is not assumed; do not silently merge the two.",
+    "domains": "One of eight remedial births",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful throat.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "264–271",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "azimua",
+    "name": "Azimua",
+    "aliases": [
+      "Ninazimua",
+      "Azidimua"
+    ],
+    "nameNote": "Spellings vary; this entry does not automatically merge Azimua/Ninazimua with Geshtinanna.",
+    "domains": "One of eight remedial births",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful arm.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "264–271",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "ninti",
+    "name": "Ninti",
+    "aliases": [],
+    "nameNote": "",
+    "domains": "One of eight remedial births",
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful ribs.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "264–271",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "ensag",
+    "name": "Ensag",
+    "aliases": [
+      "Enzag",
+      "Inzak"
+    ],
+    "nameNote": "Ensag/Enzag is conventionally connected with the Dilmun god Inzak; assignment to Dilmun does not itself locate the birth there.",
+    "domains": "One of eight remedial births",
+    "cityIds": [
+      "dilmun"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Born from Enki's painful sides.",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "264–271",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "locationType": "birth-unlocated",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "dilmun",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "272–280",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "Assigned lordship over Dilmun, after birth."
+      }
+    ],
+    "notes": "No precise birth coordinates assigned. See Ninsar's entry for the geographic caution concerning this composition."
+  },
+  {
+    "id": "meskilak",
+    "name": "Meskilak",
+    "aliases": [
+      "Meskilag",
+      "Ninsikila (Dilmun)"
+    ],
+    "nameNote": "Dina Katz distinguishes the Dilmun Ninsikila/Meskilak from Ninhursanga and from the otherwise problematic names in the closing birth episode. Do not flatten the homonyms.",
+    "domains": "Goddess of Dilmun",
+    "cityIds": [
+      "dilmun"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "dilmun",
+        "work": "Enki and Ninhursanga (ETCSL 1.1.1)",
+        "passage": "1–62",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr111.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript witnesses",
+        "summary": "The opening Ninsikila petitions for water for Dilmun."
+      }
+    ],
+    "notes": "A cultic/literary association with Dilmun is explicit; her own birthplace is not. For the distinction from Ninhursanga, see Dina Katz, Bibliotheca Orientalis 64 (2007), 569–572: https://www.researchgate.net/profile/Dina-Katz-2/publication/315216135_Enki_and_Ninhursaga_Part_One/links/6384b80d554def61937e73a4/Enki-and-Ninhursaga-Part-One.pdf"
+  }
+]

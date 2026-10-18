@@ -1,0 +1,2019 @@
+[
+  {
+    "id": "enki",
+    "name": "Enki",
+    "aliases": [
+      "Ea",
+      "Nudimmud"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Fresh water; wisdom"
+    ],
+    "cityIds": [
+      "eridu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Anu begets Ea/Nudimmud; this Babylonian genealogy differs from Namma's motherhood in Enki and Ninmah.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 16–20",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      },
+      {
+        "summary": "Namma addresses Enki as her son; he is asleep in the deep engur. The passage gives cosmic kinship and residence, not an Eridu birth.",
+        "work": "Enki and Ninmah (ETCSL 1.1.2)",
+        "passage": "12–23",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr112.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "eridu",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "1–24",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "enlil",
+    "name": "Enlil",
+    "aliases": [
+      "Ellil",
+      "Nunamnir"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Divine kingship"
+    ],
+    "cityIds": [
+      "nippur"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "nippur",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "25–38",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ninlil",
+    "name": "Ninlil",
+    "aliases": [
+      "Sud"
+    ],
+    "nameNote": "Sud becomes Ninlil in Enlil and Sud; do not assume this name relationship erases local traditions. ETCSL 1.2.2: https://etcsl.orinst.ox.ac.uk/section1/tr122.htm",
+    "domains": [
+      "Divine queen"
+    ],
+    "cityIds": [
+      "nippur"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "nippur",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "39–47",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "nuska",
+    "name": "Nuska",
+    "aliases": [
+      "Nusku"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Enlil's minister; light"
+    ],
+    "cityIds": [
+      "nippur"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "nippur",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "48–60",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ninurta",
+    "name": "Ninurta",
+    "aliases": [],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Warrior; agriculture"
+    ],
+    "cityIds": [
+      "nippur"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Claims a mountain birth, without naming a particular mountain or range.",
+        "work": "Ninurta C (ETCSL 4.27.03)",
+        "passage": "49–57",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr42703.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "unlocated-mountains",
+        "cityId": null
+      },
+      {
+        "summary": "The prologue names Enlil as father, Nintud as mother, and emergence from the mountain range; later the poem addresses Ninlil as mother.",
+        "work": "Ninurta's Return to Nippur (ETCSL 1.6.1)",
+        "passage": "1–6; 108–118",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr161.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "unlocated-mountains",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "nippur",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "61–76",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "shuzianna",
+    "name": "Shuzianna",
+    "aliases": [
+      "Šu-zi-ana"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Enlil's junior wife"
+    ],
+    "cityIds": [
+      "gimah"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "gimah",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "77–86",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ninhursaga",
+    "name": "Ninhursaga",
+    "aliases": [
+      "Ninhursag",
+      "Ninhursanga",
+      "Ninmah",
+      "Nintur",
+      "Nintud"
+    ],
+    "nameNote": "The Temple Hymns uses Ninhursaga, Nintud and Aruru within one temple stanza (87–100). These are a historically variable mother-goddess complex, not a universal rule equating every bearer of each title. ORACC AMGG: https://oracc.museum.upenn.edu/amgg/listofdeities/mothergoddess/index.html",
+    "domains": [
+      "Birth; creation"
+    ],
+    "cityIds": [
+      "kesh",
+      "adab"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Nintud-Aruru, associated with the house of Kesh, is described as mountain-born. Kesh is not explicitly her birth location.",
+        "work": "Nintud A (ETCSL 4.26.1)",
+        "passage": "1–12",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4261.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript transmission",
+        "locationType": "unlocated-mountains",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "kesh",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "87–100",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      },
+      {
+        "cityId": "adab",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "363–378",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "nanna",
+    "name": "Nanna",
+    "aliases": [
+      "Suen",
+      "Sin",
+      "Ašimbabbar",
+      "Dilimbabbar"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Moon"
+    ],
+    "cityIds": [
+      "ur",
+      "gaesh",
+      "urum"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Conceived by Enlil and Ninlil in the Nippur river setting. The episode narrates conception, not the delivery of the infant.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "1–12, 35–53",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "city-conception",
+        "cityId": "nippur"
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "ur",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "101–118",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      },
+      {
+        "cityId": "gaesh",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "158–168",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      },
+      {
+        "cityId": "urum",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "468–478",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "asalluhi",
+    "name": "Asalluhi",
+    "aliases": [
+      "Asarluhi",
+      "Asar-alim-nuna"
+    ],
+    "nameNote": "A distinct Kuara deity in the Sumerian hymn, later identified with Marduk. Preserve his local identity and avoid presenting Asalluhi as a second independently born Marduk. ORACC AMGG: https://oracc.museum.upenn.edu/amgg/Listofdeities/Asalluhi/index.html",
+    "domains": [
+      "Incantations"
+    ],
+    "cityIds": [
+      "kuara"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "kuara",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "135–146",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ningublaga",
+    "name": "Ningublaga",
+    "aliases": [
+      "Ningubalag"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Nanna's son"
+    ],
+    "cityIds": [
+      "kiabrig"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "kiabrig",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "147–157",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "utu",
+    "name": "Utu",
+    "aliases": [
+      "Shamash",
+      "Šamaš"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Sun; justice"
+    ],
+    "cityIds": [
+      "larsa",
+      "sippar"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Named as Ningal's son, without a birth location.",
+        "work": "Gilgamesh, Enkidu and the Netherworld (ETCSL 1.8.1.4)",
+        "passage": "238–242",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "genealogical",
+        "cityId": null
+      },
+      {
+        "summary": "Born to Ningal in E-nun-ana. Sippar is an inferred localisation: Temple Hymns 479–493 places E-nun-ana at Sippar, while Utu B itself does not name the city.",
+        "work": "Utu B (ETCSL 4.32.2), cross-read with Temple Hymns (4.80.1)",
+        "passage": "Utu B 7–12; Temple Hymns 479–493",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4322.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript transmission",
+        "locationType": "city-birth-inference",
+        "cityId": "sippar"
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "larsa",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "169–178",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      },
+      {
+        "cityId": "sippar",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "479–493",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ninazu",
+    "name": "Ninazu",
+    "aliases": [],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Underworld; incantation"
+    ],
+    "cityIds": [
+      "enegi",
+      "eshnunna"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Conceived by Enlil and Ninlil in the episode at the Id-kura, explicitly the underworld river.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "91–116",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      },
+      {
+        "summary": "The hymn explicitly names Ur as his birthplace, then assigns his seat to Enegi. Its fatherhood language includes both Nanna and Enlil.",
+        "work": "Ninazu A (ETCSL 4.17.1)",
+        "passage": "7–22",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4171.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "city-birth",
+        "cityId": "ur"
+      },
+      {
+        "summary": "The Enegi hymn names Ereshkigal as his mother; the Eshnunna hymn instead invokes Enlil and Ninlil.",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "179–186; 425–447",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "genealogical",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "enegi",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "179–186",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      },
+      {
+        "cityId": "eshnunna",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "425–447",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ningishzida",
+    "name": "Ningishzida",
+    "aliases": [
+      "Ningišzida"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Underworld; serpents"
+    ],
+    "cityIds": [
+      "gishbanda"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Ningirida gives birth to him; he is reared in the abzu. Upbringing is not a claim to an earthly birthplace.",
+        "work": "Ningishzida A (ETCSL 4.19.1)",
+        "passage": "1–10, 25–36",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4191.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "cosmic-infancy",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "gishbanda",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "187–197",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used."
+    ]
+  },
+  {
+    "id": "inanna",
+    "name": "Inanna",
+    "aliases": [
+      "Inana",
+      "Ishtar",
+      "Ištar"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Love; warfare; Venus"
+    ],
+    "cityIds": [
+      "uruk",
+      "zabalam",
+      "ulmash"
+    ],
+    "originTraditions": [
+      {
+        "summary": "The hymn names Ningal's womb as her origin but supplies no earthly birthplace.",
+        "work": "Inanna E (ETCSL 4.07.5)",
+        "passage": "1–8",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4075.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "genealogical",
+        "cityId": null
+      },
+      {
+        "summary": "A variant describes Inanna as born in shining mountains, without identifying any particular range.",
+        "work": "Ninshubur A (ETCSL 4.25.1)",
+        "passage": "Segment B 1–8",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4251.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript transmission",
+        "locationType": "unlocated-mountains",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "uruk",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "198–209",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      },
+      {
+        "cityId": "zabalam",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "315–327",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      },
+      {
+        "cityId": "ulmash",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "507–519",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": [
+      "Genealogies vary: daughter of An, of Nanna and Ningal, or of Enki. Local Ishtars can be distinct divine persons; this overview does not multiply every local epithet. https://oracc.museum.upenn.edu/amgg/Listofdeities/InanaIshtar/"
+    ]
+  },
+  {
+    "id": "dumuzi",
+    "name": "Dumuzi",
+    "aliases": [
+      "Dumuzid",
+      "Tammuz"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Shepherd; Inanna's lover"
+    ],
+    "cityIds": [
+      "badtibira"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "badtibira",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "210–220",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ninshubur",
+    "name": "Ninshubur",
+    "aliases": [
+      "Ninšubur"
+    ],
+    "nameNote": "The Temple Hymns presents Inanna's minister as female. Later identification with male Papsukkal is context-dependent; Papsukkal is not simply an additional spelling in all periods. https://oracc.museum.upenn.edu/amgg/Listofdeities/Papsukkal/index.html",
+    "domains": [
+      "Inanna's minister"
+    ],
+    "cityIds": [
+      "akkil"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "akkil",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "221–229",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ningirim",
+    "name": "Ningirim",
+    "aliases": [],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Lustration; incantation"
+    ],
+    "cityIds": [
+      "murum"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "murum",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "230–239",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ningirsu",
+    "name": "Ningirsu",
+    "aliases": [
+      "Ninĝirsu"
+    ],
+    "nameNote": "Ningirsu is the Girsu/Lagash warrior god; he was closely identified with Ninurta, but the two local cult identities are retained with this explicit cross-reference. https://oracc.museum.upenn.edu/amgg/Listofdeities/Pabilsag/index.html",
+    "domains": [
+      "Warrior; agriculture"
+    ],
+    "cityIds": [
+      "girsu"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "girsu",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "240–262",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "bau",
+    "name": "Bau",
+    "aliases": [
+      "Baba"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Healing; divine mother"
+    ],
+    "cityIds": [
+      "irikug"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "irikug",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "263–271",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "nanshe",
+    "name": "Nanshe",
+    "aliases": [
+      "Nanše"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Justice; water"
+    ],
+    "cityIds": [
+      "sirara"
+    ],
+    "originTraditions": [
+      {
+        "summary": "The hymn describes a birth at the sea's edge. Sirara is her temple setting, not an explicit birthplace.",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "272–282",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "broad-coastal-setting",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "sirara",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "272–282",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ninmarki",
+    "name": "Ninmarki",
+    "aliases": [
+      "Nin-MAR.KI"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Local goddess"
+    ],
+    "cityIds": [
+      "guabba"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "guabba",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "283–293",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "dumuziabzu",
+    "name": "Dumuzi-abzu",
+    "aliases": [
+      "Dumuzid-abzu"
+    ],
+    "nameNote": "A goddess in this primary temple hymn. Despite the shared Dumuzi element, retain separately from the shepherd Dumuzi.",
+    "domains": [
+      "Local goddess"
+    ],
+    "cityIds": [
+      "kinirsha"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "kinirsha",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "294–302",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "shara",
+    "name": "Shara",
+    "aliases": [
+      "Šara"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Warrior; Inanna's son"
+    ],
+    "cityIds": [
+      "umma"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "umma",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "303–314",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ishkur",
+    "name": "Ishkur",
+    "aliases": [
+      "Iškur",
+      "Adad"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Storm; rain"
+    ],
+    "cityIds": [
+      "karkara"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "karkara",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "328–351",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ashgi",
+    "name": "Ashgi",
+    "aliases": [
+      "Ašgi"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Adab's divine prince"
+    ],
+    "cityIds": [
+      "adab"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "adab",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "363–378",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ninisina",
+    "name": "Ninisina",
+    "aliases": [
+      "Ninisinna"
+    ],
+    "nameNote": "Ninisina and Ninisinna are spelling variants. Originally local Isin healing goddess, later strongly syncretised with Gula, Ninkarrak, Nintinugga and Bau; this is historical convergence, not evidence that all began as aliases. https://oracc.museum.upenn.edu/amgg/Listofdeities/Ninisinna/index.html",
+    "domains": [
+      "Healing"
+    ],
+    "cityIds": [
+      "isin"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "isin",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "379–395",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "numushda",
+    "name": "Numushda",
+    "aliases": [
+      "Numušda"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Local lord; nature; warfare"
+    ],
+    "cityIds": [
+      "kazallu"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "kazallu",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "396–406",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "The ancient locality named in the evidence requires independent geographic identification before any point marker is used.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "lugalmarda",
+    "name": "Lugal-Marda",
+    "aliases": [
+      "Lugal-Marada"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Marad's divine lord"
+    ],
+    "cityIds": [
+      "marad"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "marad",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "407–415",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "ishtaran",
+    "name": "Ishtaran",
+    "aliases": [
+      "Ištaran"
+    ],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Justice"
+    ],
+    "cityIds": [
+      "der"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "der",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "416–424",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "zababa",
+    "name": "Zababa",
+    "aliases": [],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Warfare"
+    ],
+    "cityIds": [
+      "kish"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "kish",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "448–456",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "nergal",
+    "name": "Nergal",
+    "aliases": [],
+    "nameNote": "The Temple Hymns and Enlil and Ninlil use Nergal-Meslamtaea together. Meslamtaea in the later divine-twin pair has a distinct context. Nergal and Erra were closely syncretised from the Old Babylonian period; do not count Erra automatically as an extra independent origin. https://oracc.museum.upenn.edu/amgg/Listofdeities/Nergal/index.html",
+    "domains": [
+      "Death; underworld"
+    ],
+    "cityIds": [
+      "kutha"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Nergal-Meslamtaea is conceived by Enlil and Ninlil during the route of exile, in the city-gate episode.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "65–90",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "mythic-route",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "kutha",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "457–467",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "aba",
+    "name": "Aba",
+    "aliases": [],
+    "nameNote": "Spellings and standard correspondences follow ETCSL and the ORACC AMGG index (https://oracc.museum.upenn.edu/amgg/Listofdeities/index.html).",
+    "domains": [
+      "Agade's divine lord"
+    ],
+    "cityIds": [
+      "agade"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "agade",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "520–528",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "Agade has not been securely located. Do not assign its cult to an invented point.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "nisaba",
+    "name": "Nisaba",
+    "aliases": [
+      "Nidaba",
+      "Nissaba"
+    ],
+    "nameNote": "Nisaba/Nidaba are alternative modern readings. Nanibgal can be an epithet or a distinct goddess in god lists; it is not counted as an extra figure here. https://oracc.museum.upenn.edu/amgg/listofdeities/nidaba/",
+    "domains": [
+      "Grain; writing"
+    ],
+    "cityIds": [
+      "eresh"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "eresh",
+        "work": "The Temple Hymns (ETCSL 4.80.1)",
+        "passage": "529–545",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4801.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "summary": "Temple seat; not birth."
+      }
+    ],
+    "notes": [
+      "Eresh remains unlocated; proposed Abu Salabikh and Jarin identifications are not accepted here as fixed coordinates.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "an",
+    "name": "An",
+    "aliases": [
+      "Anu"
+    ],
+    "nameNote": "Sumerian An and Akkadian Anu are standard correspondences; https://oracc.museum.upenn.edu/amgg/Listofdeities/An/index.html",
+    "domains": [
+      "Heaven"
+    ],
+    "cityIds": [
+      "uruk"
+    ],
+    "originTraditions": [
+      {
+        "summary": "The next generation after Anshar and Kishar; cosmic genealogy supplies no city birthplace.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 12–16",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "uruk",
+        "work": "ORACC AMGG: An/Anu (K. Stevens)",
+        "passage": "Cult Places",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/An/index.html",
+        "period": "Multiple periods, especially late Uruk",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "apsu",
+    "name": "Apsu",
+    "aliases": [
+      "Apsû",
+      "Abzu"
+    ],
+    "nameNote": "The personified primeval Apsu and the cosmic abzu domain are related uses, not a modern river or fixed Gulf coordinate.",
+    "domains": [
+      "Primordial fresh waters"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Already present as primordial waters before heaven, earth and the younger gods; no birth or terrestrial point is supplied.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 1–9",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "tiamat",
+    "name": "Tiamat",
+    "aliases": [
+      "Tiāmat"
+    ],
+    "nameNote": "Not a simple alias for Sumerian Namma; later cosmogony reuses the primordial-water role. https://oracc.museum.upenn.edu/amgg/Listofdeities/Tiamat/index.html",
+    "domains": [
+      "Primordial sea"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Already present as primordial waters before heaven, earth and the younger gods; no birth or terrestrial point is supplied.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 1–9",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": [
+      "No cult dedicated directly to Tiamat is known in the AMGG account; Babylonian recitation of Enuma Elish is not a temple-of-Tiamat marker."
+    ]
+  },
+  {
+    "id": "lahmu",
+    "name": "Lahmu",
+    "aliases": [
+      "Laḫmu"
+    ],
+    "nameNote": "Distinguish the primordial god of Enuma Elish from protective lahmu figures as a class.",
+    "domains": [
+      "Primordial generation"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "First named divine generation emerging within Apsu and Tiamat's mingled waters.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 9–11",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "lahamu",
+    "name": "Lahamu",
+    "aliases": [
+      "Laḫamu"
+    ],
+    "nameNote": "Paired with Lahmu in Enuma Elish.",
+    "domains": [
+      "Primordial generation"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "First named divine generation emerging within Apsu and Tiamat's mingled waters.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 9–11",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "anshar",
+    "name": "Anshar",
+    "aliases": [
+      "Anšar"
+    ],
+    "nameNote": "Not automatically the same figure as Assur; later Assyrian adaptations exploit the written name. https://oracc.museum.upenn.edu/amgg/listofdeities/anarandkiar/index.html",
+    "domains": [
+      "Primordial generation"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Created after Lahmu and Lahamu in the primordial sequence; no earthly site.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 11–15",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "kishar",
+    "name": "Kishar",
+    "aliases": [
+      "Kišar"
+    ],
+    "nameNote": "Paired with Anshar in Enuma Elish.",
+    "domains": [
+      "Primordial generation"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Created after Lahmu and Lahamu in the primordial sequence; no earthly site.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 11–15",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "marduk",
+    "name": "Marduk",
+    "aliases": [
+      "Bēl"
+    ],
+    "nameNote": "Bel means Lord and is not uniquely Marduk in every context. Asalluhi is historically syncretised with Marduk. https://oracc.museum.upenn.edu/amgg/listofdeities/marduk/index.html",
+    "domains": [
+      "Babylonian kingship; creation"
+    ],
+    "cityIds": [
+      "babylon"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Ea and Damkina produce Marduk inside the cosmic Apsu. Babylon is his cult centre, not this text's birthplace.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 79–88",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; extensive first-millennium transmission",
+        "locationType": "cosmic",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "babylon",
+        "work": "ORACC AMGG: Marduk (N. Brisch)",
+        "passage": "Cult Places",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/marduk/index.html",
+        "period": "Second and first millennia BCE",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "namma",
+    "name": "Namma",
+    "aliases": [
+      "Nammu"
+    ],
+    "nameNote": "Namma and Nammu are alternative readings. Tiamat's comparable cosmogonic role is not proof of identity. https://oracc.museum.upenn.edu/amgg/listofdeities/namma/",
+    "domains": [
+      "Primordial mother"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Primordial mother of the senior gods and mother of Enki; no account of her own birth is given.",
+        "work": "Enki and Ninmah (ETCSL 1.1.2)",
+        "passage": "12–23",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr112.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "primordial",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "enbilulu",
+    "name": "Enbilulu",
+    "aliases": [],
+    "nameNote": "A divine son in Enlil and Ninlil; later included among Marduk's names in Enuma Elish VII. Those contexts should not be flattened.",
+    "domains": [
+      "Irrigation"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Conceived by Enlil and Ninlil in the mythic ferryman episode after Nippur exile.",
+        "work": "Enlil and Ninlil (ETCSL 1.2.1)",
+        "passage": "117–142",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr121.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "mythic-route",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": []
+  },
+  {
+    "id": "ereshkigal",
+    "name": "Ereshkigal",
+    "aliases": [
+      "Ereškigal"
+    ],
+    "nameNote": "Separate from Nergal; their joint underworld rule is a later development. https://oracc.museum.upenn.edu/amgg/listofdeities/erekigal/",
+    "domains": [
+      "Underworld"
+    ],
+    "cityIds": [
+      "kutha",
+      "umma"
+    ],
+    "originTraditions": [
+      {
+        "summary": "The netherworld is allotted to her at the primordial division. This is an accession/allotment story, not a birth account.",
+        "work": "Gilgamesh, Enkidu and the Netherworld (ETCSL 1.8.1.4)",
+        "passage": "1–26",
+        "url": "https://etcsl.orinst.ox.ac.uk/section1/tr1814.htm",
+        "period": "Sumerian literary tradition; principally Old Babylonian manuscript transmission",
+        "locationType": "cosmic-allotment",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "kutha",
+        "work": "ORACC AMGG: Ereshkigal (Y. Heffron), citing George 1993",
+        "passage": "Cult Places; George temple nos. 288, 1311–1312",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/erekigal/",
+        "period": "First-millennium temple rebuilding attested",
+        "summary": "Cult attestation; not birth."
+      },
+      {
+        "cityId": "umma",
+        "work": "ORACC AMGG: Ereshkigal (Y. Heffron), citing George 1993",
+        "passage": "Cult Places; George temple nos. 288, 1311–1312",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/erekigal/",
+        "period": "Cult attestation; no single founding date asserted",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ningal",
+    "name": "Ningal",
+    "aliases": [],
+    "nameNote": "Distinct from Ninlil. Nanna's spouse and mother of Inanna/Utu in a common tradition. https://oracc.museum.upenn.edu/amgg/listofdeities/nannasuen/index.html",
+    "domains": [
+      "Nanna's divine spouse"
+    ],
+    "cityIds": [],
+    "originTraditions": [],
+    "cityEvidence": [],
+    "notes": [
+      "Ur affiliation through the Nanna household is secure generally; an independently verified temple passage has not been supplied in this record, so no coordinate is asserted here.",
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "damu",
+    "name": "Damu",
+    "aliases": [],
+    "nameNote": "Connections and occasional identifications with Dumuzi do not make the healing god simply an extra alias in all evidence. https://oracc.museum.upenn.edu/amgg/listofdeities/damu/",
+    "domains": [
+      "Healing"
+    ],
+    "cityIds": [
+      "isin",
+      "ur"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "isin",
+        "work": "ORACC AMGG: Damu (Y. Heffron)",
+        "passage": "Cult Places",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/damu/",
+        "period": "Ur III and Old Babylonian",
+        "summary": "Cult attestation; not birth."
+      },
+      {
+        "cityId": "ur",
+        "work": "ORACC AMGG: Damu (Y. Heffron)",
+        "passage": "Cult Places",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/damu/",
+        "period": "Ur III and Old Babylonian",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "nabu",
+    "name": "Nabu",
+    "aliases": [
+      "Nabû",
+      "Nabium"
+    ],
+    "nameNote": "Muati was syncretised with Nabu; it is not counted as a separate birth here. https://oracc.museum.upenn.edu/amgg/listofdeities/nabu/",
+    "domains": [
+      "Writing; wisdom"
+    ],
+    "cityIds": [
+      "borsippa",
+      "babylon"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Accepted as Marduk and Sarpanitum's firstborn from the Kassite period; genealogy supplies no terrestrial birth.",
+        "work": "ORACC AMGG: Nabu (J. Tudeau; citing Pomponio)",
+        "passage": "Divine Genealogy and Syncretisms",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/nabu/",
+        "period": "Kassite and later traditions",
+        "locationType": "genealogical",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "borsippa",
+        "work": "ORACC AMGG: Nabu (J. Tudeau)",
+        "passage": "Cult Places; Ezida",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/nabu/",
+        "period": "Second and first millennia BCE",
+        "summary": "Cult attestation; not birth."
+      },
+      {
+        "cityId": "babylon",
+        "work": "ORACC AMGG: Nabu (J. Tudeau)",
+        "passage": "Cult Places; Samsu-ditana year 17",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/nabu/",
+        "period": "Old Babylonian and later",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "aya",
+    "name": "Aya",
+    "aliases": [
+      "Šerida",
+      "Sherida",
+      "Ayya"
+    ],
+    "nameNote": "Sumerian Šerida and Akkadian Aya are standard correspondences. https://oracc.museum.upenn.edu/amgg/Listofdeities/Aya/index.html",
+    "domains": [
+      "Light; Shamash's spouse"
+    ],
+    "cityIds": [
+      "larsa",
+      "sippar"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "larsa",
+        "work": "ORACC AMGG: Sherida/Aya (R. Horry)",
+        "passage": "Cult Places; Ebabbar temples",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Aya/index.html",
+        "period": "Early Dynastic through first-millennium traditions",
+        "summary": "Cult attestation; not birth."
+      },
+      {
+        "cityId": "sippar",
+        "work": "ORACC AMGG: Sherida/Aya (R. Horry)",
+        "passage": "Cult Places; Ebabbar temples",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Aya/index.html",
+        "period": "Early Dynastic through first-millennium traditions",
+        "summary": "Cult attestation; not birth."
+      }
+    ],
+    "notes": [
+      "No explicit birth or creation locality established in the cited evidence; cult evidence must not be read as birth."
+    ]
+  },
+  {
+    "id": "sarpanitum",
+    "name": "Sarpanitum",
+    "aliases": [
+      "Ṣarpanitum",
+      "Zarpanitu",
+      "Zarpanītu"
+    ],
+    "nameNote": "Sarpanitum and Zarpanitu are spelling/transcription variants. Erua is an associated title/name in some sources; no additional Erua figure is counted. ORACC AMGG Nabu: https://oracc.museum.upenn.edu/amgg/listofdeities/nabu/",
+    "domains": [
+      "Marduk's consort; Babylonian divine queen"
+    ],
+    "cityIds": [
+      "babylon"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "babylon",
+        "work": "Nebuchadnezzar II 019 (ORACC RIBo Q005490)",
+        "passage": "i 16–33",
+        "url": "https://oracc.museum.upenn.edu/ribo/Q005490",
+        "period": "Neo-Babylonian, reign of Nebuchadnezzar II",
+        "summary": "Royal offerings to her in Babylon and decoration of her Kahilisu chamber in Esagil."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "tashmetu",
+    "name": "Tashmetu",
+    "aliases": [
+      "Tašmetu",
+      "Tašmētu"
+    ],
+    "nameNote": "Distinct from Nanaya despite overlapping functions and alternative consort traditions. ORACC AMGG: https://oracc.museum.upenn.edu/amgg/listofdeities/tametu/index.html",
+    "domains": [
+      "Hearing prayers; Nabu's consort"
+    ],
+    "cityIds": [
+      "borsippa"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "borsippa",
+        "work": "S. W. Cole and P. Machinist, State Archives of Assyria XIII, introduction",
+        "passage": "Discussion of royal statues; citing SAA 10 358",
+        "url": "https://oracc.museum.upenn.edu/saao/knpp/downloads/cole_machinist_saa13intro.pdf",
+        "period": "Neo-Assyrian correspondence, seventh century BCE",
+        "summary": "Explicitly locates Tashmetu's cult image at Borsippa; royal statues flank it."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence.",
+      "The evidence is a scholarly localisation of SAA 10 358, not an inference solely from her relationship to Nabu."
+    ]
+  },
+  {
+    "id": "urashdilbat",
+    "name": "Urash of Dilbat",
+    "aliases": [
+      "Uraš of Dilbat"
+    ],
+    "nameNote": "Male city god, distinct from the goddess Urash who can be An's consort or mother of other gods. Ninurta equation is noted in ORACC AEB: https://oracc.museum.upenn.edu/saao/aebp/peoplegodsplaces/index.html",
+    "domains": [
+      "Dilbat's divine lord"
+    ],
+    "cityIds": [
+      "dilbat"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "dilbat",
+        "work": "Ashur-etel-ilani 04 (ORACC RINAP Q003859)",
+        "passage": "1–4",
+        "url": "https://oracc.museum.upenn.edu/rinap/rinap5/Q003859",
+        "period": "Neo-Assyrian, ca. 630–627 BCE",
+        "summary": "Restoration of E-ibbi-Anum in Dilbat, the abode of Urash and Ninegal."
+      },
+      {
+        "cityId": "dilbat",
+        "work": "Babylonian Temple List, K 4407 (ORACC P395533)",
+        "passage": "obv. i 9",
+        "url": "https://oracc.museum.upenn.edu/asbp/P395533",
+        "period": "First-millennium scholarly temple list",
+        "summary": "E-ibbi-Anum is explicitly the temple of Urash at Dilbat."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "ninegaldilbat",
+    "name": "Ninegal of Dilbat",
+    "aliases": [
+      "Ninegal",
+      "Ninegala"
+    ],
+    "nameNote": "The name 'Lady of the Palace' can function as a goddess name or a title of other goddesses. This record is the Ninegal explicitly worshipped with Urash in Dilbat, not a universal equation with Inanna's Ninegala title.",
+    "domains": [
+      "Palace goddess; Dilbat's divine lady"
+    ],
+    "cityIds": [
+      "dilbat"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "dilbat",
+        "work": "Ashur-etel-ilani 04 (ORACC RINAP Q003859)",
+        "passage": "2–4",
+        "url": "https://oracc.museum.upenn.edu/rinap/rinap5/Q003859",
+        "period": "Neo-Assyrian, ca. 630–627 BCE",
+        "summary": "E-ibbi-Anum in Dilbat is named as the abode of the god Urash and goddess Ninegal."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "anunitum",
+    "name": "Anunitum",
+    "aliases": [
+      "Annunitum",
+      "Anunītu"
+    ],
+    "nameNote": "Developed from Ishtar's martial epithet into a distinct local divine cult identity; not simply counted as a second spelling of Inanna. Scholarship: M. Nissinen, Ancient Prophecy (2017), discussion citing S. L. Allen 2015 pp. 192–197: https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/78/30/2019667830/2019667830.pdf",
+    "domains": [
+      "Warfare"
+    ],
+    "cityIds": [
+      "sipparamnanum"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "sipparamnanum",
+        "work": "Nabonidus 28 (ORACC RIBo Q005425)",
+        "passage": "iii 22–38",
+        "url": "https://oracc.museum.upenn.edu/ribo/babylon7/Q005425",
+        "period": "Neo-Babylonian, reign of Nabonidus",
+        "summary": "Rebuilding Eulmash, her temple in Sippar-Anunitu."
+      },
+      {
+        "cityId": "sipparamnanum",
+        "work": "Nabonidus inscription (ORACC RIBo Q005400)",
+        "passage": "iv 14′–34′",
+        "url": "https://oracc.museum.upenn.edu/ribo/babylon7/Q005400",
+        "period": "Neo-Babylonian",
+        "summary": "Her statue is restored by Neriglissar and installed at Sippar-Amnanu."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence.",
+      "Sippar-Amnanum/Sippar-Anunitu is Tell ed-Der, distinct from Sippar of Shamash at Abu Habbah. The two must not share one invented point."
+    ]
+  },
+  {
+    "id": "gula",
+    "name": "Gula",
+    "aliases": [],
+    "nameNote": "Closely syncretised with Ninisina, Ninkarrak, Bau and other healers, but local named cult identities are preserved in separate records. Do not treat this as a claim of universal separateness or universal identity. ORACC AMGG: https://oracc.museum.upenn.edu/amgg/Listofdeities/GulaNinkarrak/index.html",
+    "domains": [
+      "Healing"
+    ],
+    "cityIds": [
+      "isin",
+      "umma",
+      "nippur"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "isin",
+        "work": "Nebuchadnezzar II 099 (ORACC RIBo Q005570)",
+        "passage": "4–6",
+        "url": "https://oracc.museum.upenn.edu/ribo/babylon7/Q005570",
+        "period": "Neo-Babylonian",
+        "summary": "Rebuilding Egalmah, the temple of Gula at Isin."
+      },
+      {
+        "cityId": "umma",
+        "work": "ORACC AMGG: Gula/Ninkarrak (Y. Heffron), citing Frankena 1957–1971",
+        "passage": "Cult Places",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/GulaNinkarrak/index.html",
+        "period": "Multiple periods; exact Umma foundation date not asserted",
+        "summary": "Umma is explicitly included among her cult centres."
+      },
+      {
+        "cityId": "nippur",
+        "work": "ORACC AMGG: Gula/Ninkarrak (Y. Heffron), citing Gibson 1990",
+        "passage": "Cult Places",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/GulaNinkarrak/index.html",
+        "period": "Isin-Larsa through later rebuilding; major Kassite construction",
+        "summary": "Nippur temple attestation is explicit."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "ninkarrak",
+    "name": "Ninkarrak",
+    "aliases": [],
+    "nameNote": "Keep the Ninkarrak named at Sippar's Eulla distinct as a documented local cult identity, with explicit mutual syncretism to Gula and Ninisina. Modern AMGG groups Gula/Ninkarrak; the name relationship is context-dependent. https://oracc.museum.upenn.edu/amgg/Listofdeities/GulaNinkarrak/index.html",
+    "domains": [
+      "Healing"
+    ],
+    "cityIds": [
+      "sippar",
+      "babylon"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "sippar",
+        "work": "Nebuchadnezzar II inscription (ORACC RIBo Q005580; C38)",
+        "passage": "ii 1–27",
+        "url": "https://oracc.museum.upenn.edu/ribo/babylon7/Q005580",
+        "period": "Neo-Babylonian",
+        "summary": "Rebuilding Eulla, explicitly Ninkarrak's temple inside Sippar."
+      },
+      {
+        "cityId": "babylon",
+        "work": "Nebuchadnezzar II 031 (ORACC RIBo Q005502)",
+        "passage": "iii 5–14",
+        "url": "https://oracc.museum.upenn.edu/ribo/babylon7/Q005502",
+        "period": "Neo-Babylonian",
+        "summary": "Ehursagsikila is explicitly Ninkarrak's temple inside Babylon."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "shala",
+    "name": "Shala",
+    "aliases": [
+      "Šala"
+    ],
+    "nameNote": "God lists identify her with Medimsha, traditional consort of Ishkur, and later with Shalash, Dagan's spouse. The associations do not imply identical origins in every tradition. https://oracc.museum.upenn.edu/amgg/listofdeities/ala/",
+    "domains": [
+      "Grain fertility; Adad's consort"
+    ],
+    "cityIds": [
+      "karkara"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "karkara",
+        "work": "ORACC AMGG: Shala (K. Stevens), citing Schwemer 2006–2008",
+        "passage": "Cult Places; Edurku",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/ala/",
+        "period": "Second millennium and later",
+        "summary": "The article ascribes sanctuary Edurku at Karkara to her."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence.",
+      "AMGG's prose introduces this sanctuary with 'In Assyria'; geographic identification of Karkara should be independently checked instead of propagating that regional wording."
+    ]
+  },
+  {
+    "id": "ninsun",
+    "name": "Ninsumun",
+    "aliases": [
+      "Ninsun",
+      "Ninsumuna"
+    ],
+    "nameNote": "Ninsun is the traditional reading, Ninsumun the more accurate modern reading. Connections with Bau, Gatumdug and Gula do not make them automatically aliases. https://oracc.museum.upenn.edu/amgg/Listofdeities/Ninsumun/index.html",
+    "domains": [
+      "Mother of Gilgamesh; divine mother"
+    ],
+    "cityIds": [
+      "uruk",
+      "ur",
+      "nippur",
+      "umma"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "uruk",
+        "work": "ORACC AMGG: Ninsumun (N. Brisch), citing Richter 2004",
+        "passage": "Cult Places; Richter pp. 321–323",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Ninsumun/index.html",
+        "period": "Ur III through Old Babylonian",
+        "summary": "Ninsumun and Lugalbanda receive offerings at Uruk; this directly supports cult association."
+      },
+      {
+        "cityId": "ur",
+        "work": "ORACC AMGG: Ninsumun (N. Brisch), citing George 1993",
+        "passage": "Cult Places; George no. 717",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Ninsumun/index.html",
+        "period": "Ur III",
+        "summary": "Ur-Namma built her Emah temple at Ur."
+      },
+      {
+        "cityId": "nippur",
+        "work": "ORACC AMGG: Ninsumun (N. Brisch), citing Sallaberger 1993",
+        "passage": "Cult Places; Sallaberger p. 56",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Ninsumun/index.html",
+        "period": "Ur III",
+        "summary": "Offerings to Ninsumun and Lugalbanda during lunar festivals are explicit."
+      },
+      {
+        "cityId": "umma",
+        "work": "ORACC AMGG: Ninsumun (N. Brisch), citing Wilcke 1998–2001",
+        "passage": "Cult Places; Wilcke pp. 503–504",
+        "url": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Ninsumun/index.html",
+        "period": "Multiple periods",
+        "summary": "Umma is explicitly named among southern cult places."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence.",
+      "The scholarly proposal that her cult originated at Kuara is not a mythical birth claim and has not been converted into a birthplace."
+    ]
+  },
+  {
+    "id": "tishpak",
+    "name": "Tishpak",
+    "aliases": [
+      "Tišpak"
+    ],
+    "nameNote": "Partially identified with Ninazu at Eshnunna before replacing him; AMGG expressly says not fully syncretised. Retain their different local and historical roles. https://oracc.museum.upenn.edu/amgg/listofdeities/ninazu/",
+    "domains": [
+      "Eshnunna's city god"
+    ],
+    "cityIds": [
+      "eshnunna"
+    ],
+    "originTraditions": [],
+    "cityEvidence": [
+      {
+        "cityId": "eshnunna",
+        "work": "ORACC AMGG: Ninazu (K. Stevens)",
+        "passage": "Divine Genealogy and Syncretisms",
+        "url": "https://oracc.museum.upenn.edu/amgg/listofdeities/ninazu/",
+        "period": "Old Akkadian and later developments",
+        "summary": "Tishpak replaced Ninazu as Eshnunna's city god."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "damgalnuna",
+    "name": "Damgalnuna",
+    "aliases": [
+      "Damkina"
+    ],
+    "nameNote": "Damgalnuna is the Sumerian name and Damkina the Akkadian form in Marduk's family tradition; not an extra independently counted mother. Enuma Elish I 78–84.",
+    "domains": [
+      "Enki/Ea's consort; Marduk's mother"
+    ],
+    "cityIds": [
+      "eridu"
+    ],
+    "originTraditions": [
+      {
+        "summary": "Mother of Marduk with Ea in the cosmic Apsu; this episode gives no account of her own birth.",
+        "work": "Enuma Elish (W. G. Lambert translation)",
+        "passage": "I 78–88",
+        "url": "https://etana.org/node/581/index.html",
+        "period": "Babylonian Akkadian epic; late-second-millennium composition conjectured; first-millennium transmission",
+        "locationType": "genealogical",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [
+      {
+        "cityId": "eridu",
+        "work": "A Prayer for Samsu-iluna (Samsu-iluna B; ETCSL 2.8.3.2)",
+        "passage": "33–39",
+        "url": "https://etcsl.orinst.ox.ac.uk/section2/tr2832.htm",
+        "period": "Old Babylonian; Samsu-iluna of Babylon",
+        "summary": "Explicitly called the great lady of Eridu, interceding in the bedchamber."
+      }
+    ],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence."
+    ]
+  },
+  {
+    "id": "nungal",
+    "name": "Nungal",
+    "aliases": [
+      "Manungal"
+    ],
+    "nameNote": "Nungal and Manungal are equated as Birtu's spouse in An = Anum. ORACC god-list edition: https://oracc.museum.upenn.edu/dcclt/nineveh/P365757.162 , rev. i 4′–7′.",
+    "domains": [
+      "Prison; ordeal; judgement"
+    ],
+    "cityIds": [],
+    "originTraditions": [
+      {
+        "summary": "Self-praise names An as father and Ereshkigal as mother; she sets her dais in the netherworld. No earthly birth locality is specified.",
+        "work": "Nungal A (ETCSL 4.28.1)",
+        "passage": "62–74",
+        "url": "https://etcsl.orinst.ox.ac.uk/section4/tr4281.htm",
+        "period": "Sumerian literary tradition; Old Babylonian manuscript transmission",
+        "locationType": "genealogical",
+        "cityId": null
+      }
+    ],
+    "cityEvidence": [],
+    "notes": [
+      "No explicit birth locality established by the cited cult evidence.",
+      "A Nippur setting has been proposed for the Ekur-prison of the hymn, but the automatic equation with Enlil's Ekur is explicitly disputed by M. Civil 1993 p. 75. No map city is assigned on that basis. See scholarly discussion in CDLJ 2014:1: https://citeseerx.ist.psu.edu/document?doi=89e75051d2646330a8ea7ffbacd723a11e0b55a0&repid=rep1&type=pdf"
+    ]
+  }
+]

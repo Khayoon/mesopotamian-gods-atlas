@@ -1,0 +1,12 @@
+{
+  "deityRecords": 90,
+  "originClaims": 70,
+  "mappedIdentities": 41,
+  "cityLabels": 22,
+  "pngPixels": [
+    4000,
+    5000
+  ],
+  "pngSHA256": "e974f5f6e07255cd897c275c2d900dabb8356186651602fe06933b67327ec985",
+  "checks": "data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, geographic name / leader separation, width bounds"
+}

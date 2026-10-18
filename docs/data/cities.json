@@ -1,0 +1,442 @@
+[
+  {
+    "id": "sippar",
+    "name": "Sippar",
+    "coordinates": [
+      44.254243286471,
+      33.05973769416011
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/894089",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Sippar"
+  },
+  {
+    "id": "sipparamnanum",
+    "name": "Sippar-Amnanum",
+    "coordinates": [
+      44.299243153628694,
+      33.09924107517325
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/392373882",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Sippar-Amnanum"
+  },
+  {
+    "id": "babylon",
+    "name": "Babylon",
+    "coordinates": [
+      44.42497815,
+      32.53729695
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/893951",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Babylon"
+  },
+  {
+    "id": "borsippa",
+    "name": "Borsippa",
+    "coordinates": [
+      44.3434,
+      32.3924
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/893964",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Borsippa/Burs"
+  },
+  {
+    "id": "kutha",
+    "name": "Kutha",
+    "coordinates": [
+      44.611393505912865,
+      32.76070982402899
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/893977",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Cutha"
+  },
+  {
+    "id": "kish",
+    "name": "Kish",
+    "coordinates": [
+      44.59316393333333,
+      32.5460878
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/894028",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Kish"
+  },
+  {
+    "id": "dilbat",
+    "name": "Dilbat",
+    "coordinates": [
+      44.46689346666667,
+      32.29579523333334
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/893987",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Dilbat"
+  },
+  {
+    "id": "marad",
+    "name": "Marad",
+    "coordinates": [
+      44.7855561,
+      32.08143295
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912901",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Marad"
+  },
+  {
+    "id": "nippur",
+    "name": "Nippur",
+    "coordinates": [
+      45.23056353333333,
+      32.126762633333335
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912910",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Nippur/Nufar/‘Hippareni’"
+  },
+  {
+    "id": "isin",
+    "name": "Isin",
+    "coordinates": [
+      45.269272618138146,
+      31.885315329920658
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912868",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Isin"
+  },
+  {
+    "id": "adab",
+    "name": "Adab",
+    "coordinates": [
+      45.62333875145,
+      31.9509002901
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/787747618",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Adab"
+  },
+  {
+    "id": "shuruppak",
+    "name": "Shuruppak",
+    "coordinates": [
+      45.510467950000006,
+      31.77752465
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/326150788",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Šuruppak"
+  },
+  {
+    "id": "zabalam",
+    "name": "Zabalam",
+    "coordinates": [
+      45.87693053722031,
+      31.74338999131051
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/921099766",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Zabala"
+  },
+  {
+    "id": "umma",
+    "name": "Umma",
+    "coordinates": [
+      45.886785911813035,
+      31.66795525840427
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/44626252",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Umma"
+  },
+  {
+    "id": "uruk",
+    "name": "Uruk",
+    "coordinates": [
+      45.6390521574333,
+      31.32337501090747
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912986",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Uruk/Orchoe/Erech/Orikut"
+  },
+  {
+    "id": "larsa",
+    "name": "Larsa",
+    "coordinates": [
+      45.852450000000005,
+      31.2832165
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912897",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Larsa"
+  },
+  {
+    "id": "badtibira",
+    "name": "Bad-tibira",
+    "coordinates": [
+      46.004124899999994,
+      31.383256449999998
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/771224406",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Patibīri"
+  },
+  {
+    "id": "girsu",
+    "name": "Girsu",
+    "coordinates": [
+      46.17763528107655,
+      31.56038611603111
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912855",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "[Girsu]/Tello(h)"
+  },
+  {
+    "id": "lagash",
+    "name": "Lagash",
+    "coordinates": [
+      46.40968,
+      31.4193425
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/959120263",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Lagash"
+  },
+  {
+    "id": "nigin",
+    "name": "Nigin",
+    "coordinates": [
+      46.49508835,
+      31.3774175
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912909",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Nina"
+  },
+  {
+    "id": "ur",
+    "name": "Ur",
+    "coordinates": [
+      46.10541981168791,
+      30.96131794655308
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912985",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Ur(i)"
+  },
+  {
+    "id": "eridu",
+    "name": "Eridu",
+    "coordinates": [
+      45.995643011905315,
+      30.819990551261686
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/912845",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Eridu"
+  },
+  {
+    "id": "ubaid",
+    "name": "Tell al-Ubaid",
+    "coordinates": [
+      46.030514,
+      30.9722531
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/339709658",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Tell al-Ubaid"
+  },
+  {
+    "id": "eshnunna",
+    "name": "Eshnunna",
+    "coordinates": [
+      44.72813971440168,
+      33.484479923742214
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/90720956",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Eshnunna"
+  },
+  {
+    "id": "der",
+    "name": "Der",
+    "coordinates": [
+      45.937332966666666,
+      33.11927753333334
+    ],
+    "coordinateSource": "https://pleiades.stoa.org/places/903013",
+    "coordinateType": "Pleiades representative site point; not temple or birthplace coordinates",
+    "precision": "precise",
+    "gazetteerTitle": "Deru/Beth Daraya/[Badra]"
+  },
+  {
+    "id": "agade",
+    "name": "Agade",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "akkil",
+    "name": "Akkil",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "dilmun",
+    "name": "Dilmun",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "A changing Gulf region, with Bahrain a major centre; not a single birth coordinate."
+  },
+  {
+    "id": "enegi",
+    "name": "Enegi",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "eresh",
+    "name": "Eresh",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "Identification debated; do not equate automatically with Abu Salabikh."
+  },
+  {
+    "id": "gaesh",
+    "name": "Gaesh",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "gimah",
+    "name": "Gi-mah",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "gishbanda",
+    "name": "Gishbanda",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "guabba",
+    "name": "Gu-abba",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "irikug",
+    "name": "Irikug",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "Sacred district in the Girsu landscape; no independent point."
+  },
+  {
+    "id": "karkara",
+    "name": "Karkara",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "Tell Jidr is proposed; no certain point adopted."
+  },
+  {
+    "id": "kazallu",
+    "name": "Kazallu",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "kesh",
+    "name": "Kesh",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "Tulul al-Baqarat is a proposed identification, not adopted here as certain."
+  },
+  {
+    "id": "kiabrig",
+    "name": "Ki-abrig",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "kinirsha",
+    "name": "Kinirsha",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "kuara",
+    "name": "Kuara",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "murum",
+    "name": "Murum",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "sirara",
+    "name": "Sirara",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "Sanctuary of Nanshe in the Nigin landscape; not a second city."
+  },
+  {
+    "id": "ulmash",
+    "name": "Ulmash",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  },
+  {
+    "id": "urum",
+    "name": "Urum",
+    "coordinates": null,
+    "coordinateType": "Unlocated, disputed, a sanctuary/district, or a broad region; deliberately not a precise pin",
+    "note": "No sufficiently secure independently verified site point adopted."
+  }
+]
