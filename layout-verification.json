@@ -2,116 +2,183 @@
   "labels": [
     {
       "cityId": "sippar",
-      "side": "left",
-      "x": 155,
-      "y": 1130,
-      "width": 970,
+      "x": 190,
+      "y": 1280,
       "names": [
         "Utu / Shamash · Aya"
       ],
-      "note": "Sippar · solar cult. A hymn places Utu’s birth in E-nun-ana; identifying that shrine with Sippar is an inference. [2,6]",
+      "note": "Utu: shrine birth inferred; Aya: cult.",
       "mark": "inferred",
       "deityIds": [
         "utu",
         "aya"
       ],
-      "actualBottom": 1396.6399999999999
+      "refs": [
+        2,
+        6
+      ],
+      "leader": {
+        "end": [
+          966,
+          1430
+        ],
+        "control": [
+          1059.7,
+          1550
+        ]
+      },
+      "actualBottom": 1468.4
     },
     {
       "cityId": "babylon",
-      "side": "left",
-      "x": 155,
-      "y": 1455,
-      "width": 970,
+      "x": 185,
+      "y": 1840,
       "names": [
         "Marduk · Sarpanitum"
       ],
-      "note": "Babylon · Esagil’s divine couple. Marduk is born in the cosmic Apsu in Enuma Elish—not at this city pin. [8]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "marduk",
         "sarpanitum"
       ],
-      "actualBottom": 1673.76
+      "refs": [
+        8
+      ],
+      "leader": {
+        "end": [
+          1010,
+          1930
+        ],
+        "control": [
+          1080,
+          1980
+        ]
+      },
+      "actualBottom": 1976.0666666666668
     },
     {
       "cityId": "borsippa",
-      "side": "left",
-      "x": 155,
-      "y": 1750,
-      "width": 970,
+      "x": 190,
+      "y": 2180,
       "names": [
         "Nabu · Tashmetu"
       ],
-      "note": "Borsippa · Ezida and its divine pair. Nabu’s other consort tradition names Nanaya. [2,8]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "nabu",
         "tashmetu"
       ],
-      "actualBottom": 1968.76
+      "refs": [
+        2,
+        8
+      ],
+      "leader": {
+        "end": [
+          848,
+          2250
+        ],
+        "control": [
+          936.6,
+          2260
+        ]
+      },
+      "actualBottom": 2317.4
     },
     {
       "cityId": "dilbat",
-      "side": "left",
-      "x": 155,
-      "y": 2010,
-      "width": 970,
+      "x": 520,
+      "y": 2430,
       "names": [
         "Urash · Ninegal"
       ],
-      "note": "Dilbat · a male agricultural god and his consort; this Urash is distinct from the earth goddess. [8]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "urashdilbat",
         "ninegaldilbat"
       ],
-      "actualBottom": 2228.76
+      "refs": [
+        8
+      ],
+      "leader": {
+        "end": [
+          1100,
+          2400
+        ],
+        "control": [
+          1110,
+          2360
+        ]
+      },
+      "actualBottom": 2558.733333333333
     },
     {
       "cityId": "marad",
-      "side": "left",
-      "x": 155,
-      "y": 2260,
-      "width": 970,
+      "x": 185,
+      "y": 2730,
       "names": [
         "Lugal-Marda"
       ],
-      "note": "Marad · the city’s divine lord. His temple is the “House, Eye of the Land”. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "lugalmarda"
       ],
-      "actualBottom": 2478.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          688,
+          2790
+        ],
+        "control": [
+          1154.6,
+          2740
+        ]
+      },
+      "actualBottom": 2856.733333333333
     },
     {
       "cityId": "isin",
-      "side": "left",
-      "x": 155,
-      "y": 2500,
-      "width": 970,
+      "x": 1260,
+      "y": 2950,
       "names": [
         "Ninisina · Damu"
       ],
-      "note": "Isin · healing goddess and her son. Later healing-goddess identifications do not erase local identities. [1,2]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "ninisina",
         "damu"
       ],
-      "actualBottom": 2766.64
+      "refs": [
+        1,
+        2
+      ],
+      "leader": {
+        "end": [
+          1600,
+          2920
+        ],
+        "control": [
+          1780,
+          2880
+        ]
+      },
+      "actualBottom": 3078.733333333333
     },
     {
       "cityId": "uruk",
-      "side": "left",
-      "x": 155,
-      "y": 3030,
-      "width": 970,
+      "x": 1130,
+      "y": 3290,
       "names": [
         "An · Inanna / Ishtar",
         "Nanaya · Ninsun"
       ],
-      "note": "Uruk · several divine households. Nanaya is separately addressed alongside Inanna. [1,2,9]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "an",
@@ -119,154 +186,266 @@
         "nanaya",
         "ninsun"
       ],
-      "actualBottom": 3316.76
+      "refs": [
+        1,
+        2,
+        9
+      ],
+      "leader": {
+        "end": [
+          1830,
+          3370
+        ],
+        "control": [
+          1970,
+          3350
+        ]
+      },
+      "actualBottom": 3503.133333333333
     },
     {
       "cityId": "larsa",
-      "side": "left",
-      "x": 155,
-      "y": 3340,
-      "width": 970,
+      "x": 1650,
+      "y": 3730,
       "names": [
         "Utu / Shamash"
       ],
-      "note": "Larsa · Ebabbar, a major solar sanctuary. A second cult seat is not a second god. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "utu"
       ],
-      "actualBottom": 3558.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          2000,
+          3700
+        ],
+        "control": [
+          2070,
+          3510
+        ]
+      },
+      "actualBottom": 3854.733333333333
     },
     {
       "cityId": "badtibira",
-      "side": "left",
-      "x": 155,
-      "y": 2790,
-      "width": 970,
+      "x": 2420,
+      "y": 3410,
       "names": [
         "Dumuzi"
       ],
-      "note": "Bad-tibira · the shepherd god’s E-mush, celebrated as Inanna’s bridal chamber. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "dumuzi"
       ],
-      "actualBottom": 3008.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          2390,
+          3480
+        ],
+        "control": [
+          2450,
+          3330
+        ]
+      },
+      "actualBottom": 3538.733333333333
     },
     {
       "cityId": "ur",
-      "side": "left",
-      "x": 155,
-      "y": 3590,
-      "width": 970,
+      "x": 2230,
+      "y": 4110,
       "names": [
         "Nanna / Sin · Ningal",
-        "Ninazu — birth at Ur"
+        "Ninazu"
       ],
-      "note": "Nanna’s principal cult city. Ninazu’s hymn says he is born here, then takes his seat at Enegi. [1,2,5]",
+      "note": "Ninazu: birth; others: cult.",
       "mark": "birth",
       "deityIds": [
         "nanna",
         "ningal",
         "ninazu"
       ],
-      "actualBottom": 3876.76
+      "refs": [
+        1,
+        2,
+        5
+      ],
+      "leader": {
+        "end": [
+          2460,
+          4080
+        ],
+        "control": [
+          2650,
+          3910
+        ]
+      },
+      "emphasis": {
+        "Ninazu": "birth"
+      },
+      "actualBottom": 4382.799999999999
     },
     {
       "cityId": "eridu",
-      "side": "left",
-      "x": 155,
-      "y": 3930,
-      "width": 970,
+      "x": 900,
+      "y": 3910,
       "names": [
         "Enki / Ea · Damgalnuna",
-        "Nanshe — birth at Eridu"
+        "Nanshe"
       ],
-      "note": "Enki’s cult seat. Nanshe’s hymn places her birth here; her cult home lies at Nigin. [1,4,8]",
+      "note": "Nanshe: birth; others: cult.",
       "mark": "birth",
       "deityIds": [
         "enki",
         "damgalnuna",
         "nanshe"
       ],
-      "actualBottom": 4216.76
+      "refs": [
+        1,
+        4,
+        8
+      ],
+      "leader": {
+        "end": [
+          1730,
+          4010
+        ],
+        "control": [
+          2320,
+          3970
+        ]
+      },
+      "emphasis": {
+        "Nanshe": "birth"
+      },
+      "actualBottom": 4182.8
     },
     {
       "cityId": "eshnunna",
-      "side": "right",
-      "x": 2935,
-      "y": 1110,
-      "width": 910,
+      "x": 1600,
+      "y": 1030,
       "names": [
         "Ninazu → Tishpak"
       ],
-      "note": "Eshnunna · the Temple Hymns praise Ninazu here; Tishpak later holds the leading local position. [1,2]",
+      "note": "Successive leading cults",
       "mark": "cult",
       "deityIds": [
         "ninazu",
         "tishpak"
       ],
-      "actualBottom": 1328.76
+      "refs": [
+        1,
+        2
+      ],
+      "leader": {
+        "end": [
+          1570,
+          1150
+        ],
+        "control": [
+          1470,
+          1120
+        ]
+      },
+      "actualBottom": 1218.4
     },
     {
       "cityId": "der",
-      "side": "right",
-      "x": 2935,
-      "y": 1390,
-      "width": 910,
+      "x": 2680,
+      "y": 1340,
       "names": [
         "Ishtaran"
       ],
-      "note": "Der · a divine judge, whose shrine is the “Great Pole of the Land”. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "ishtaran"
       ],
-      "actualBottom": 1608.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          2650,
+          1420
+        ],
+        "control": [
+          2490,
+          1420
+        ]
+      },
+      "actualBottom": 1464.7333333333336
     },
     {
       "cityId": "kutha",
-      "side": "right",
-      "x": 2935,
-      "y": 1620,
-      "width": 910,
+      "x": 1650,
+      "y": 1710,
       "names": [
         "Nergal"
       ],
-      "note": "Kutha · lord of Meslam and the underworld. Meslamtaea is identified with him in this hymn. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "nergal"
       ],
-      "actualBottom": 1838.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          1620,
+          1800
+        ],
+        "control": [
+          1420,
+          1830
+        ]
+      },
+      "actualBottom": 1836.7333333333336
     },
     {
       "cityId": "kish",
-      "side": "right",
-      "x": 2935,
-      "y": 1880,
-      "width": 910,
+      "x": 1700,
+      "y": 2070,
       "names": [
         "Zababa"
       ],
-      "note": "Kish · the warrior god’s E-dub. The hymn praises his power; it does not narrate his birth. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "zababa"
       ],
-      "actualBottom": 2098.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          1670,
+          2150
+        ],
+        "control": [
+          1460,
+          2070
+        ]
+      },
+      "actualBottom": 2198.733333333333
     },
     {
       "cityId": "nippur",
-      "side": "right",
-      "x": 2935,
-      "y": 2140,
-      "width": 910,
+      "x": 2060,
+      "y": 2250,
       "names": [
-        "Enlil · Ninlil · Nuska · Ninurta",
-        "Nanna — conception"
+        "Enlil · Ninlil · Nuska",
+        "Ninurta · Nanna"
       ],
-      "note": "Enlil’s divine court. The canal scene locates Nanna’s conception, not his delivery. [1,3]",
+      "note": "Nanna: conception; others: cult.",
       "mark": "conception",
       "deityIds": [
         "enlil",
@@ -275,69 +454,116 @@
         "ninurta",
         "nanna"
       ],
-      "nameSize": 54,
-      "actualBottom": 2410.76
+      "refs": [
+        1,
+        3
+      ],
+      "leader": {
+        "end": [
+          2030,
+          2410
+        ],
+        "control": [
+          1900,
+          2460
+        ]
+      },
+      "emphasis": {
+        "Nanna": "conception"
+      },
+      "actualBottom": 2524.1333333333337
     },
     {
       "cityId": "adab",
-      "side": "right",
-      "x": 2935,
-      "y": 2500,
-      "width": 910,
+      "x": 2670,
+      "y": 2660,
       "names": [
         "Ninhursaga · Ashgi"
       ],
-      "note": "Adab · the mother goddess’s E-mah and Ashgi, the city’s god. Kesh is another, less securely located cult seat. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "ninhursaga",
         "ashgi"
       ],
-      "actualBottom": 2766.64
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          2640,
+          2740
+        ],
+        "control": [
+          2330,
+          2680
+        ]
+      },
+      "actualBottom": 2786.733333333333
     },
     {
       "cityId": "zabalam",
-      "side": "right",
-      "x": 2935,
-      "y": 2790,
-      "width": 910,
+      "x": 2830,
+      "y": 2940,
       "names": [
         "Inanna / Ishtar"
       ],
-      "note": "Zabalam · a major sanctuary praised separately from Uruk’s Eanna. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "inanna"
       ],
-      "actualBottom": 3008.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          2800,
+          3010
+        ],
+        "control": [
+          2600,
+          2860
+        ]
+      },
+      "actualBottom": 3066.733333333333
     },
     {
       "cityId": "umma",
-      "side": "right",
-      "x": 2935,
-      "y": 3020,
-      "width": 910,
+      "x": 2050,
+      "y": 3060,
       "names": [
         "Shara"
       ],
-      "note": "Umma · the goddess’s princely son and lord of E-mah in the Temple Hymns. [1]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "shara"
       ],
-      "actualBottom": 3238.76
+      "refs": [
+        1
+      ],
+      "leader": {
+        "end": [
+          2320,
+          3120
+        ],
+        "control": [
+          2290,
+          3020
+        ]
+      },
+      "actualBottom": 3184.733333333333
     },
     {
       "cityId": "girsu",
-      "side": "right",
-      "x": 2935,
-      "y": 3250,
-      "width": 910,
+      "x": 2980,
+      "y": 3100,
       "names": [
         "Ningirsu · Bau",
         "Shulshagana · Igalim"
       ],
-      "note": "Girsu · the Lagash state’s sacred centre. Gudea’s text names the divine sons in Ningirsu’s household. [1,7]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "ningirsu",
@@ -345,43 +571,81 @@
         "shulshagana",
         "igalim"
       ],
-      "actualBottom": 3536.76
+      "refs": [
+        1,
+        7
+      ],
+      "leader": {
+        "end": [
+          2950,
+          3140
+        ],
+        "control": [
+          2720,
+          3080
+        ]
+      },
+      "actualBottom": 3315.133333333333
     },
     {
       "cityId": "lagash",
-      "side": "right",
-      "x": 2935,
-      "y": 3610,
-      "width": 910,
+      "x": 2880,
+      "y": 3860,
       "names": [
         "Gatumdug · Hendursanga",
         "Shul-utula"
       ],
-      "note": "Civic mother, divine herald and the rulers’ protective deity in the Lagash state. [7]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "gatumdug",
         "hendursanga",
         "shulutula"
       ],
-      "actualBottom": 3896.76
+      "refs": [
+        7
+      ],
+      "leader": {
+        "end": [
+          2850,
+          3920
+        ],
+        "control": [
+          2900,
+          3640
+        ]
+      },
+      "actualBottom": 4082.4666666666667
     },
     {
       "cityId": "nigin",
-      "side": "right",
-      "x": 2935,
-      "y": 3950,
-      "width": 910,
+      "x": 3150,
+      "y": 3540,
       "names": [
         "Nanshe · Nindara"
       ],
-      "note": "Nigin · Nanshe’s Sirara sanctuary and her consort. Another hymn gives her an unlocated sea-edge birth. [1,2,4]",
+      "note": "",
       "mark": "cult",
       "deityIds": [
         "nanshe",
         "nindara"
       ],
-      "actualBottom": 4216.64
+      "refs": [
+        1,
+        2,
+        4
+      ],
+      "leader": {
+        "end": [
+          3120,
+          3610
+        ],
+        "control": [
+          2860,
+          3500
+        ]
+      },
+      "actualBottom": 3678.0666666666666
     }
   ],
   "textBoxes": [
@@ -389,1759 +653,7187 @@
       "text": "Where were the",
       "box": [
         155,
-        130,
+        125,
         1625.6666666666667,
-        355.75
+        290.99999999999994
       ]
     },
     {
       "text": "Mesopotamian gods born?",
       "box": [
         155,
-        365,
+        360,
         2616.3333333333335,
-        590.75
+        574.6666666666666
       ]
     },
     {
-      "text": "Ancient birth traditions—and the cities the gods called home.",
+      "text": "Ancient traditions—and the cities the gods called home.",
       "box": [
         166,
         655,
-        1737.3333333333333,
-        721.15
+        1570.6666666666667,
+        717.0
       ]
     },
     {
-      "text": "Most pins mark cult seats, not births. Local traditions changed across texts and centuries.",
+      "text": "Most pins mark cult seats, not birthplaces.",
       "box": [
         166,
-        755,
-        1819.3333333333333,
-        802.25
-      ]
-    },
-    {
-      "text": "Cult seat / patronage",
-      "box": [
-        220,
-        900,
-        584.6666666666667,
-        944.1
-      ]
-    },
-    {
-      "text": "Explicit city birth",
-      "box": [
-        1195,
-        900,
-        1497.6666666666667,
-        944.1
-      ]
-    },
-    {
-      "text": "Conception",
-      "box": [
-        2135,
-        900,
-        2333.0,
-        944.1
-      ]
-    },
-    {
-      "text": "Inferred shrine birth",
-      "box": [
-        2925,
-        900,
-        3284.3333333333335,
-        944.1
-      ]
-    },
-    {
-      "text": "Alluvial plain",
-      "box": [
-        220,
-        972,
-        405.33333333333337,
-        1007.7
-      ]
-    },
-    {
-      "text": "Marsh region",
-      "box": [
-        1195,
-        972,
-        1381.6666666666667,
-        1007.7
-      ]
-    },
-    {
-      "text": "Desert",
-      "box": [
-        2135,
-        972,
-        2225.6666666666665,
-        1007.7
-      ]
-    },
-    {
-      "text": "Mountain relief",
-      "box": [
-        2925,
-        972,
-        3143.6666666666665,
-        1007.7
-      ]
-    },
-    {
-      "text": "Sippar",
-      "box": [
-        155,
-        1130,
-        267.6666666666667,
-        1175.15
+        765,
+        985.3333333333334,
+        807.0
       ]
     },
     {
       "text": "Utu / Shamash · Aya",
       "box": [
-        155,
-        1183,
-        693.0,
-        1248.1
+        190,
+        1280,
+        888.0,
+        1362.0
       ]
     },
     {
-      "text": "Sippar · solar cult. A hymn places Utu’s birth in",
+      "text": "2,6",
       "box": [
-        155,
-        1253.0,
-        961.6666666666666,
-        1297.1
+        904.0,
+        1284.8000000000002,
+        940.0,
+        1307.4666666666667
       ]
     },
     {
-      "text": "E-nun-ana; identifying that shrine with Sippar is an",
+      "text": "Sippar",
       "box": [
-        155,
-        1300.88,
-        1042.3333333333335,
-        1344.98
+        190,
+        1371.4,
+        336.0,
+        1417.4
       ]
     },
     {
-      "text": "inference. [2,6]",
+      "text": "Utu: shrine birth inferred; Aya: cult.",
       "box": [
-        155,
-        1348.76,
-        413.0,
-        1392.86
-      ]
-    },
-    {
-      "text": "Babylon",
-      "box": [
-        155,
-        1455,
-        297.0,
-        1500.15
+        190,
+        1432.4,
+        755.3333333333334,
+        1468.4
       ]
     },
     {
       "text": "Marduk · Sarpanitum",
       "box": [
-        155,
-        1508,
-        727.6666666666666,
-        1573.1
+        185,
+        1840,
+        927.6666666666666,
+        1920.0
       ]
     },
     {
-      "text": "Babylon · Esagil’s divine couple. Marduk is born in the",
+      "text": "8",
       "box": [
-        155,
-        1578.0,
-        1079.0,
-        1622.1
+        943.6666666666666,
+        1844.8000000000002,
+        957.6666666666666,
+        1862.1333333333334
       ]
     },
     {
-      "text": "cosmic Apsu in Enuma Elish—not at this city pin. [8]",
+      "text": "Babylon",
       "box": [
-        155,
-        1625.88,
-        1048.3333333333335,
-        1669.98
-      ]
-    },
-    {
-      "text": "Borsippa",
-      "box": [
-        155,
-        1750,
-        309.0,
-        1795.15
+        185,
+        1931.4,
+        367.0,
+        1976.0666666666668
       ]
     },
     {
       "text": "Nabu · Tashmetu",
       "box": [
-        155,
-        1803,
-        602.3333333333333,
-        1868.1
+        190,
+        2180,
+        770.0,
+        2242.0
       ]
     },
     {
-      "text": "Borsippa · Ezida and its divine pair. Nabu’s other consort",
+      "text": "2,8",
       "box": [
-        155,
-        1873.0,
-        1124.3333333333335,
-        1917.1
+        786.0,
+        2184.8,
+        822.0,
+        2207.466666666667
       ]
     },
     {
-      "text": "tradition names Nanaya. [2,8]",
+      "text": "Borsippa",
       "box": [
-        155,
-        1920.88,
-        663.0,
-        1964.98
-      ]
-    },
-    {
-      "text": "Dilbat",
-      "box": [
-        155,
-        2010,
-        259.0,
-        2055.15
+        190,
+        2271.4,
+        388.0,
+        2317.4
       ]
     },
     {
       "text": "Urash · Ninegal",
       "box": [
-        155,
-        2063,
-        563.0,
-        2128.1
+        520,
+        2430,
+        1048.0,
+        2510.0
       ]
     },
     {
-      "text": "Dilbat · a male agricultural god and his consort; this",
+      "text": "8",
       "box": [
-        155,
-        2133.0,
-        1041.0,
-        2177.1
+        1064.0,
+        2434.8,
+        1078.0,
+        2452.1333333333337
       ]
     },
     {
-      "text": "Urash is distinct from the earth goddess. [8]",
+      "text": "Dilbat",
       "box": [
-        155,
-        2180.88,
-        910.3333333333334,
-        2224.98
-      ]
-    },
-    {
-      "text": "Marad",
-      "box": [
-        155,
-        2260,
-        267.0,
-        2305.15
+        520,
+        2521.4,
+        654.6666666666666,
+        2558.733333333333
       ]
     },
     {
       "text": "Lugal-Marda",
       "box": [
-        155,
-        2313,
-        500.3333333333333,
-        2378.1
+        185,
+        2730,
+        633.0,
+        2810.0
       ]
     },
     {
-      "text": "Marad · the city’s divine lord. His temple is the “House,",
+      "text": "1",
       "box": [
-        155,
-        2383.0,
-        1095.6666666666665,
-        2427.1
+        649.0,
+        2734.8,
+        663.0,
+        2751.4666666666667
       ]
     },
     {
-      "text": "Eye of the Land”. [1]",
+      "text": "Marad",
       "box": [
-        155,
-        2430.88,
-        502.3333333333333,
-        2474.98
-      ]
-    },
-    {
-      "text": "Isin",
-      "box": [
-        155,
-        2500,
-        219.0,
-        2545.15
+        185,
+        2821.4,
+        325.0,
+        2856.733333333333
       ]
     },
     {
       "text": "Ninisina · Damu",
       "box": [
-        155,
-        2553,
-        577.0,
-        2618.1
+        1260,
+        2950,
+        1806.6666666666665,
+        3004.666666666667
       ]
     },
     {
-      "text": "Isin · healing goddess and her son. Later",
+      "text": "1,2",
       "box": [
-        155,
-        2623.0,
-        839.6666666666666,
-        2667.1
+        1822.6666666666665,
+        2954.8,
+        1858.6666666666665,
+        2977.466666666667
       ]
     },
     {
-      "text": "healing-goddess identifications do not erase local",
+      "text": "Isin",
       "box": [
-        155,
-        2670.88,
-        1008.3333333333334,
-        2714.98
-      ]
-    },
-    {
-      "text": "identities. [1,2]",
-      "box": [
-        155,
-        2718.76,
-        411.6666666666667,
-        2762.86
-      ]
-    },
-    {
-      "text": "Uruk",
-      "box": [
-        155,
-        3030,
-        243.0,
-        3075.15
+        1260,
+        3041.4,
+        1340.0,
+        3078.733333333333
       ]
     },
     {
       "text": "An · Inanna / Ishtar",
       "box": [
-        155,
-        3083,
-        677.0,
-        3148.1
+        1130,
+        3290,
+        1807.3333333333335,
+        3366.0
       ]
     },
     {
       "text": "Nanaya · Ninsun",
       "box": [
-        155,
-        3151,
-        587.6666666666667,
-        3216.1
+        1130,
+        3376.4,
+        1691.3333333333335,
+        3449.066666666667
       ]
     },
     {
-      "text": "Uruk · several divine households. Nanaya is separately",
+      "text": "1,2,9",
       "box": [
-        155,
-        3221.0,
-        1084.3333333333335,
-        3265.1
+        1707.3333333333335,
+        3381.2000000000003,
+        1765.3333333333335,
+        3403.8666666666672
       ]
     },
     {
-      "text": "addressed alongside Inanna. [1,2,9]",
+      "text": "Uruk",
       "box": [
-        155,
-        3268.88,
-        755.0,
-        3312.98
-      ]
-    },
-    {
-      "text": "Larsa",
-      "box": [
-        155,
-        3340,
-        247.0,
-        3385.15
+        1130,
+        3467.8,
+        1239.3333333333333,
+        3503.133333333333
       ]
     },
     {
       "text": "Utu / Shamash",
       "box": [
-        155,
-        3393,
-        553.0,
-        3458.1
+        1650,
+        3730,
+        2166.0,
+        3806.0
       ]
     },
     {
-      "text": "Larsa · Ebabbar, a major solar sanctuary. A second cult",
+      "text": "1",
       "box": [
-        155,
-        3463.0,
-        1084.3333333333335,
-        3507.1
+        2182.0,
+        3734.8,
+        2196.0,
+        3751.4666666666667
       ]
     },
     {
-      "text": "seat is not a second god. [1]",
+      "text": "Larsa",
       "box": [
-        155,
-        3510.88,
-        625.6666666666667,
-        3554.98
-      ]
-    },
-    {
-      "text": "Bad-tibira",
-      "box": [
-        155,
-        2790,
-        329.66666666666663,
-        2835.15
+        1650,
+        3821.4,
+        1771.3333333333333,
+        3854.733333333333
       ]
     },
     {
       "text": "Dumuzi",
       "box": [
-        155,
-        2843,
-        363.0,
-        2908.1
+        2420,
+        3410,
+        2690.0,
+        3464.0
       ]
     },
     {
-      "text": "Bad-tibira · the shepherd god’s E-mush, celebrated as",
+      "text": "1",
       "box": [
-        155,
-        2913.0,
-        1065.0,
-        2957.1
+        2706.0,
+        3414.8,
+        2720.0,
+        3431.4666666666667
       ]
     },
     {
-      "text": "Inanna’s bridal chamber. [1]",
+      "text": "Bad-tibira",
       "box": [
-        155,
-        2960.88,
-        639.0,
-        3004.98
-      ]
-    },
-    {
-      "text": "Ur",
-      "box": [
-        155,
-        3590,
-        199.66666666666666,
-        3635.15
+        2420,
+        3501.4,
+        2644.6666666666665,
+        3538.733333333333
       ]
     },
     {
       "text": "Nanna / Sin · Ningal",
       "box": [
-        155,
-        3643,
-        689.0,
-        3708.1
+        2230,
+        4110,
+        2922.0,
+        4192.0
       ]
     },
     {
-      "text": "Ninazu — birth at Ur",
+      "text": "Ninazu",
       "box": [
-        155,
-        3711,
-        708.3333333333334,
-        3776.1
+        2230,
+        4196.4,
+        2476.6666666666665,
+        4251.066666666666
       ]
     },
     {
-      "text": "Nanna’s principal cult city. Ninazu’s hymn says he is",
+      "text": "1,2,5",
       "box": [
-        155,
-        3781.0,
-        1055.0,
-        3825.1
+        2492.6666666666665,
+        4201.199999999999,
+        2550.6666666666665,
+        4223.866666666665
       ]
     },
     {
-      "text": "born here, then takes his seat at Enegi. [1,2,5]",
+      "text": "Ur",
       "box": [
-        155,
-        3828.88,
-        933.6666666666666,
-        3872.98
+        2230,
+        4287.799999999999,
+        2283.3333333333335,
+        4321.133333333333
       ]
     },
     {
-      "text": "Eridu",
+      "text": "Ninazu: birth; others: cult.",
       "box": [
-        155,
-        3930,
-        249.0,
-        3975.15
+        2230,
+        4348.799999999999,
+        2649.3333333333335,
+        4382.799999999999
       ]
     },
     {
       "text": "Enki / Ea · Damgalnuna",
       "box": [
-        155,
-        3983,
-        775.6666666666666,
-        4048.1
+        900,
+        3910,
+        1704.6666666666665,
+        3992.0
       ]
     },
     {
-      "text": "Nanshe — birth at Eridu",
+      "text": "Nanshe",
       "box": [
-        155,
-        4051,
-        797.6666666666666,
-        4116.1
+        900,
+        3996.4,
+        1158.6666666666667,
+        4058.4
       ]
     },
     {
-      "text": "Enki’s cult seat. Nanshe’s hymn places her birth here;",
+      "text": "1,4,8",
       "box": [
-        155,
-        4121.0,
-        1073.0,
-        4165.1
+        1174.6666666666667,
+        4001.2000000000003,
+        1232.6666666666667,
+        4023.8666666666672
       ]
     },
     {
-      "text": "her cult home lies at Nigin. [1,4,8]",
+      "text": "Eridu",
       "box": [
-        155,
-        4168.88,
-        734.3333333333334,
-        4212.9800000000005
+        900,
+        4087.8,
+        1018.6666666666666,
+        4125.133333333334
       ]
     },
     {
-      "text": "Eshnunna",
+      "text": "Nanshe: birth; others: cult.",
       "box": [
-        2935,
-        1110,
-        3108.3333333333335,
-        1155.15
+        900,
+        4148.8,
+        1328.6666666666667,
+        4182.8
       ]
     },
     {
       "text": "Ninazu → Tishpak",
       "box": [
-        2935,
-        1163,
-        3427.6666666666665,
-        1228.1
+        1600,
+        1030,
+        2238.0,
+        1110.0
       ]
     },
     {
-      "text": "Eshnunna · the Temple Hymns praise Ninazu here;",
+      "text": "1,2",
       "box": [
-        2935,
-        1233.0,
-        3799.6666666666665,
-        1277.1
+        2254.0,
+        1034.8000000000002,
+        2290.0,
+        1057.4666666666667
       ]
     },
     {
-      "text": "Tishpak later holds the leading local position. [1,2]",
+      "text": "Eshnunna",
       "box": [
-        2935,
-        1280.88,
-        3803.6666666666665,
-        1324.98
+        1600,
+        1121.4,
+        1819.3333333333333,
+        1156.7333333333336
       ]
     },
     {
-      "text": "Der",
+      "text": "Successive leading cults",
       "box": [
-        2935,
-        1390,
-        2997.0,
-        1435.15
+        1600,
+        1182.4,
+        1988.6666666666667,
+        1218.4
       ]
     },
     {
       "text": "Ishtaran",
       "box": [
-        2935,
-        1443,
-        3164.3333333333335,
-        1508.1
+        2680,
+        1340,
+        2977.3333333333335,
+        1401.3333333333335
       ]
     },
     {
-      "text": "Der · a divine judge, whose shrine is the “Great Pole",
+      "text": "1",
       "box": [
-        2935,
-        1513.0,
-        3817.0,
-        1557.1
+        2993.3333333333335,
+        1344.8000000000002,
+        3007.3333333333335,
+        1361.466666666667
       ]
     },
     {
-      "text": "of the Land”. [1]",
+      "text": "Der",
       "box": [
-        2935,
-        1560.88,
-        3212.3333333333335,
-        1604.98
-      ]
-    },
-    {
-      "text": "Kutha",
-      "box": [
-        2935,
-        1620,
-        3039.6666666666665,
-        1665.15
+        2680,
+        1431.4,
+        2758.0,
+        1464.7333333333336
       ]
     },
     {
       "text": "Nergal",
       "box": [
-        2935,
-        1673,
-        3115.0,
-        1738.1
+        1650,
+        1710,
+        1882.6666666666667,
+        1790.0
       ]
     },
     {
-      "text": "Kutha · lord of Meslam and the underworld.",
+      "text": "1",
       "box": [
-        2935,
-        1743.0,
-        3685.0,
-        1787.1
+        1898.6666666666667,
+        1714.8000000000002,
+        1912.6666666666667,
+        1731.466666666667
       ]
     },
     {
-      "text": "Meslamtaea is identified with him in this hymn. [1]",
+      "text": "Kutha",
       "box": [
-        2935,
-        1790.88,
-        3815.0,
-        1834.98
-      ]
-    },
-    {
-      "text": "Kish",
-      "box": [
-        2935,
-        1880,
-        3011.0,
-        1925.15
+        1650,
+        1801.4,
+        1784.0,
+        1836.7333333333336
       ]
     },
     {
       "text": "Zababa",
       "box": [
-        2935,
-        1933,
-        3127.6666666666665,
-        1998.1
+        1700,
+        2070,
+        1948.6666666666667,
+        2131.333333333333
       ]
     },
     {
-      "text": "Kish · the warrior god’s E-dub. The hymn praises his",
+      "text": "1",
       "box": [
-        2935,
-        2003.0,
-        3825.6666666666665,
-        2047.1
+        1964.6666666666667,
+        2074.8,
+        1978.6666666666667,
+        2091.4666666666667
       ]
     },
     {
-      "text": "power; it does not narrate his birth. [1]",
+      "text": "Kish",
       "box": [
-        2935,
-        2050.88,
-        3604.3333333333335,
-        2094.98
+        1700,
+        2161.4,
+        1795.3333333333333,
+        2198.733333333333
+      ]
+    },
+    {
+      "text": "Enlil · Ninlil · Nuska",
+      "box": [
+        2060,
+        2250,
+        2735.3333333333335,
+        2312.666666666667
+      ]
+    },
+    {
+      "text": "Ninurta · ",
+      "box": [
+        2060,
+        2336.4,
+        2385.3333333333335,
+        2391.066666666667
+      ]
+    },
+    {
+      "text": "Nanna",
+      "box": [
+        2385.3333333333335,
+        2336.4,
+        2612.0,
+        2387.066666666667
+      ]
+    },
+    {
+      "text": "1,3",
+      "box": [
+        2628.0,
+        2341.2000000000003,
+        2664.0,
+        2363.8666666666672
       ]
     },
     {
       "text": "Nippur",
       "box": [
-        2935,
-        2140,
-        3059.0,
-        2185.15
+        2060,
+        2427.8,
+        2213.3333333333335,
+        2473.8
       ]
     },
     {
-      "text": "Enlil · Ninlil · Nuska · Ninurta",
+      "text": "Nanna: conception; others: cult.",
       "box": [
-        2935,
-        2193,
-        3610.3333333333335,
-        2249.7
-      ]
-    },
-    {
-      "text": "Nanna — conception",
-      "box": [
-        2935,
-        2253,
-        3415.6666666666665,
-        2309.7
-      ]
-    },
-    {
-      "text": "Enlil’s divine court. The canal scene locates Nanna’s",
-      "box": [
-        2935,
-        2315.0,
-        3827.6666666666665,
-        2359.1
-      ]
-    },
-    {
-      "text": "conception, not his delivery. [1,3]",
-      "box": [
-        2935,
-        2362.88,
-        3511.0,
-        2406.98
-      ]
-    },
-    {
-      "text": "Adab",
-      "box": [
-        2935,
-        2500,
-        3023.6666666666665,
-        2545.15
+        2060,
+        2488.8,
+        2576.0,
+        2524.1333333333337
       ]
     },
     {
       "text": "Ninhursaga · Ashgi",
       "box": [
-        2935,
-        2553,
-        3439.0,
-        2618.1
+        2670,
+        2660,
+        3322.6666666666665,
+        2740.0
       ]
     },
     {
-      "text": "Adab · the mother goddess’s E-mah and Ashgi, the",
+      "text": "1",
       "box": [
-        2935,
-        2623.0,
-        3792.3333333333335,
-        2667.1
+        3338.6666666666665,
+        2664.8,
+        3352.6666666666665,
+        2681.4666666666667
       ]
     },
     {
-      "text": "city’s god. Kesh is another, less securely located cult",
+      "text": "Adab",
       "box": [
-        2935,
-        2670.88,
-        3831.0,
-        2714.98
-      ]
-    },
-    {
-      "text": "seat. [1]",
-      "box": [
-        2935,
-        2718.76,
-        3068.3333333333335,
-        2762.86
-      ]
-    },
-    {
-      "text": "Zabalam",
-      "box": [
-        2935,
-        2790,
-        3082.3333333333335,
-        2835.15
+        2670,
+        2751.4,
+        2782.6666666666665,
+        2786.733333333333
       ]
     },
     {
       "text": "Inanna / Ishtar",
       "box": [
-        2935,
-        2843,
-        3343.0,
-        2908.1
+        2830,
+        2940,
+        3359.3333333333335,
+        3016.0
       ]
     },
     {
-      "text": "Zabalam · a major sanctuary praised separately from",
+      "text": "1",
       "box": [
-        2935,
-        2913.0,
-        3835.6666666666665,
-        2957.1
+        3375.3333333333335,
+        2944.8,
+        3389.3333333333335,
+        2961.4666666666667
       ]
     },
     {
-      "text": "Uruk’s Eanna. [1]",
+      "text": "Zabalam",
       "box": [
-        2935,
-        2960.88,
-        3226.3333333333335,
-        3004.98
-      ]
-    },
-    {
-      "text": "Umma",
-      "box": [
-        2935,
-        3020,
-        3050.3333333333335,
-        3065.15
+        2830,
+        3031.4,
+        3022.6666666666665,
+        3066.733333333333
       ]
     },
     {
       "text": "Shara",
       "box": [
-        2935,
-        3073,
-        3091.6666666666665,
-        3138.1
+        2050,
+        3060,
+        2253.3333333333335,
+        3121.333333333333
       ]
     },
     {
-      "text": "Umma · the goddess’s princely son and lord of",
+      "text": "1",
       "box": [
-        2935,
-        3143.0,
-        3725.0,
-        3187.1
+        2269.3333333333335,
+        3064.8,
+        2283.3333333333335,
+        3081.4666666666667
       ]
     },
     {
-      "text": "E-mah in the Temple Hymns. [1]",
+      "text": "Umma",
       "box": [
-        2935,
-        3190.88,
-        3490.3333333333335,
-        3234.98
-      ]
-    },
-    {
-      "text": "Girsu",
-      "box": [
-        2935,
-        3250,
-        3027.0,
-        3295.15
+        2050,
+        3151.4,
+        2195.3333333333335,
+        3184.733333333333
       ]
     },
     {
       "text": "Ningirsu · Bau",
       "box": [
-        2935,
-        3303,
-        3311.6666666666665,
-        3368.1
+        2980,
+        3100,
+        3468.0,
+        3172.666666666667
       ]
     },
     {
       "text": "Shulshagana · Igalim",
       "box": [
-        2935,
-        3371,
-        3489.6666666666665,
-        3436.1
+        2980,
+        3186.4,
+        3699.3333333333335,
+        3266.4
       ]
     },
     {
-      "text": "Girsu · the Lagash state’s sacred centre. Gudea’s text",
+      "text": "1,7",
       "box": [
-        2935,
-        3441.0,
-        3827.6666666666665,
-        3485.1
+        3715.3333333333335,
+        3191.2000000000003,
+        3751.3333333333335,
+        3213.2000000000003
       ]
     },
     {
-      "text": "names the divine sons in Ningirsu’s household. [1,7]",
+      "text": "Girsu",
       "box": [
-        2935,
-        3488.88,
-        3827.0,
-        3532.98
-      ]
-    },
-    {
-      "text": "Lagash",
-      "box": [
-        2935,
-        3610,
-        3054.3333333333335,
-        3655.15
+        2980,
+        3277.8,
+        3096.6666666666665,
+        3315.133333333333
       ]
     },
     {
       "text": "Gatumdug · Hendursanga",
       "box": [
-        2935,
-        3663,
-        3613.6666666666665,
-        3728.1
+        2880,
+        3860,
+        3759.3333333333335,
+        3940.0
       ]
     },
     {
       "text": "Shul-utula",
       "box": [
-        2935,
-        3731,
-        3219.6666666666665,
-        3796.1
+        2880,
+        3946.4,
+        3250.0,
+        4007.733333333333
       ]
     },
     {
-      "text": "Civic mother, divine herald and the rulers’",
+      "text": "7",
       "box": [
-        2935,
-        3801.0,
-        3667.6666666666665,
-        3845.1
+        3266.0,
+        3951.2000000000003,
+        3280.0,
+        3967.866666666667
       ]
     },
     {
-      "text": "protective deity in the Lagash state. [7]",
+      "text": "Lagash",
       "box": [
-        2935,
-        3848.88,
-        3607.0,
-        3892.98
-      ]
-    },
-    {
-      "text": "Nigin",
-      "box": [
-        2935,
-        3950,
-        3029.6666666666665,
-        3995.15
+        2880,
+        4037.8,
+        3036.6666666666665,
+        4082.4666666666667
       ]
     },
     {
       "text": "Nanshe · Nindara",
       "box": [
-        2935,
-        4003,
-        3393.6666666666665,
-        4068.1
+        3150,
+        3540,
+        3744.0,
+        3602.0
       ]
     },
     {
-      "text": "Nigin · Nanshe’s Sirara sanctuary and her consort.",
+      "text": "1,2,4",
       "box": [
-        2935,
-        4073.0,
-        3793.6666666666665,
-        4117.1
+        3760.0,
+        3544.8,
+        3818.0,
+        3567.466666666667
       ]
     },
     {
-      "text": "Another hymn gives her an unlocated sea-edge",
+      "text": "Nigin",
       "box": [
-        2935,
-        4120.88,
-        3748.3333333333335,
-        4164.9800000000005
-      ]
-    },
-    {
-      "text": "birth. [1,2,4]",
-      "box": [
-        2935,
-        4168.76,
-        3145.0,
-        4212.860000000001
-      ]
-    },
-    {
-      "text": "Lower Mesopotamia",
-      "box": [
-        1890,
-        1170,
-        2297.3333333333335,
-        1221.45
-      ]
-    },
-    {
-      "text": "Euphrates",
-      "box": [
-        1640,
-        2600,
-        1814.0,
-        2644.1
+        3150,
+        3631.4,
+        3266.6666666666665,
+        3678.0666666666666
       ]
     },
     {
       "text": "Tigris",
       "box": [
-        1730,
-        1720,
-        1829.3333333333333,
-        1764.1
+        1590,
+        1530,
+        1689.3333333333333,
+        1568.6666666666667
       ]
     },
     {
-      "text": "Zagros Mountains",
+      "text": "Euphrates",
       "box": [
-        3120,
-        1070,
-        3430.6666666666665,
-        1114.1
-      ]
-    },
-    {
-      "text": "Arabian Desert",
-      "box": [
-        1350,
-        3210,
-        1606.6666666666667,
-        3254.1
-      ]
-    },
-    {
-      "text": "Persian Gulf",
-      "box": [
-        3220,
-        4260,
-        3504.0,
-        4319.85
-      ]
-    },
-    {
-      "text": "Shatt al-Arab",
-      "box": [
-        2450,
-        2840,
-        2646.0,
-        2877.8
-      ]
-    },
-    {
-      "text": "Hawizeh",
-      "box": [
-        2610,
-        2490,
-        2730.0,
-        2525.7
-      ]
-    },
-    {
-      "text": "Central marshes",
-      "box": [
-        2405,
-        2590,
-        2632.3333333333335,
-        2625.7
-      ]
-    },
-    {
-      "text": "Hammar",
-      "box": [
-        2360,
-        2790,
-        2480.6666666666665,
-        2825.7
-      ]
-    },
-    {
-      "text": "0",
-      "box": [
-        1460,
-        4190,
-        1475.3333333333333,
-        4223.6
-      ]
-    },
-    {
-      "text": "100 km",
-      "box": [
-        1921.0399125614074,
-        4190,
-        2015.7065792280741,
-        4223.6
+        1300,
+        3160,
+        1474.0,
+        3202.6666666666665
       ]
     },
     {
       "text": "N",
       "box": [
-        2685,
-        3990,
-        2707.0,
-        4025.7
+        3687,
+        1065,
+        3707.6666666666665,
+        1085.6666666666667
       ]
     },
     {
-      "text": "+4 m elevation scenario",
+      "text": "0",
       "box": [
-        1395,
-        3590,
-        1871.0,
-        3639.35
+        240,
+        4338,
+        254.66666666666666,
+        4358.0
       ]
     },
     {
-      "text": "Gulf-connected terrain ≤4 m EGM2008. DeltaDTM: 30 m cells. Modern terrain has",
+      "text": "50 km",
       "box": [
-        1335,
-        3660.0,
-        2651.666666666667,
-        3702.0
+        619.2040902641716,
+        4338,
+        693.2040902641716,
+        4359.333333333334
       ]
     },
     {
-      "text": "changed through sedimentation and subsidence; this is not a dated ancient",
+      "text": "Cult seat / patronage",
       "box": [
-        1335,
-        3705.6,
-        2561.666666666667,
-        3747.6
+        224,
+        4473,
+        592.6666666666667,
+        4509.666666666667
       ]
     },
     {
-      "text": "shoreline.",
+      "text": "Explicit city birth",
       "box": [
-        1335,
-        3751.2,
-        1498.3333333333333,
-        3793.2
+        1294,
+        4473,
+        1597.3333333333333,
+        4510.333333333333
       ]
     },
     {
-      "text": "Terrain and ecological colours describe broad landscapes. Ancient river courses and marsh",
+      "text": "Conception",
       "box": [
-        1335,
-        3900.0,
-        2624.333333333333,
-        3936.75
+        2254,
+        4473,
+        2455.3333333333335,
+        4509.666666666666
       ]
     },
     {
-      "text": "extents varied.",
+      "text": "Inferred shrine birth",
       "box": [
-        1335,
-        3939.9,
-        1547.0,
-        3976.65
+        3024,
+        4473,
+        3383.3333333333335,
+        4503.0
       ]
     },
     {
-      "text": "Sources",
-      "box": [
-        165,
-        4485,
-        307.0,
-        4529.1
-      ]
-    },
-    {
-      "text": "[1] The Temple Hymns, ETCSL 4.80.1. City-specific passages in the catalogue.",
+      "text": "SOURCES",
       "box": [
         165,
-        4552.0,
-        1201.6666666666667,
-        4586.65
+        4630,
+        287.6666666666667,
+        4650.0
       ]
     },
     {
-      "text": "[2] ORACC, Ancient Mesopotamian Gods and Goddesses; articles and scholarship",
+      "text": "1  Temple Hymns, ETCSL 4.80.1",
       "box": [
         165,
-        4656.0,
-        1253.6666666666667,
-        4690.65
+        4680,
+        551.6666666666667,
+        4707.333333333333
       ]
     },
     {
-      "text": "cited per deity.",
+      "text": "2  ORACC, AMGG deity articles",
       "box": [
         165,
-        4690.65,
-        371.0,
-        4725.299999999999
+        4723,
+        535.0,
+        4750.333333333333
       ]
     },
     {
-      "text": "[3] Enlil and Ninlil 1–53, ETCSL 1.2.1 (Nanna’s conception).",
+      "text": "3  Enlil and Ninlil 1–53",
       "box": [
         165,
-        4760.0,
-        957.0,
-        4794.65
+        4766,
+        437.0,
+        4788.0
       ]
     },
     {
-      "text": "[4] Hymn to Nanshe 1–9, 251–255, ETCSL 4.14.1 (Eridu birth).",
+      "text": "4  Hymn to Nanshe 1–9, 251–255",
       "box": [
-        1420,
-        4552.0,
-        2236.6666666666665,
-        4586.65
+        1405,
+        4680,
+        1805.0,
+        4707.333333333333
       ]
     },
     {
-      "text": "[5] Ninazu A 16–22, ETCSL 4.17.1 (Ur birth; Enegi seat).",
+      "text": "5  Ninazu A 16–22",
       "box": [
-        1420,
-        4656.0,
-        2154.0,
-        4690.65
+        1405,
+        4723,
+        1620.3333333333333,
+        4745.0
       ]
     },
     {
-      "text": "[6] Utu B 7–12, ETCSL 4.32.2; Temple Hymns 479–493 (shrine localisation inferred).",
+      "text": "6  Utu B 7–12; Temple Hymns 479–493",
       "box": [
-        1420,
-        4760.0,
-        2537.333333333333,
-        4794.65
+        1405,
+        4766,
+        1874.3333333333333,
+        4793.333333333333
       ]
     },
     {
-      "text": "[7] Gudea Cylinders, ETCSL 2.1.7; ETCSRI; Ragavan, CDLJ 2010:1 §3.1.1 (Lagash).",
+      "text": "7  Gudea Cylinders; Ragavan, CDLJ 2010:1",
       "box": [
-        2675,
-        4552.0,
-        3735.0,
-        4586.65
+        2645,
+        4680,
+        3164.3333333333335,
+        4708.0
       ]
     },
     {
-      "text": "[8] ORACC RIBo / SAA royal inscriptions; Enuma Elish I 71–84; Samsu-iluna B 33–39.",
+      "text": "8  Enuma Elish I 71–84; royal inscriptions",
       "box": [
-        2675,
-        4656.0,
-        3804.333333333333,
-        4690.65
+        2645,
+        4723,
+        3149.6666666666665,
+        4750.333333333333
       ]
     },
     {
-      "text": "[9] Nanaya for Ishbi-Erra 1–16, ETCSL 2.5.1.3; RINAP Ashurbanipal 238, obv. 4′–10′.",
+      "text": "9  Nanaya hymn; Ashurbanipal 238",
       "box": [
-        2675,
-        4760.0,
-        3783.0,
-        4794.65
+        2645,
+        4766,
+        3075.0,
+        4793.333333333333
       ]
     },
     {
-      "text": "Geography: GSHHG full-resolution coast · HydroRIVERS · Pleiades · Ramsar · RESOLVE 2017 · Mapzen / USGS relief.",
+      "text": "Full passages, competing traditions and bibliography: khayoon.github.io/mesopotamian-gods-atlas",
       "box": [
         165,
-        4870,
-        1577.6666666666667,
-        4902.55
+        4855,
+        1583.0,
+        4887.666666666667
       ]
     },
     {
-      "text": "+4 m test: DeltaDTM 1.1.1, EGM2008 · Pronk et al., Scientific Data 11 (2024), 273. Methods and limits in the companion.",
+      "text": "Modern-reference geography: GSHHG full-resolution coast · HydroRIVERS · Pleiades site points. Ancient channels varied.",
       "box": [
         165,
         4920,
-        1632.3333333333333,
-        4952.55
+        1559.0,
+        4947.333333333334
+      ]
+    }
+  ],
+  "calloutBoxes": [
+    {
+      "cityId": "sippar",
+      "box": [
+        190,
+        1280,
+        940.0,
+        1468.4
+      ]
+    },
+    {
+      "cityId": "babylon",
+      "box": [
+        185,
+        1840,
+        957.6666666666666,
+        1976.0666666666668
+      ]
+    },
+    {
+      "cityId": "borsippa",
+      "box": [
+        190,
+        2180,
+        822.0,
+        2317.4
+      ]
+    },
+    {
+      "cityId": "dilbat",
+      "box": [
+        520,
+        2430,
+        1078.0,
+        2558.733333333333
+      ]
+    },
+    {
+      "cityId": "marad",
+      "box": [
+        185,
+        2730,
+        663.0,
+        2856.733333333333
+      ]
+    },
+    {
+      "cityId": "isin",
+      "box": [
+        1260,
+        2950,
+        1858.6666666666665,
+        3078.733333333333
+      ]
+    },
+    {
+      "cityId": "uruk",
+      "box": [
+        1130,
+        3290,
+        1807.3333333333335,
+        3503.133333333333
+      ]
+    },
+    {
+      "cityId": "larsa",
+      "box": [
+        1650,
+        3730,
+        2196.0,
+        3854.733333333333
+      ]
+    },
+    {
+      "cityId": "badtibira",
+      "box": [
+        2420,
+        3410,
+        2720.0,
+        3538.733333333333
+      ]
+    },
+    {
+      "cityId": "ur",
+      "box": [
+        2230,
+        4110,
+        2922.0,
+        4382.799999999999
+      ]
+    },
+    {
+      "cityId": "eridu",
+      "box": [
+        900,
+        3910,
+        1704.6666666666665,
+        4182.8
+      ]
+    },
+    {
+      "cityId": "eshnunna",
+      "box": [
+        1600,
+        1030,
+        2290.0,
+        1218.4
+      ]
+    },
+    {
+      "cityId": "der",
+      "box": [
+        2680,
+        1340,
+        3007.3333333333335,
+        1464.7333333333336
+      ]
+    },
+    {
+      "cityId": "kutha",
+      "box": [
+        1650,
+        1710,
+        1912.6666666666667,
+        1836.7333333333336
+      ]
+    },
+    {
+      "cityId": "kish",
+      "box": [
+        1700,
+        2070,
+        1978.6666666666667,
+        2198.733333333333
+      ]
+    },
+    {
+      "cityId": "nippur",
+      "box": [
+        2060,
+        2250,
+        2735.3333333333335,
+        2524.1333333333337
+      ]
+    },
+    {
+      "cityId": "adab",
+      "box": [
+        2670,
+        2660,
+        3352.6666666666665,
+        2786.733333333333
+      ]
+    },
+    {
+      "cityId": "zabalam",
+      "box": [
+        2830,
+        2940,
+        3389.3333333333335,
+        3066.733333333333
+      ]
+    },
+    {
+      "cityId": "umma",
+      "box": [
+        2050,
+        3060,
+        2283.3333333333335,
+        3184.733333333333
+      ]
+    },
+    {
+      "cityId": "girsu",
+      "box": [
+        2980,
+        3100,
+        3751.3333333333335,
+        3315.133333333333
+      ]
+    },
+    {
+      "cityId": "lagash",
+      "box": [
+        2880,
+        3860,
+        3759.3333333333335,
+        4082.4666666666667
+      ]
+    },
+    {
+      "cityId": "nigin",
+      "box": [
+        3150,
+        3540,
+        3818.0,
+        3678.0666666666666
       ]
     }
   ],
   "leaders": [
-    [
-      [
-        1204.0367775060804,
-        1519.9982027995363
+    {
+      "cityId": "sippar",
+      "points": [
+        [
+          937.6847084517507,
+          1564.753134515204
+        ],
+        [
+          941.4450214465329,
+          1564.2664040260852
+        ],
+        [
+          945.1000047091137,
+          1563.7282834659288
+        ],
+        [
+          948.6496582394933,
+          1563.138772834735
+        ],
+        [
+          952.0939820376715,
+          1562.4978721325035
+        ],
+        [
+          955.4329761036485,
+          1561.8055813592346
+        ],
+        [
+          958.6666404374242,
+          1561.0619005149283
+        ],
+        [
+          961.7949750389986,
+          1560.2668295995845
+        ],
+        [
+          964.8179799083716,
+          1559.420368613203
+        ],
+        [
+          967.7356550455434,
+          1558.5225175557841
+        ],
+        [
+          970.5480004505139,
+          1557.5732764273278
+        ],
+        [
+          973.2550161232832,
+          1556.572645227834
+        ],
+        [
+          975.856702063851,
+          1555.5206239573026
+        ],
+        [
+          978.3530582722176,
+          1554.4172126157337
+        ],
+        [
+          980.744084748383,
+          1553.2624112031276
+        ],
+        [
+          983.0297814923471,
+          1552.0562197194836
+        ],
+        [
+          985.2101485041098,
+          1550.7986381648022
+        ],
+        [
+          987.2851857836713,
+          1549.4896665390834
+        ],
+        [
+          989.2548933310313,
+          1548.1293048423272
+        ],
+        [
+          991.1192711461902,
+          1546.7175530745333
+        ],
+        [
+          992.8783192291478,
+          1545.2544112357018
+        ],
+        [
+          994.5320375799041,
+          1543.739879325833
+        ],
+        [
+          996.080426198459,
+          1542.1739573449267
+        ],
+        [
+          997.5234850848128,
+          1540.556645292983
+        ],
+        [
+          998.8612142389651,
+          1538.8879431700016
+        ],
+        [
+          1000.0936136609162,
+          1537.1678509759827
+        ],
+        [
+          1001.220683350666,
+          1535.3963687109263
+        ],
+        [
+          1002.2424233082145,
+          1533.5734963748328
+        ],
+        [
+          1003.1588335335618,
+          1531.6992339677013
+        ],
+        [
+          1003.9699140267077,
+          1529.7735814895325
+        ],
+        [
+          1004.6756647876523,
+          1527.7965389403262
+        ],
+        [
+          1005.2760858163956,
+          1525.7681063200823
+        ],
+        [
+          1005.7711771129377,
+          1523.688283628801
+        ],
+        [
+          1006.1609386772784,
+          1521.5570708664823
+        ],
+        [
+          1006.4453705094179,
+          1519.3744680331258
+        ],
+        [
+          1006.6244726093561,
+          1517.140475128732
+        ],
+        [
+          1006.6982449770929,
+          1514.8550921533008
+        ],
+        [
+          1006.6666876126285,
+          1512.518319106832
+        ],
+        [
+          1006.5298005159627,
+          1510.1301559893257
+        ],
+        [
+          1006.2875836870958,
+          1507.690602800782
+        ],
+        [
+          1005.9400371260274,
+          1505.1996595412006
+        ],
+        [
+          1005.4871608327579,
+          1502.6573262105817
+        ],
+        [
+          1004.928954807287,
+          1500.0636028089255
+        ],
+        [
+          1004.2654190496148,
+          1497.4184893362317
+        ],
+        [
+          1003.4965535597413,
+          1494.7219857925004
+        ],
+        [
+          1002.6223583376665,
+          1491.9740921777316
+        ],
+        [
+          1001.6428333833906,
+          1489.1748084919254
+        ],
+        [
+          1000.5579786969131,
+          1486.3241347350815
+        ],
+        [
+          999.3677942782344,
+          1483.4220709072001
+        ],
+        [
+          998.0722801273545,
+          1480.4686170082814
+        ],
+        [
+          996.6714362442732,
+          1477.4637730383251
+        ],
+        [
+          995.1652626289906,
+          1474.4075389973314
+        ],
+        [
+          993.5537592815069,
+          1471.2999148853
+        ],
+        [
+          991.8369262018217,
+          1468.1409007022314
+        ],
+        [
+          990.0147633899353,
+          1464.930496448125
+        ],
+        [
+          988.0872708458476,
+          1461.6687021229814
+        ],
+        [
+          986.0544485695586,
+          1458.3555177268001
+        ],
+        [
+          983.9162965610683,
+          1454.9909432595814
+        ],
+        [
+          981.6728148203767,
+          1451.574978721325
+        ],
+        [
+          979.3240033474838,
+          1448.1076241120313
+        ],
+        [
+          976.8698621423896,
+          1444.5888794317
+        ],
+        [
+          974.3103912050942,
+          1441.0187446803313
+        ],
+        [
+          971.6455905355974,
+          1437.397219857925
+        ],
+        [
+          968.8754601338993,
+          1433.7243049644812
+        ],
+        [
+          966.0,
+          1430.0
+        ]
       ],
-      [
-        1187,
-        1519.9982027995363
+      "control": [
+        1059.7,
+        1550
       ],
-      [
-        1187,
-        1157
+      "end": [
+        966,
+        1430
       ],
-      [
-        1139,
-        1157
-      ]
-    ],
-    [
-      [
-        1285.9895119999999,
-        1815.1772232500011
+      "length": 189.49138916760984
+    },
+    {
+      "cityId": "babylon",
+      "points": [
+        [
+          1080.7192132449131,
+          2085.4428802240577
+        ],
+        [
+          1080.6798235764306,
+          2082.1613260764857
+        ],
+        [
+          1080.6066053987906,
+          2078.906843647773
+        ],
+        [
+          1080.4995587119927,
+          2075.67943293792
+        ],
+        [
+          1080.358683516037,
+          2072.479093946926
+        ],
+        [
+          1080.1839798109236,
+          2069.305826674791
+        ],
+        [
+          1079.9754475966524,
+          2066.159631121516
+        ],
+        [
+          1079.7330868732233,
+          2063.040507287101
+        ],
+        [
+          1079.4568976406367,
+          2059.948455171544
+        ],
+        [
+          1079.1468798988922,
+          2056.8834747748474
+        ],
+        [
+          1078.8030336479899,
+          2053.84556609701
+        ],
+        [
+          1078.42535888793,
+          2050.8347291380314
+        ],
+        [
+          1078.0138556187121,
+          2047.850963897913
+        ],
+        [
+          1077.5685238403366,
+          2044.8942703766538
+        ],
+        [
+          1077.0893635528034,
+          2041.964648574254
+        ],
+        [
+          1076.5763747561123,
+          2039.0620984907134
+        ],
+        [
+          1076.0295574502636,
+          2036.1866201260325
+        ],
+        [
+          1075.448911635257,
+          2033.338213480211
+        ],
+        [
+          1074.8344373110929,
+          2030.5168785532485
+        ],
+        [
+          1074.1861344777708,
+          2027.7226153451456
+        ],
+        [
+          1073.504003135291,
+          2024.9554238559022
+        ],
+        [
+          1072.7880432836535,
+          2022.2153040855183
+        ],
+        [
+          1072.038254922858,
+          2019.5022560339935
+        ],
+        [
+          1071.254638052905,
+          2016.8162797013283
+        ],
+        [
+          1070.4371926737942,
+          2014.1573750875225
+        ],
+        [
+          1069.5859187855256,
+          2011.5255421925763
+        ],
+        [
+          1068.7008163880992,
+          2008.920781016489
+        ],
+        [
+          1067.781885481515,
+          2006.3430915592614
+        ],
+        [
+          1066.8291260657734,
+          2003.7924738208933
+        ],
+        [
+          1065.8425381408738,
+          2001.2689278013845
+        ],
+        [
+          1064.8221217068162,
+          1998.772453500735
+        ],
+        [
+          1063.7678767636012,
+          1996.303050918945
+        ],
+        [
+          1062.6798033112282,
+          1993.8607200560145
+        ],
+        [
+          1061.5579013496977,
+          1991.4454609119432
+        ],
+        [
+          1060.4021708790092,
+          1989.0572734867314
+        ],
+        [
+          1059.2126118991632,
+          1986.696157780379
+        ],
+        [
+          1057.9892244101593,
+          1984.362113792886
+        ],
+        [
+          1056.7320084119974,
+          1982.0551415242526
+        ],
+        [
+          1055.440963904678,
+          1979.7752409744783
+        ],
+        [
+          1054.116090888201,
+          1977.5224121435635
+        ],
+        [
+          1052.7573893625658,
+          1975.2966550315082
+        ],
+        [
+          1051.3648593277733,
+          1973.0979696383122
+        ],
+        [
+          1049.9385007838227,
+          1970.9263559639755
+        ],
+        [
+          1048.4783137307145,
+          1968.7818140084985
+        ],
+        [
+          1046.9842981684485,
+          1966.6643437718806
+        ],
+        [
+          1045.4564540970248,
+          1964.5739452541222
+        ],
+        [
+          1043.8947815164433,
+          1962.5106184552233
+        ],
+        [
+          1042.2992804267042,
+          1960.4743633751837
+        ],
+        [
+          1040.669950827807,
+          1958.4651800140036
+        ],
+        [
+          1039.0067927197524,
+          1956.4830683716827
+        ],
+        [
+          1037.3098061025398,
+          1954.5280284482214
+        ],
+        [
+          1035.5789909761695,
+          1952.6000602436195
+        ],
+        [
+          1033.8143473406415,
+          1950.6991637578772
+        ],
+        [
+          1032.0158751959557,
+          1948.825338990994
+        ],
+        [
+          1030.1835745421122,
+          1946.9785859429703
+        ],
+        [
+          1028.3174453791107,
+          1945.1589046138058
+        ],
+        [
+          1026.4174877069518,
+          1943.366295003501
+        ],
+        [
+          1024.4837015256348,
+          1941.6007571120554
+        ],
+        [
+          1022.5160868351604,
+          1939.8622909394692
+        ],
+        [
+          1020.514643635528,
+          1938.1508964857426
+        ],
+        [
+          1018.4793719267379,
+          1936.4665737508753
+        ],
+        [
+          1016.4102717087901,
+          1934.8093227348672
+        ],
+        [
+          1014.3073429816845,
+          1933.1791434377187
+        ],
+        [
+          1012.1705857454211,
+          1931.5760358594298
+        ],
+        [
+          1010.0,
+          1930.0
+        ]
       ],
-      [
-        1171,
-        1815.1772232500011
+      "control": [
+        1080,
+        1980
       ],
-      [
-        1171,
-        1482
+      "end": [
+        1010,
+        1930
       ],
-      [
-        1139,
-        1482
-      ]
-    ],
-    [
-      [
-        1246.8320000000006,
-        1897.043999999999
+      "length": 177.79670207793572
+    },
+    {
+      "cityId": "borsippa",
+      "points": [
+        [
+          1012.3764621159953,
+          2229.3158597993515
+        ],
+        [
+          1010.0053169283168,
+          2230.2648065292055
+        ],
+        [
+          1007.6279102475307,
+          2231.193887956227
+        ],
+        [
+          1005.2442420736373,
+          2232.103104080417
+        ],
+        [
+          1002.8543124066365,
+          2232.9924549017737
+        ],
+        [
+          1000.4581212465282,
+          2233.861940420298
+        ],
+        [
+          998.0556685933126,
+          2234.711560635991
+        ],
+        [
+          995.6469544469894,
+          2235.541315548851
+        ],
+        [
+          993.2319788075589,
+          2236.3512051588787
+        ],
+        [
+          990.810741675021,
+          2237.141229466074
+        ],
+        [
+          988.3832430493756,
+          2237.9113884704366
+        ],
+        [
+          985.9494829306228,
+          2238.661682171967
+        ],
+        [
+          983.5094613187625,
+          2239.392110570666
+        ],
+        [
+          981.0631782137949,
+          2240.1026736665317
+        ],
+        [
+          978.6106336157198,
+          2240.793371459565
+        ],
+        [
+          976.1518275245373,
+          2241.4642039497667
+        ],
+        [
+          973.6867599402474,
+          2242.1151711371353
+        ],
+        [
+          971.2154308628501,
+          2242.746273021672
+        ],
+        [
+          968.7378402923453,
+          2243.357509603376
+        ],
+        [
+          966.2539882287331,
+          2243.948880882248
+        ],
+        [
+          963.7638746720133,
+          2244.5203868582876
+        ],
+        [
+          961.2674996221864,
+          2245.0720275314943
+        ],
+        [
+          958.7648630792519,
+          2245.603802901869
+        ],
+        [
+          956.25596504321,
+          2246.1157129694116
+        ],
+        [
+          953.7408055140606,
+          2246.6077577341216
+        ],
+        [
+          951.2193844918039,
+          2247.0799371959993
+        ],
+        [
+          948.6917019764398,
+          2247.532251355045
+        ],
+        [
+          946.1577579679681,
+          2247.964700211258
+        ],
+        [
+          943.6175524663892,
+          2248.3772837646384
+        ],
+        [
+          941.0710854717026,
+          2248.770002015187
+        ],
+        [
+          938.5183569839089,
+          2249.1428549629027
+        ],
+        [
+          935.9593670030076,
+          2249.4958426077865
+        ],
+        [
+          933.3941155289988,
+          2249.828964949838
+        ],
+        [
+          930.8226025618827,
+          2250.142221989057
+        ],
+        [
+          928.2448281016591,
+          2250.4356137254435
+        ],
+        [
+          925.6607921483281,
+          2250.709140158998
+        ],
+        [
+          923.0704947018897,
+          2250.9628012897197
+        ],
+        [
+          920.4739357623439,
+          2251.196597117609
+        ],
+        [
+          917.8711153296906,
+          2251.4105276426662
+        ],
+        [
+          915.26203340393,
+          2251.6045928648914
+        ],
+        [
+          912.6466899850618,
+          2251.7787927842837
+        ],
+        [
+          910.0250850730863,
+          2251.933127400844
+        ],
+        [
+          907.3972186680033,
+          2252.0675967145717
+        ],
+        [
+          904.763090769813,
+          2252.1822007254673
+        ],
+        [
+          902.1227013785151,
+          2252.2769394335305
+        ],
+        [
+          899.4760504941099,
+          2252.3518128387614
+        ],
+        [
+          896.8231381165973,
+          2252.40682094116
+        ],
+        [
+          894.1639642459772,
+          2252.4419637407254
+        ],
+        [
+          891.4985288822497,
+          2252.4572412374596
+        ],
+        [
+          888.8268320254148,
+          2252.452653431361
+        ],
+        [
+          886.1488736754725,
+          2252.42820032243
+        ],
+        [
+          883.4646538324228,
+          2252.383881910667
+        ],
+        [
+          880.7741724962655,
+          2252.319698196071
+        ],
+        [
+          878.0774296670008,
+          2252.235649178643
+        ],
+        [
+          875.3744253446288,
+          2252.1317348583825
+        ],
+        [
+          872.6651595291494,
+          2252.00795523529
+        ],
+        [
+          869.9496322205624,
+          2251.864310309365
+        ],
+        [
+          867.2278434188681,
+          2251.700800080607
+        ],
+        [
+          864.4997931240664,
+          2251.517424549018
+        ],
+        [
+          861.7654813361572,
+          2251.314183714596
+        ],
+        [
+          859.0249080551406,
+          2251.0910775773414
+        ],
+        [
+          856.2780732810166,
+          2250.8481061372545
+        ],
+        [
+          853.5249770137851,
+          2250.5852693943352
+        ],
+        [
+          850.7656192534463,
+          2250.302567348584
+        ],
+        [
+          848.0,
+          2250.0
+        ]
       ],
-      [
-        1155,
-        1897.043999999999
+      "control": [
+        936.6,
+        2260
       ],
-      [
-        1155,
-        1777
+      "end": [
+        848,
+        2250
       ],
-      [
-        1139,
-        1777
-      ]
-    ],
-    [
-      [
-        1306.1088640000003,
-        1951.6256931666649
+      "length": 167.42953930173638
+    },
+    {
+      "cityId": "dilbat",
+      "points": [
+        [
+          1115.8341068216844,
+          2325.1096773417166
+        ],
+        [
+          1115.6507739197425,
+          2326.201247404608
+        ],
+        [
+          1115.465406890272,
+          2327.2953124271385
+        ],
+        [
+          1115.2780057332734,
+          2328.3918724093087
+        ],
+        [
+          1115.088570448746,
+          2329.4909273511184
+        ],
+        [
+          1114.8971010366904,
+          2330.5924772525673
+        ],
+        [
+          1114.7035974971059,
+          2331.696522113656
+        ],
+        [
+          1114.5080598299933,
+          2332.803061934384
+        ],
+        [
+          1114.3104880353521,
+          2333.912096714752
+        ],
+        [
+          1114.1108821131825,
+          2335.0236264547593
+        ],
+        [
+          1113.9092420634843,
+          2336.137651154406
+        ],
+        [
+          1113.7055678862575,
+          2337.254170813692
+        ],
+        [
+          1113.4998595815027,
+          2338.373185432618
+        ],
+        [
+          1113.292117149219,
+          2339.4946950111826
+        ],
+        [
+          1113.082340589407,
+          2340.6186995493877
+        ],
+        [
+          1112.8705299020664,
+          2341.745199047232
+        ],
+        [
+          1112.6566850871975,
+          2342.8741935047155
+        ],
+        [
+          1112.4408061448,
+          2344.005682921839
+        ],
+        [
+          1112.222893074874,
+          2345.1396672986016
+        ],
+        [
+          1112.0029458774197,
+          2346.276146635004
+        ],
+        [
+          1111.7809645524367,
+          2347.4151209310457
+        ],
+        [
+          1111.5569490999255,
+          2348.556590186727
+        ],
+        [
+          1111.3308995198856,
+          2349.700554402048
+        ],
+        [
+          1111.1028158123172,
+          2350.847013577008
+        ],
+        [
+          1110.8726979772205,
+          2351.995967711608
+        ],
+        [
+          1110.6405460145952,
+          2353.1474168058476
+        ],
+        [
+          1110.4063599244414,
+          2354.301360859726
+        ],
+        [
+          1110.1701397067593,
+          2355.4577998732448
+        ],
+        [
+          1109.9318853615487,
+          2356.6167338464024
+        ],
+        [
+          1109.6915968888093,
+          2357.7781627792
+        ],
+        [
+          1109.4492742885418,
+          2358.942086671637
+        ],
+        [
+          1109.2049175607458,
+          2360.108505523713
+        ],
+        [
+          1108.958526705421,
+          2361.277419335429
+        ],
+        [
+          1108.710101722568,
+          2362.4488281067847
+        ],
+        [
+          1108.4596426121866,
+          2363.6227318377796
+        ],
+        [
+          1108.2071493742765,
+          2364.799130528414
+        ],
+        [
+          1107.952622008838,
+          2365.978024178688
+        ],
+        [
+          1107.696060515871,
+          2367.1594127886015
+        ],
+        [
+          1107.4374648953758,
+          2368.3432963581545
+        ],
+        [
+          1107.1768351473518,
+          2369.529674887347
+        ],
+        [
+          1106.9141712717994,
+          2370.7185483761787
+        ],
+        [
+          1106.6494732687186,
+          2371.9099168246503
+        ],
+        [
+          1106.3827411381092,
+          2373.1037802327614
+        ],
+        [
+          1106.1139748799715,
+          2374.3001386005117
+        ],
+        [
+          1105.843174494305,
+          2375.498991927902
+        ],
+        [
+          1105.5703399811105,
+          2376.7003402149317
+        ],
+        [
+          1105.2954713403872,
+          2377.904183461601
+        ],
+        [
+          1105.0185685721353,
+          2379.1105216679093
+        ],
+        [
+          1104.7396316763552,
+          2380.3193548338572
+        ],
+        [
+          1104.4586606530465,
+          2381.5306829594447
+        ],
+        [
+          1104.1756555022096,
+          2382.744506044672
+        ],
+        [
+          1103.8906162238438,
+          2383.9608240895386
+        ],
+        [
+          1103.6035428179498,
+          2385.1796370940447
+        ],
+        [
+          1103.3144352845272,
+          2386.4009450581902
+        ],
+        [
+          1103.0232936235761,
+          2387.6247479819754
+        ],
+        [
+          1102.7301178350967,
+          2388.8510458654
+        ],
+        [
+          1102.4349079190888,
+          2390.079838708464
+        ],
+        [
+          1102.1376638755523,
+          2391.311126511168
+        ],
+        [
+          1101.8383857044873,
+          2392.544909273511
+        ],
+        [
+          1101.537073405894,
+          2393.781186995494
+        ],
+        [
+          1101.2337269797722,
+          2395.0199596771163
+        ],
+        [
+          1100.9283464261218,
+          2396.2612273183777
+        ],
+        [
+          1100.620931744943,
+          2397.504989919279
+        ],
+        [
+          1100.3114829362357,
+          2398.7512474798195
+        ],
+        [
+          1100.0,
+          2400.0
+        ]
       ],
-      [
-        1155,
-        1951.6256931666649
+      "control": [
+        1110,
+        2360
       ],
-      [
-        1155,
-        2037
+      "end": [
+        1100,
+        2400
       ],
-      [
-        1139,
-        2037
-      ]
-    ],
-    [
-      [
-        1459.0669279999997,
-        2072.74038325
+      "length": 76.56583286658496
+    },
+    {
+      "cityId": "marad",
+      "points": [
+        [
+          1382.7962902493043,
+          2537.308799708571
+        ],
+        [
+          1375.6069521483125,
+          2543.605621592607
+        ],
+        [
+          1368.3012059859193,
+          2549.8278872265005
+        ],
+        [
+          1360.8790517621242,
+          2555.975596610252
+        ],
+        [
+          1353.3404894769276,
+          2562.048749743861
+        ],
+        [
+          1345.685519130329,
+          2568.047346627328
+        ],
+        [
+          1337.914140722329,
+          2573.9713872606526
+        ],
+        [
+          1330.0263542529271,
+          2579.820871643835
+        ],
+        [
+          1322.0221597221234,
+          2585.5957997768746
+        ],
+        [
+          1313.9015571299183,
+          2591.296171659772
+        ],
+        [
+          1305.6645464763114,
+          2596.921987292528
+        ],
+        [
+          1297.3111277613027,
+          2602.47324667514
+        ],
+        [
+          1288.8413009848923,
+          2607.949949807611
+        ],
+        [
+          1280.2550661470802,
+          2613.3520966899396
+        ],
+        [
+          1271.5524232478663,
+          2618.6796873221256
+        ],
+        [
+          1262.7333722872509,
+          2623.9327217041696
+        ],
+        [
+          1253.7979132652335,
+          2629.111199836071
+        ],
+        [
+          1244.7460461818146,
+          2634.2151217178302
+        ],
+        [
+          1235.5777710369941,
+          2639.2444873494474
+        ],
+        [
+          1226.2930878307718,
+          2644.1992967309216
+        ],
+        [
+          1216.8919965631476,
+          2649.079549862254
+        ],
+        [
+          1207.374497234122,
+          2653.8852467434444
+        ],
+        [
+          1197.7405898436946,
+          2658.6163873744918
+        ],
+        [
+          1187.9902743918651,
+          2663.2729717553975
+        ],
+        [
+          1178.1235508786344,
+          2667.8549998861604
+        ],
+        [
+          1168.140419304002,
+          2672.3624717667813
+        ],
+        [
+          1158.0408796679676,
+          2676.7953873972597
+        ],
+        [
+          1147.8249319705317,
+          2681.153746777596
+        ],
+        [
+          1137.4925762116939,
+          2685.43754990779
+        ],
+        [
+          1127.0438123914546,
+          2689.6467967878416
+        ],
+        [
+          1116.4786405098134,
+          2693.781487417751
+        ],
+        [
+          1105.7970605667706,
+          2697.841621797518
+        ],
+        [
+          1094.999072562326,
+          2701.827199927143
+        ],
+        [
+          1084.0846764964797,
+          2705.738221806625
+        ],
+        [
+          1073.0538723692318,
+          2709.574687435965
+        ],
+        [
+          1061.9066601805823,
+          2713.336596815163
+        ],
+        [
+          1050.643039930531,
+          2717.0239499442187
+        ],
+        [
+          1039.2630116190778,
+          2720.636746823132
+        ],
+        [
+          1027.766575246223,
+          2724.174987451903
+        ],
+        [
+          1016.1537308119666,
+          2727.638671830531
+        ],
+        [
+          1004.4244783163084,
+          2731.027799959018
+        ],
+        [
+          992.5788177592484,
+          2734.342371837362
+        ],
+        [
+          980.6167491407869,
+          2737.5823874655634
+        ],
+        [
+          968.5382724609236,
+          2740.747846843623
+        ],
+        [
+          956.3433877196586,
+          2743.83874997154
+        ],
+        [
+          944.0320949169918,
+          2746.855096849315
+        ],
+        [
+          931.6043940529235,
+          2749.7968874769476
+        ],
+        [
+          919.0602851274533,
+          2752.664121854438
+        ],
+        [
+          906.3997681405815,
+          2755.4567999817855
+        ],
+        [
+          893.6228430923079,
+          2758.174921858991
+        ],
+        [
+          880.7295099826326,
+          2760.8184874860544
+        ],
+        [
+          867.7197688115557,
+          2763.3874968629757
+        ],
+        [
+          854.5936195790771,
+          2765.8819499897545
+        ],
+        [
+          841.3510622851967,
+          2768.301846866391
+        ],
+        [
+          827.9920969299146,
+          2770.6471874928848
+        ],
+        [
+          814.5167235132309,
+          2772.9179718692367
+        ],
+        [
+          800.9249420351454,
+          2775.114199995446
+        ],
+        [
+          787.2167524956582,
+          2777.2358718715136
+        ],
+        [
+          773.3921548947693,
+          2779.2829874974386
+        ],
+        [
+          759.4511492324787,
+          2781.255546873221
+        ],
+        [
+          745.3937355087863,
+          2783.1535499988618
+        ],
+        [
+          731.2199137236923,
+          2784.9769968743594
+        ],
+        [
+          716.9296838771966,
+          2786.7258874997156
+        ],
+        [
+          702.5230459692991,
+          2788.400221874929
+        ],
+        [
+          688.0,
+          2790.0
+        ]
       ],
-      [
-        1173,
-        2072.74038325
+      "control": [
+        1154.6,
+        2740
       ],
-      [
-        1173,
-        2287
+      "end": [
+        688,
+        2790
       ],
-      [
-        1139,
-        2287
-      ]
-    ],
-    [
-      [
-        1691.2508567063094,
-        2183.546838594828
+      "length": 750.9221065927818
+    },
+    {
+      "cityId": "isin",
+      "points": [
+        [
+          1788.0336928633924,
+          2731.0118195406812
+        ],
+        [
+          1787.740655999708,
+          2735.64109173754
+        ],
+        [
+          1787.3636512126172,
+          2740.217147049409
+        ],
+        [
+          1786.90267850212,
+          2744.739985476288
+        ],
+        [
+          1786.357737868216,
+          2749.209607018177
+        ],
+        [
+          1785.7288293109054,
+          2753.626011675076
+        ],
+        [
+          1785.0159528301886,
+          2757.9891994469854
+        ],
+        [
+          1784.2191084260648,
+          2762.299170333905
+        ],
+        [
+          1783.3382960985348,
+          2766.555924335834
+        ],
+        [
+          1782.3735158475981,
+          2770.7594614527734
+        ],
+        [
+          1781.3247676732549,
+          2774.9097816847234
+        ],
+        [
+          1780.1920515755053,
+          2779.006885031683
+        ],
+        [
+          1778.9753675543488,
+          2783.050771493653
+        ],
+        [
+          1777.674715609786,
+          2787.0414410706326
+        ],
+        [
+          1776.2900957418167,
+          2790.9788937626226
+        ],
+        [
+          1774.8215079504407,
+          2794.863129569623
+        ],
+        [
+          1773.2689522356582,
+          2798.6941484916333
+        ],
+        [
+          1771.6324285974692,
+          2802.4719505286535
+        ],
+        [
+          1769.9119370358735,
+          2806.196535680684
+        ],
+        [
+          1768.1074775508714,
+          2809.8679039477247
+        ],
+        [
+          1766.219050142463,
+          2813.486055329775
+        ],
+        [
+          1764.2466548106477,
+          2817.0509898268356
+        ],
+        [
+          1762.1902915554258,
+          2820.5627074389067
+        ],
+        [
+          1760.0499603767976,
+          2824.0212081659874
+        ],
+        [
+          1757.8256612747628,
+          2827.4264920080786
+        ],
+        [
+          1755.5173942493211,
+          2830.77855896518
+        ],
+        [
+          1753.1251593004733,
+          2834.077409037291
+        ],
+        [
+          1750.6489564282188,
+          2837.3230422244123
+        ],
+        [
+          1748.0887856325578,
+          2840.5154585265436
+        ],
+        [
+          1745.44464691349,
+          2843.6546579436854
+        ],
+        [
+          1742.7165402710161,
+          2846.7406404758367
+        ],
+        [
+          1739.9044657051354,
+          2849.7734061229985
+        ],
+        [
+          1737.008423215848,
+          2852.7529548851703
+        ],
+        [
+          1734.0284128031544,
+          2855.679286762352
+        ],
+        [
+          1730.964434467054,
+          2858.552401754544
+        ],
+        [
+          1727.816488207547,
+          2861.3722998617463
+        ],
+        [
+          1724.5845740246336,
+          2864.1389810839582
+        ],
+        [
+          1721.2686919183138,
+          2866.852445421181
+        ],
+        [
+          1717.8688418885872,
+          2869.5126928734135
+        ],
+        [
+          1714.3850239354542,
+          2872.1197234406554
+        ],
+        [
+          1710.8172380589144,
+          2874.6735371229083
+        ],
+        [
+          1707.1654842589685,
+          2877.174133920171
+        ],
+        [
+          1703.4297625356157,
+          2879.6215138324437
+        ],
+        [
+          1699.6100728888564,
+          2882.0156768597267
+        ],
+        [
+          1695.7064153186907,
+          2884.3566230020197
+        ],
+        [
+          1691.7187898251184,
+          2886.6443522593227
+        ],
+        [
+          1687.6471964081395,
+          2888.878864631636
+        ],
+        [
+          1683.491635067754,
+          2891.060160118959
+        ],
+        [
+          1679.252105803962,
+          2893.1882387212927
+        ],
+        [
+          1674.9286086167635,
+          2895.263100438636
+        ],
+        [
+          1670.5211435061583,
+          2897.2847452709893
+        ],
+        [
+          1666.0297104721467,
+          2899.2531732183534
+        ],
+        [
+          1661.4543095147287,
+          2901.168384280727
+        ],
+        [
+          1656.794940633904,
+          2903.030378458111
+        ],
+        [
+          1652.0516038296728,
+          2904.8391557505047
+        ],
+        [
+          1647.2242991020348,
+          2906.594716157909
+        ],
+        [
+          1642.3130264509905,
+          2908.2970596803234
+        ],
+        [
+          1637.3177858765396,
+          2909.9461863177476
+        ],
+        [
+          1632.2385773786823,
+          2911.5420960701817
+        ],
+        [
+          1627.0754009574182,
+          2913.0847889376264
+        ],
+        [
+          1621.8282566127477,
+          2914.5742649200806
+        ],
+        [
+          1616.4971443446705,
+          2916.0105240175453
+        ],
+        [
+          1611.0820641531868,
+          2917.39356623002
+        ],
+        [
+          1605.5830160382968,
+          2918.7233915575052
+        ],
+        [
+          1600.0,
+          2920.0
+        ]
       ],
-      [
-        1191,
-        2183.546838594828
+      "control": [
+        1780,
+        2880
       ],
-      [
-        1191,
-        2527
+      "end": [
+        1600,
+        2920
       ],
-      [
-        1139,
-        2527
-      ]
-    ],
-    [
-      [
-        1868.7450355679823,
-        2501.04311883728
+      "length": 289.80763460893303
+    },
+    {
+      "cityId": "uruk",
+      "points": [
+        [
+          2097.8194752893837,
+          3283.7656237108135
+        ],
+        [
+          2093.8221429256746,
+          3285.824160280327
+        ],
+        [
+          2089.8188630401346,
+          3287.860121470793
+        ],
+        [
+          2085.809635632763,
+          3289.8735072822114
+        ],
+        [
+          2081.7944607035597,
+          3291.8643177145823
+        ],
+        [
+          2077.7733382525257,
+          3293.832552767906
+        ],
+        [
+          2073.74626827966,
+          3295.778212442182
+        ],
+        [
+          2069.713250784963,
+          3297.7012967374103
+        ],
+        [
+          2065.6742857684344,
+          3299.601805653592
+        ],
+        [
+          2061.6293732300746,
+          3301.4797391907255
+        ],
+        [
+          2057.5785131698835,
+          3303.335097348812
+        ],
+        [
+          2053.521705587861,
+          3305.1678801278504
+        ],
+        [
+          2049.458950484007,
+          3306.9780875278416
+        ],
+        [
+          2045.390247858322,
+          3308.7657195487855
+        ],
+        [
+          2041.3155977108056,
+          3310.530776190682
+        ],
+        [
+          2037.2350000414576,
+          3312.273257453531
+        ],
+        [
+          2033.1484548502783,
+          3313.9931633373326
+        ],
+        [
+          2029.0559621372677,
+          3315.6904938420867
+        ],
+        [
+          2024.9575219024257,
+          3317.3652489677934
+        ],
+        [
+          2020.8531341457524,
+          3319.0174287144528
+        ],
+        [
+          2016.7427988672478,
+          3320.647033082064
+        ],
+        [
+          2012.6265160669118,
+          3322.2540620706286
+        ],
+        [
+          2008.5042857447443,
+          3323.838515680145
+        ],
+        [
+          2004.3761079007456,
+          3325.4003939106146
+        ],
+        [
+          2000.2419825349157,
+          3326.939696762037
+        ],
+        [
+          1996.1019096472542,
+          3328.4564242344113
+        ],
+        [
+          1991.9558892377613,
+          3329.950576327738
+        ],
+        [
+          1987.8039213064371,
+          3331.4221530420173
+        ],
+        [
+          1983.6460058532816,
+          3332.8711543772497
+        ],
+        [
+          1979.4821428782948,
+          3334.2975803334343
+        ],
+        [
+          1975.3123323814766,
+          3335.7014309105716
+        ],
+        [
+          1971.1365743628269,
+          3337.082706108661
+        ],
+        [
+          1966.9548688223458,
+          3338.4414059277033
+        ],
+        [
+          1962.7672157600337,
+          3339.777530367698
+        ],
+        [
+          1958.57361517589,
+          3341.0910794286456
+        ],
+        [
+          1954.3740670699149,
+          3342.3820531105457
+        ],
+        [
+          1950.1685714421087,
+          3343.650451413398
+        ],
+        [
+          1945.9571282924708,
+          3344.896274337203
+        ],
+        [
+          1941.7397376210017,
+          3346.1195218819603
+        ],
+        [
+          1937.5163994277013,
+          3347.3201940476706
+        ],
+        [
+          1933.2871137125696,
+          3348.498290834333
+        ],
+        [
+          1929.0518804756064,
+          3349.6538122419483
+        ],
+        [
+          1924.810699716812,
+          3350.7867582705157
+        ],
+        [
+          1920.563571436186,
+          3351.8971289200363
+        ],
+        [
+          1916.3104956337288,
+          3352.9849241905094
+        ],
+        [
+          1912.0514723094402,
+          3354.0501440819344
+        ],
+        [
+          1907.7865014633203,
+          3355.0927885943124
+        ],
+        [
+          1903.515583095369,
+          3356.112857727643
+        ],
+        [
+          1899.2387172055865,
+          3357.110351481926
+        ],
+        [
+          1894.9559037939725,
+          3358.0852698571616
+        ],
+        [
+          1890.6671428605273,
+          3359.0376128533494
+        ],
+        [
+          1886.3724344052505,
+          3359.96738047049
+        ],
+        [
+          1882.0717784281424,
+          3360.8745727085834
+        ],
+        [
+          1877.765174929203,
+          3361.7591895676287
+        ],
+        [
+          1873.452623908432,
+          3362.621231047627
+        ],
+        [
+          1869.1341253658302,
+          3363.460697148578
+        ],
+        [
+          1864.8096793013965,
+          3364.2775878704815
+        ],
+        [
+          1860.4792857151317,
+          3365.0719032133375
+        ],
+        [
+          1856.1429446070356,
+          3365.843643177146
+        ],
+        [
+          1851.8006559771081,
+          3366.592807761907
+        ],
+        [
+          1847.4524198253491,
+          3367.3193969676204
+        ],
+        [
+          1843.098236151759,
+          3368.0234107942865
+        ],
+        [
+          1838.7381049563373,
+          3368.7048492419053
+        ],
+        [
+          1834.3720262390843,
+          3369.3637123104763
+        ],
+        [
+          1830.0,
+          3370.0
+        ]
       ],
-      [
-        1227,
-        2501.04311883728
+      "control": [
+        1970,
+        3350
       ],
-      [
-        1227,
-        3057
+      "end": [
+        1830,
+        3370
       ],
-      [
-        1139,
-        3057
-      ]
-    ],
-    [
-      [
-        1971.1760000000015,
-        2523.732677499999
+      "length": 282.7044993009674
+    },
+    {
+      "cityId": "larsa",
+      "points": [
+        [
+          2276.5952338225775,
+          3323.1405966893367
+        ],
+        [
+          2270.1724812113794,
+          3328.9807197900336
+        ],
+        [
+          2263.8164254916965,
+          3334.8223763852075
+        ],
+        [
+          2257.527066663528,
+          3340.6655664748587
+        ],
+        [
+          2251.304404726875,
+          3346.5102900589873
+        ],
+        [
+          2245.1484396817364,
+          3352.356547137593
+        ],
+        [
+          2239.059171528113,
+          3358.204337710676
+        ],
+        [
+          2233.0366002660044,
+          3364.053661778236
+        ],
+        [
+          2227.080725895411,
+          3369.9045193402735
+        ],
+        [
+          2221.1915484163324,
+          3375.756910396788
+        ],
+        [
+          2215.3690678287685,
+          3381.61083494778
+        ],
+        [
+          2209.61328413272,
+          3387.4662929932488
+        ],
+        [
+          2203.924197328186,
+          3393.323284533195
+        ],
+        [
+          2198.301807415167,
+          3399.1818095676185
+        ],
+        [
+          2192.746114393663,
+          3405.041868096519
+        ],
+        [
+          2187.257118263674,
+          3410.903460119897
+        ],
+        [
+          2181.8348190252,
+          3416.7665856377516
+        ],
+        [
+          2176.479216678241,
+          3422.631244650084
+        ],
+        [
+          2171.1903112227965,
+          3428.4974371568937
+        ],
+        [
+          2165.968102658867,
+          3434.3651631581806
+        ],
+        [
+          2160.812590986453,
+          3440.2344226539444
+        ],
+        [
+          2155.723776205553,
+          3446.1052156441856
+        ],
+        [
+          2150.7016583161685,
+          3451.9775421289037
+        ],
+        [
+          2145.746237318299,
+          3457.851402108099
+        ],
+        [
+          2140.8575132119445,
+          3463.7267955817724
+        ],
+        [
+          2136.035485997105,
+          3469.603722549922
+        ],
+        [
+          2131.2801556737795,
+          3475.4821830125493
+        ],
+        [
+          2126.59152224197,
+          3481.362176969654
+        ],
+        [
+          2121.969585701675,
+          3487.2437044212356
+        ],
+        [
+          2117.414346052895,
+          3493.1267653672944
+        ],
+        [
+          2112.9258032956295,
+          3499.0113598078306
+        ],
+        [
+          2108.50395742988,
+          3504.8974877428436
+        ],
+        [
+          2104.1488084556445,
+          3510.785149172334
+        ],
+        [
+          2099.860356372924,
+          3516.674344096302
+        ],
+        [
+          2095.6386011817185,
+          3522.565072514747
+        ],
+        [
+          2091.4835428820284,
+          3528.457334427669
+        ],
+        [
+          2087.395181473853,
+          3534.3511298350686
+        ],
+        [
+          2083.373516957192,
+          3540.246458736945
+        ],
+        [
+          2079.4185493320465,
+          3546.1433211332987
+        ],
+        [
+          2075.530278598416,
+          3552.04171702413
+        ],
+        [
+          2071.7087047563,
+          3557.941646409438
+        ],
+        [
+          2067.953827805699,
+          3563.8431092892233
+        ],
+        [
+          2064.2656477466135,
+          3569.746105663486
+        ],
+        [
+          2060.644164579042,
+          3575.650635532226
+        ],
+        [
+          2057.089378302986,
+          3581.5566988954433
+        ],
+        [
+          2053.601288918445,
+          3587.4642957531373
+        ],
+        [
+          2050.1798964254185,
+          3593.3734261053087
+        ],
+        [
+          2046.8252008239074,
+          3599.284089951958
+        ],
+        [
+          2043.537202113911,
+          3605.1962872930835
+        ],
+        [
+          2040.3159002954296,
+          3611.1100181286865
+        ],
+        [
+          2037.1612953684632,
+          3617.025282458767
+        ],
+        [
+          2034.0733873330116,
+          3622.9420802833247
+        ],
+        [
+          2031.052176189075,
+          3628.86041160236
+        ],
+        [
+          2028.0976619366534,
+          3634.7802764158714
+        ],
+        [
+          2025.2098445757465,
+          3640.701674723861
+        ],
+        [
+          2022.3887241063546,
+          3646.624606526327
+        ],
+        [
+          2019.6343005284778,
+          3652.549071823271
+        ],
+        [
+          2016.9465738421159,
+          3658.4750706146915
+        ],
+        [
+          2014.3255440472687,
+          3664.40260290059
+        ],
+        [
+          2011.7712111439366,
+          3670.3316686809653
+        ],
+        [
+          2009.2835751321195,
+          3676.2622679558176
+        ],
+        [
+          2006.8626360118171,
+          3682.1944007251477
+        ],
+        [
+          2004.5083937830298,
+          3688.1280669889543
+        ],
+        [
+          2002.2208484457574,
+          3694.0632667472387
+        ],
+        [
+          2000.0,
+          3700.0
+        ]
       ],
-      [
-        1245,
-        2523.732677499999
+      "control": [
+        2070,
+        3510
       ],
-      [
-        1245,
-        3367
+      "end": [
+        2000,
+        3700
       ],
-      [
-        1139,
-        3367
-      ]
-    ],
-    [
-      [
-        2043.9799519999963,
-        2467.2101057500013
+      "length": 471.973513733002
+    },
+    {
+      "cityId": "badtibira",
+      "points": [
+        [
+          2403.6621009089595,
+          3225.021328681672
+        ],
+        [
+          2405.0841988544094,
+          3228.3129036956925
+        ],
+        [
+          2406.4543739975684,
+          3231.626461780358
+        ],
+        [
+          2407.772626338437,
+          3234.9620029356693
+        ],
+        [
+          2409.0389558770153,
+          3238.319527161626
+        ],
+        [
+          2410.2533626133027,
+          3241.6990344582277
+        ],
+        [
+          2411.4158465472997,
+          3245.1005248254746
+        ],
+        [
+          2412.5264076790063,
+          3248.523998263367
+        ],
+        [
+          2413.585046008422,
+          3251.969454771905
+        ],
+        [
+          2414.5917615355474,
+          3255.4368943510885
+        ],
+        [
+          2415.5465542603824,
+          3258.9263170009167
+        ],
+        [
+          2416.4494241829266,
+          3262.437722721391
+        ],
+        [
+          2417.3003713031803,
+          3265.97111151251
+        ],
+        [
+          2418.0993956211432,
+          3269.526483374275
+        ],
+        [
+          2418.846497136816,
+          3273.1038383066843
+        ],
+        [
+          2419.541675850198,
+          3276.70317630974
+        ],
+        [
+          2420.1849317612896,
+          3280.3244973834408
+        ],
+        [
+          2420.776264870091,
+          3283.9678015277864
+        ],
+        [
+          2421.315675176601,
+          3287.6330887427775
+        ],
+        [
+          2421.803162680821,
+          3291.3203590284147
+        ],
+        [
+          2422.2387273827503,
+          3295.0296123846965
+        ],
+        [
+          2422.622369282389,
+          3298.760848811624
+        ],
+        [
+          2422.954088379737,
+          3302.514068309197
+        ],
+        [
+          2423.2338846747953,
+          3306.2892708774148
+        ],
+        [
+          2423.461758167562,
+          3310.0864565162783
+        ],
+        [
+          2423.637708858039,
+          3313.905625225787
+        ],
+        [
+          2423.761736746225,
+          3317.746777005941
+        ],
+        [
+          2423.8338418321205,
+          3321.6099118567404
+        ],
+        [
+          2423.854024115725,
+          3325.495029778185
+        ],
+        [
+          2423.82228359704,
+          3329.4021307702756
+        ],
+        [
+          2423.7386202760636,
+          3333.331214833011
+        ],
+        [
+          2423.603034152797,
+          3337.2822819663916
+        ],
+        [
+          2423.41552522724,
+          3341.255332170418
+        ],
+        [
+          2423.176093499392,
+          3345.2503654450893
+        ],
+        [
+          2422.8847389692537,
+          3349.2673817904065
+        ],
+        [
+          2422.541461636825,
+          3353.3063812063688
+        ],
+        [
+          2422.1462615021055,
+          3357.367363692976
+        ],
+        [
+          2421.6991385650954,
+          3361.450329250229
+        ],
+        [
+          2421.200092825795,
+          3365.5552778781275
+        ],
+        [
+          2420.649124284204,
+          3369.682209576671
+        ],
+        [
+          2420.0462329403226,
+          3373.83112434586
+        ],
+        [
+          2419.39141879415,
+          3378.0020221856944
+        ],
+        [
+          2418.6846818456875,
+          3382.194903096174
+        ],
+        [
+          2417.9260220949345,
+          3386.409767077299
+        ],
+        [
+          2417.1154395418907,
+          3390.6466141290693
+        ],
+        [
+          2416.2529341865566,
+          3394.9054442514853
+        ],
+        [
+          2415.338506028931,
+          3399.1862574445463
+        ],
+        [
+          2414.372155069016,
+          3403.489053708253
+        ],
+        [
+          2413.35388130681,
+          3407.8138330426045
+        ],
+        [
+          2412.283684742313,
+          3412.1605954476017
+        ],
+        [
+          2411.161565375526,
+          3416.529340923244
+        ],
+        [
+          2409.9875232064487,
+          3420.920069469532
+        ],
+        [
+          2408.761558235081,
+          3425.332781086465
+        ],
+        [
+          2407.4836704614218,
+          3429.7674757740433
+        ],
+        [
+          2406.1538598854727,
+          3434.2241535322673
+        ],
+        [
+          2404.7721265072328,
+          3438.7028143611365
+        ],
+        [
+          2403.3384703267025,
+          3443.203458260651
+        ],
+        [
+          2401.8528913438818,
+          3447.726085230811
+        ],
+        [
+          2400.31538955877,
+          3452.270695271616
+        ],
+        [
+          2398.7259649713683,
+          3456.837288383067
+        ],
+        [
+          2397.0846175816755,
+          3461.4258645651626
+        ],
+        [
+          2395.3913473896923,
+          3466.036423817904
+        ],
+        [
+          2393.6461543954188,
+          3470.6689661412906
+        ],
+        [
+          2391.849038598855,
+          3475.323491535323
+        ],
+        [
+          2390.0,
+          3480.0
+        ]
       ],
-      [
-        1209,
-        2467.2101057500013
+      "control": [
+        2450,
+        3330
       ],
-      [
-        1209,
-        2817
+      "end": [
+        2390,
+        3480
       ],
-      [
-        1139,
-        2817
-      ]
-    ],
-    [
-      [
-        2092.6015096101955,
-        2705.6053601975095
+      "length": 262.35122679458266
+    },
+    {
+      "cityId": "ur",
+      "points": [
+        [
+          2488.522727683568,
+          3638.155592878061
+        ],
+        [
+          2493.48308256252,
+          3646.625866243414
+        ],
+        [
+          2498.2718176795984,
+          3655.046410894352
+        ],
+        [
+          2502.888933034804,
+          3663.4172268308753
+        ],
+        [
+          2507.334428628136,
+          3671.7383140529832
+        ],
+        [
+          2511.608304459595,
+          3680.0096725606763
+        ],
+        [
+          2515.7105605291804,
+          3688.231302353954
+        ],
+        [
+          2519.641196836893,
+          3696.4032034328175
+        ],
+        [
+          2523.4002133827316,
+          3704.5253757972655
+        ],
+        [
+          2526.987610166698,
+          3712.597819447298
+        ],
+        [
+          2530.4033871887905,
+          3720.6205343829165
+        ],
+        [
+          2533.6475444490097,
+          3728.5935206041195
+        ],
+        [
+          2536.7200819473555,
+          3736.516778110907
+        ],
+        [
+          2539.6209996838284,
+          3744.3903069032804
+        ],
+        [
+          2542.3502976584277,
+          3752.2141069812383
+        ],
+        [
+          2544.907975871154,
+          3759.9881783447813
+        ],
+        [
+          2547.294034322007,
+          3767.7125209939095
+        ],
+        [
+          2549.5084730109866,
+          3775.387134928622
+        ],
+        [
+          2551.5512919380935,
+          3783.01202014892
+        ],
+        [
+          2553.4224911033266,
+          3790.587176654803
+        ],
+        [
+          2555.122070506686,
+          3798.112604446271
+        ],
+        [
+          2556.650030148173,
+          3805.5883035233237
+        ],
+        [
+          2558.006370027787,
+          3813.0142738859618
+        ],
+        [
+          2559.1910901455267,
+          3820.3905155341845
+        ],
+        [
+          2560.204190501394,
+          3827.7170284679923
+        ],
+        [
+          2561.0456710953877,
+          3834.9938126873853
+        ],
+        [
+          2561.715531927508,
+          3842.220868192363
+        ],
+        [
+          2562.213772997755,
+          3849.398194982926
+        ],
+        [
+          2562.540394306129,
+          3856.525793059074
+        ],
+        [
+          2562.6953958526296,
+          3863.603662420807
+        ],
+        [
+          2562.678777637257,
+          3870.6318030681246
+        ],
+        [
+          2562.490539660011,
+          3877.6102150010274
+        ],
+        [
+          2562.130681920892,
+          3884.5388982195154
+        ],
+        [
+          2561.5992044198997,
+          3891.417852723588
+        ],
+        [
+          2560.896107157034,
+          3898.247078513246
+        ],
+        [
+          2560.021390132295,
+          3905.0265755884884
+        ],
+        [
+          2558.9750533456827,
+          3911.7563439493165
+        ],
+        [
+          2557.757096797198,
+          3918.4363835957292
+        ],
+        [
+          2556.3675204868387,
+          3925.0666945277267
+        ],
+        [
+          2554.806324414607,
+          3931.6472767453097
+        ],
+        [
+          2553.0735085805018,
+          3938.1781302484774
+        ],
+        [
+          2551.169072984523,
+          3944.65925503723
+        ],
+        [
+          2549.0930176266716,
+          3951.0906511115677
+        ],
+        [
+          2546.8453425069465,
+          3957.4723184714903
+        ],
+        [
+          2544.4260476253485,
+          3963.804257116998
+        ],
+        [
+          2541.835132981877,
+          3970.0864670480905
+        ],
+        [
+          2539.072598576532,
+          3976.3189482647686
+        ],
+        [
+          2536.138444409314,
+          3982.5017007670313
+        ],
+        [
+          2533.032670480223,
+          3988.6347245548786
+        ],
+        [
+          2529.7552767892585,
+          3994.7180196283116
+        ],
+        [
+          2526.3062633364207,
+          4000.7515859873292
+        ],
+        [
+          2522.6856301217094,
+          4006.7354236319316
+        ],
+        [
+          2518.8933771451257,
+          4012.6695325621195
+        ],
+        [
+          2514.929504406668,
+          4018.553912777892
+        ],
+        [
+          2510.794011906337,
+          4024.3885642792493
+        ],
+        [
+          2506.486899644133,
+          4030.173487066192
+        ],
+        [
+          2502.0081676200557,
+          4035.9086811387197
+        ],
+        [
+          2497.357815834105,
+          4041.5941464968323
+        ],
+        [
+          2492.535844286281,
+          4047.2298831405296
+        ],
+        [
+          2487.542252976584,
+          4052.8158910698126
+        ],
+        [
+          2482.377041905014,
+          4058.35217028468
+        ],
+        [
+          2477.0402110715704,
+          4063.8387207851324
+        ],
+        [
+          2471.5317604762536,
+          4069.27554257117
+        ],
+        [
+          2465.8516901190633,
+          4074.6626356427923
+        ],
+        [
+          2460.0,
+          4080.0
+        ]
       ],
-      [
-        1263,
-        2705.6053601975095
+      "control": [
+        2650,
+        3910
       ],
-      [
-        1263,
-        3617
+      "end": [
+        2460,
+        4080
       ],
-      [
-        1139,
-        3617
-      ]
-    ],
-    [
-      [
-        2039.9086457145506,
-        2785.4553385371473
+      "length": 487.4876347372288
+    },
+    {
+      "cityId": "eridu",
+      "points": [
+        [
+          2396.556330955143,
+          3776.1249434272095
+        ],
+        [
+          2394.038593154532,
+          3782.1459717926255
+        ],
+        [
+          2391.270150437395,
+          3788.0918658530745
+        ],
+        [
+          2388.2510028037323,
+          3793.962625608556
+        ],
+        [
+          2384.9811502535435,
+          3799.758251059071
+        ],
+        [
+          2381.4605927868292,
+          3805.4787422046184
+        ],
+        [
+          2377.6893304035893,
+          3811.1240990451984
+        ],
+        [
+          2373.667363103823,
+          3816.6943215808114
+        ],
+        [
+          2369.3946908875314,
+          3822.189409811457
+        ],
+        [
+          2364.871313754714,
+          3827.609363737136
+        ],
+        [
+          2360.09723170537,
+          3832.9541833578473
+        ],
+        [
+          2355.0724447395014,
+          3838.223868673592
+        ],
+        [
+          2349.796952857106,
+          3843.418419684369
+        ],
+        [
+          2344.2707560581853,
+          3848.5378363901787
+        ],
+        [
+          2338.493854342739,
+          3853.5821187910215
+        ],
+        [
+          2332.4662477107663,
+          3858.551266886897
+        ],
+        [
+          2326.1879361622678,
+          3863.4452806778054
+        ],
+        [
+          2319.6589196972436,
+          3868.2641601637465
+        ],
+        [
+          2312.8791983156943,
+          3873.0079053447207
+        ],
+        [
+          2305.848772017618,
+          3877.6765162207275
+        ],
+        [
+          2298.5676408030167,
+          3882.269992791767
+        ],
+        [
+          2291.0358046718893,
+          3886.7883350578395
+        ],
+        [
+          2283.2532636242363,
+          3891.2315430189446
+        ],
+        [
+          2275.2200176600572,
+          3895.599616675083
+        ],
+        [
+          2266.9360667793526,
+          3899.8925560262537
+        ],
+        [
+          2258.4014109821223,
+          3904.1103610724576
+        ],
+        [
+          2249.616050268366,
+          3908.253031813694
+        ],
+        [
+          2240.5799846380837,
+          3912.3205682499633
+        ],
+        [
+          2231.293214091276,
+          3916.3129703812656
+        ],
+        [
+          2221.755738627942,
+          3920.2302382076005
+        ],
+        [
+          2211.9675582480822,
+          3924.0723717289684
+        ],
+        [
+          2201.928672951697,
+          3927.839370945369
+        ],
+        [
+          2191.639082738786,
+          3931.5312358568026
+        ],
+        [
+          2181.0987876093486,
+          3935.147966463269
+        ],
+        [
+          2170.307787563386,
+          3938.6895627647677
+        ],
+        [
+          2159.2660826008973,
+          3942.1560247612997
+        ],
+        [
+          2147.973672721883,
+          3945.5473524528643
+        ],
+        [
+          2136.4305579263428,
+          3948.863545839462
+        ],
+        [
+          2124.6367382142766,
+          3952.1046049210922
+        ],
+        [
+          2112.5922135856845,
+          3955.2705296977556
+        ],
+        [
+          2100.2969840405667,
+          3958.3613201694516
+        ],
+        [
+          2087.751049578924,
+          3961.37697633618
+        ],
+        [
+          2074.954410200754,
+          3964.317498197942
+        ],
+        [
+          2061.907065906059,
+          3967.182885754736
+        ],
+        [
+          2048.609016694838,
+          3969.9731390065635
+        ],
+        [
+          2035.0602625670915,
+          3972.6882579534235
+        ],
+        [
+          2021.2608035228188,
+          3975.3282425953166
+        ],
+        [
+          2007.2106395620206,
+          3977.8930929322423
+        ],
+        [
+          1992.9097706846965,
+          3980.3828089642006
+        ],
+        [
+          1978.3581968908466,
+          3982.797390691192
+        ],
+        [
+          1963.5559181804706,
+          3985.136838113216
+        ],
+        [
+          1948.502934553569,
+          3987.401151230273
+        ],
+        [
+          1933.199246010142,
+          3989.590330042363
+        ],
+        [
+          1917.6448525501885,
+          3991.7043745494857
+        ],
+        [
+          1901.8397541737095,
+          3993.743284751641
+        ],
+        [
+          1885.7839508807047,
+          3995.707060648829
+        ],
+        [
+          1869.4774426711742,
+          3997.5957022410503
+        ],
+        [
+          1852.9202295451178,
+          3999.409209528304
+        ],
+        [
+          1836.1123115025355,
+          4001.147582510591
+        ],
+        [
+          1819.0536885434274,
+          4002.8108211879103
+        ],
+        [
+          1801.7443606677934,
+          4004.3989255602623
+        ],
+        [
+          1784.184327875634,
+          4005.9118956276475
+        ],
+        [
+          1766.3735901669484,
+          4007.3497313900657
+        ],
+        [
+          1748.312147541737,
+          4008.7124328475165
+        ],
+        [
+          1730.0,
+          4010.0
+        ]
       ],
-      [
-        1281,
-        2785.4553385371473
+      "control": [
+        2320,
+        3970
       ],
-      [
-        1281,
-        3957
+      "end": [
+        1730,
+        4010
       ],
-      [
-        1139,
-        3957
-      ]
-    ],
-    [
-      [
-        1431.5070629128047,
-        1280.0188430856492
+      "length": 734.516465619309
+    },
+    {
+      "cityId": "eshnunna",
+      "points": [
+        [
+          1334.6952515316054,
+          1139.1538310217672
+        ],
+        [
+          1338.9149055978862,
+          1138.567274249364
+        ],
+        [
+          1343.1173210174538,
+          1138.004718371014
+        ],
+        [
+          1347.3024977903085,
+          1137.4661633867177
+        ],
+        [
+          1351.47043591645,
+          1136.951609296475
+        ],
+        [
+          1355.6211353958786,
+          1136.461056100286
+        ],
+        [
+          1359.754596228594,
+          1135.9945037981506
+        ],
+        [
+          1363.8708184145962,
+          1135.551952390069
+        ],
+        [
+          1367.9698019538855,
+          1135.1334018760406
+        ],
+        [
+          1372.0515468464614,
+          1134.738852256066
+        ],
+        [
+          1376.1160530923246,
+          1134.3683035301449
+        ],
+        [
+          1380.1633206914744,
+          1134.0217556982775
+        ],
+        [
+          1384.1933496439115,
+          1133.6992087604635
+        ],
+        [
+          1388.2061399496351,
+          1133.4006627167032
+        ],
+        [
+          1392.201691608646,
+          1133.1261175669965
+        ],
+        [
+          1396.1800046209435,
+          1132.8755733113435
+        ],
+        [
+          1400.141078986528,
+          1132.649029949744
+        ],
+        [
+          1404.0849147053996,
+          1132.4464874821983
+        ],
+        [
+          1408.0115117775579,
+          1132.2679459087058
+        ],
+        [
+          1411.9208702030032,
+          1132.1134052292673
+        ],
+        [
+          1415.8129899817354,
+          1131.982865443882
+        ],
+        [
+          1419.6878711137545,
+          1131.8763265525508
+        ],
+        [
+          1423.5455135990605,
+          1131.7937885552728
+        ],
+        [
+          1427.3859174376535,
+          1131.7352514520485
+        ],
+        [
+          1431.2090826295334,
+          1131.7007152428778
+        ],
+        [
+          1435.0150091747,
+          1131.6901799277607
+        ],
+        [
+          1438.803697073154,
+          1131.7036455066973
+        ],
+        [
+          1442.5751463248944,
+          1131.7411119796873
+        ],
+        [
+          1446.3293569299221,
+          1131.802579346731
+        ],
+        [
+          1450.0663288882365,
+          1131.8880476078284
+        ],
+        [
+          1453.786062199838,
+          1131.997516762979
+        ],
+        [
+          1457.4885568647262,
+          1132.1309868121837
+        ],
+        [
+          1461.1738128829013,
+          1132.2884577554419
+        ],
+        [
+          1464.8418302543635,
+          1132.4699295927535
+        ],
+        [
+          1468.4926089791124,
+          1132.6754023241187
+        ],
+        [
+          1472.1261490571485,
+          1132.9048759495377
+        ],
+        [
+          1475.7424504884714,
+          1133.1583504690102
+        ],
+        [
+          1479.341513273081,
+          1133.4358258825362
+        ],
+        [
+          1482.9233374109779,
+          1133.7373021901158
+        ],
+        [
+          1486.4879229021615,
+          1134.0627793917492
+        ],
+        [
+          1490.035269746632,
+          1134.412257487436
+        ],
+        [
+          1493.5653779443894,
+          1134.7857364771764
+        ],
+        [
+          1497.078247495434,
+          1135.1832163609706
+        ],
+        [
+          1500.5738783997651,
+          1135.6046971388182
+        ],
+        [
+          1504.0522706573834,
+          1136.0501788107194
+        ],
+        [
+          1507.5134242682884,
+          1136.5196613766743
+        ],
+        [
+          1510.9573392324805,
+          1137.0131448366828
+        ],
+        [
+          1514.3840155499595,
+          1137.5306291907448
+        ],
+        [
+          1517.7934532207255,
+          1138.0721144388604
+        ],
+        [
+          1521.185652244778,
+          1138.6376005810298
+        ],
+        [
+          1524.5606126221178,
+          1139.2270876172524
+        ],
+        [
+          1527.9183343527443,
+          1139.840575547529
+        ],
+        [
+          1531.2588174366579,
+          1140.478064371859
+        ],
+        [
+          1534.5820618738585,
+          1141.1395540902427
+        ],
+        [
+          1537.8880676643457,
+          1141.8250447026799
+        ],
+        [
+          1541.17683480812,
+          1142.5345362091707
+        ],
+        [
+          1544.4483633051814,
+          1143.2680286097152
+        ],
+        [
+          1547.7026531555293,
+          1144.025521904313
+        ],
+        [
+          1550.9397043591646,
+          1144.8070160929647
+        ],
+        [
+          1554.1595169160864,
+          1145.61251117567
+        ],
+        [
+          1557.3620908262953,
+          1146.4420071524287
+        ],
+        [
+          1560.547426089791,
+          1147.2955040232412
+        ],
+        [
+          1563.715522706574,
+          1148.1730017881073
+        ],
+        [
+          1566.8663806766435,
+          1149.0745004470268
+        ],
+        [
+          1570.0,
+          1150.0
+        ]
       ],
-      [
-        2770,
-        1280.0188430856492
+      "control": [
+        1470,
+        1120
       ],
-      [
-        2770,
-        1137
+      "end": [
+        1570,
+        1150
       ],
-      [
-        2911,
-        1137
-      ]
-    ],
-    [
-      [
-        2011.9198239999992,
-        1486.3581936666637
+      "length": 237.38308047297676
+    },
+    {
+      "cityId": "der",
+      "points": [
+        [
+          2347.706621687882,
+          1505.2176017395186
+        ],
+        [
+          2352.157612665821,
+          1502.5753567637084
+        ],
+        [
+          2356.6172494551315,
+          1499.9747219449976
+        ],
+        [
+          2361.0855320558126,
+          1497.415697283386
+        ],
+        [
+          2365.562460467865,
+          1494.8982827788739
+        ],
+        [
+          2370.048034691288,
+          1492.422478431461
+        ],
+        [
+          2374.542254726083,
+          1489.9882842411475
+        ],
+        [
+          2379.0451205722484,
+          1487.5957002079335
+        ],
+        [
+          2383.5566322297846,
+          1485.244726331819
+        ],
+        [
+          2388.076789698692,
+          1482.9353626128036
+        ],
+        [
+          2392.605592978971,
+          1480.6676090508877
+        ],
+        [
+          2397.14304207062,
+          1478.4414656460713
+        ],
+        [
+          2401.689136973641,
+          1476.2569323983541
+        ],
+        [
+          2406.2438776880326,
+          1474.1140093077363
+        ],
+        [
+          2410.807264213795,
+          1472.0126963742177
+        ],
+        [
+          2415.379296550929,
+          1469.952993597799
+        ],
+        [
+          2419.9599746994336,
+          1467.9349009784792
+        ],
+        [
+          2424.5492986593094,
+          1465.958418516259
+        ],
+        [
+          2429.1472684305563,
+          1464.0235462111382
+        ],
+        [
+          2433.753884013174,
+          1462.1302840631165
+        ],
+        [
+          2438.369145407163,
+          1460.2786320721943
+        ],
+        [
+          2442.9930526125227,
+          1458.4685902383717
+        ],
+        [
+          2447.625605629254,
+          1456.700158561648
+        ],
+        [
+          2452.2668044573556,
+          1454.973337042024
+        ],
+        [
+          2456.916649096829,
+          1453.2881256794994
+        ],
+        [
+          2461.5751395476727,
+          1451.6445244740742
+        ],
+        [
+          2466.2422758098883,
+          1450.0425334257484
+        ],
+        [
+          2470.9180578834744,
+          1448.4821525345217
+        ],
+        [
+          2475.6024857684315,
+          1446.9633818003945
+        ],
+        [
+          2480.2955594647597,
+          1445.4862212233668
+        ],
+        [
+          2484.997278972459,
+          1444.0506708034384
+        ],
+        [
+          2489.707644291529,
+          1442.6567305406093
+        ],
+        [
+          2494.4266554219703,
+          1441.3044004348797
+        ],
+        [
+          2499.154312363783,
+          1439.9936804862493
+        ],
+        [
+          2503.8906151169663,
+          1438.7245706947185
+        ],
+        [
+          2508.6355636815206,
+          1437.497071060287
+        ],
+        [
+          2513.3891580574464,
+          1436.3111815829548
+        ],
+        [
+          2518.1513982447427,
+          1435.166902262722
+        ],
+        [
+          2522.92228424341,
+          1434.0642330995886
+        ],
+        [
+          2527.701816053449,
+          1433.0031740935544
+        ],
+        [
+          2532.4899936748584,
+          1431.9837252446198
+        ],
+        [
+          2537.286817107639,
+          1431.0058865527844
+        ],
+        [
+          2542.092286351791,
+          1430.0696580180486
+        ],
+        [
+          2546.9064014073138,
+          1429.175039640412
+        ],
+        [
+          2551.7291622742073,
+          1428.3220314198747
+        ],
+        [
+          2556.560568952472,
+          1427.5106333564372
+        ],
+        [
+          2561.400621442108,
+          1426.7408454500987
+        ],
+        [
+          2566.249319743115,
+          1426.0126677008595
+        ],
+        [
+          2571.1066638554926,
+          1425.3261001087199
+        ],
+        [
+          2575.9726537792417,
+          1424.6811426736795
+        ],
+        [
+          2580.8472895143614,
+          1424.0777953957386
+        ],
+        [
+          2585.7305710608525,
+          1423.5160582748972
+        ],
+        [
+          2590.6224984187147,
+          1422.995931311155
+        ],
+        [
+          2595.523071587948,
+          1422.517414504512
+        ],
+        [
+          2600.4322905685517,
+          1422.0805078549688
+        ],
+        [
+          2605.350155360527,
+          1421.6852113625246
+        ],
+        [
+          2610.2766659638733,
+          1421.3315250271799
+        ],
+        [
+          2615.21182237859,
+          1421.0194488489346
+        ],
+        [
+          2620.1556246046785,
+          1420.7489828277887
+        ],
+        [
+          2625.108072642138,
+          1420.520126963742
+        ],
+        [
+          2630.069166490968,
+          1420.332881256795
+        ],
+        [
+          2635.0389061511696,
+          1420.1872457069471
+        ],
+        [
+          2640.017291622742,
+          1420.0832203141988
+        ],
+        [
+          2645.0043229056855,
+          1420.0208050785498
+        ],
+        [
+          2650.0,
+          1420.0
+        ]
       ],
-      [
-        2786,
-        1486.3581936666637
+      "control": [
+        2490,
+        1420
       ],
-      [
-        2786,
-        1417
+      "end": [
+        2650,
+        1420
       ],
-      [
-        2911,
-        1417
-      ]
-    ],
-    [
-      [
-        1375.4688828381745,
-        1688.948949423619
+      "length": 318.031010340909
+    },
+    {
+      "cityId": "kutha",
+      "points": [
+        [
+          1236.8901766188278,
+          1863.1529956499799
+        ],
+        [
+          1242.6164821777654,
+          1862.1177343102465
+        ],
+        [
+          1248.3510348932555,
+          1861.0840125191705
+        ],
+        [
+          1254.0938347652975,
+          1860.0518302767516
+        ],
+        [
+          1259.8448817938915,
+          1859.02118758299
+        ],
+        [
+          1265.604175979038,
+          1857.9920844378858
+        ],
+        [
+          1271.3717173207365,
+          1856.9645208414386
+        ],
+        [
+          1277.1475058189872,
+          1855.9384967936485
+        ],
+        [
+          1282.93154147379,
+          1854.914012294516
+        ],
+        [
+          1288.723824285145,
+          1853.8910673440403
+        ],
+        [
+          1294.5243542530523,
+          1852.869661942222
+        ],
+        [
+          1300.3331313775116,
+          1851.8497960890609
+        ],
+        [
+          1306.150155658523,
+          1850.831469784557
+        ],
+        [
+          1311.9754270960866,
+          1849.8146830287103
+        ],
+        [
+          1317.8089456902026,
+          1848.799435821521
+        ],
+        [
+          1323.6507114408705,
+          1847.7857281629888
+        ],
+        [
+          1329.5007243480907,
+          1846.7735600531137
+        ],
+        [
+          1335.3589844118628,
+          1845.7629314918959
+        ],
+        [
+          1341.2254916321874,
+          1844.7538424793352
+        ],
+        [
+          1347.100246009064,
+          1843.746293015432
+        ],
+        [
+          1352.9832475424928,
+          1842.740283100186
+        ],
+        [
+          1358.8744962324738,
+          1841.735812733597
+        ],
+        [
+          1364.7739920790068,
+          1840.732881915665
+        ],
+        [
+          1370.6817350820922,
+          1839.7314906463907
+        ],
+        [
+          1376.5977252417297,
+          1838.7316389257735
+        ],
+        [
+          1382.5219625579193,
+          1837.7333267538133
+        ],
+        [
+          1388.454447030661,
+          1836.7365541305105
+        ],
+        [
+          1394.395178659955,
+          1835.7413210558648
+        ],
+        [
+          1400.344157445801,
+          1834.7476275298764
+        ],
+        [
+          1406.3013833881992,
+          1833.7554735525453
+        ],
+        [
+          1412.2668564871497,
+          1832.7648591238712
+        ],
+        [
+          1418.2405767426521,
+          1831.7757842438546
+        ],
+        [
+          1424.222544154707,
+          1830.788248912495
+        ],
+        [
+          1430.212758723314,
+          1829.8022531297927
+        ],
+        [
+          1436.211220448473,
+          1828.8177968957475
+        ],
+        [
+          1442.2179293301842,
+          1827.8348802103596
+        ],
+        [
+          1448.2328853684476,
+          1826.8535030736289
+        ],
+        [
+          1454.2560885632631,
+          1825.8736654855554
+        ],
+        [
+          1460.2875389146307,
+          1824.8953674461393
+        ],
+        [
+          1466.3272364225506,
+          1823.9186089553803
+        ],
+        [
+          1472.3751810870226,
+          1822.9433900132785
+        ],
+        [
+          1478.4313729080468,
+          1821.969710619834
+        ],
+        [
+          1484.4958118856232,
+          1820.9975707750464
+        ],
+        [
+          1490.5684980197516,
+          1820.0269704789162
+        ],
+        [
+          1496.6494313104324,
+          1819.0579097314435
+        ],
+        [
+          1502.7386117576652,
+          1818.0903885326277
+        ],
+        [
+          1508.8360393614503,
+          1817.124406882469
+        ],
+        [
+          1514.9417141217873,
+          1816.1599647809678
+        ],
+        [
+          1521.0556360386768,
+          1815.1970622281237
+        ],
+        [
+          1527.1778051121182,
+          1814.235699223937
+        ],
+        [
+          1533.308221342112,
+          1813.2758757684073
+        ],
+        [
+          1539.4468847286576,
+          1812.3175918615348
+        ],
+        [
+          1545.5937952717557,
+          1811.3608475033197
+        ],
+        [
+          1551.7489529714057,
+          1810.4056426937616
+        ],
+        [
+          1557.912357827608,
+          1809.451977432861
+        ],
+        [
+          1564.0840098403626,
+          1808.4998517206172
+        ],
+        [
+          1570.263909009669,
+          1807.549265557031
+        ],
+        [
+          1576.452055335528,
+          1806.600218942102
+        ],
+        [
+          1582.648448817939,
+          1805.65271187583
+        ],
+        [
+          1588.8530894569021,
+          1804.7067443582152
+        ],
+        [
+          1595.0659772524173,
+          1803.7623163892576
+        ],
+        [
+          1601.2871122044849,
+          1802.8194279689574
+        ],
+        [
+          1607.5164943131044,
+          1801.8780790973144
+        ],
+        [
+          1613.754123578276,
+          1800.9382697743285
+        ],
+        [
+          1620.0,
+          1800.0
+        ]
       ],
-      [
-        2802,
-        1688.948949423619
+      "control": [
+        1420,
+        1830
       ],
-      [
-        2802,
-        1647
+      "end": [
+        1620,
+        1800
       ],
-      [
-        2911,
-        1647
-      ]
-    ],
-    [
-      [
-        1366.7186879999974,
-        1810.2103929999987
+      "length": 388.2948440428217
+    },
+    {
+      "cityId": "kish",
+      "points": [
+        [
+          1221.6182056071075,
+          2076.706696194561
+        ],
+        [
+          1229.0607075328637,
+          2076.5182805654817
+        ],
+        [
+          1236.4893511605765,
+          2076.3722021904036
+        ],
+        [
+          1243.904136490246,
+          2076.268461069327
+        ],
+        [
+          1251.3050635218717,
+          2076.2070572022512
+        ],
+        [
+          1258.6921322554545,
+          2076.1879905891765
+        ],
+        [
+          1266.0653426909935,
+          2076.2112612301034
+        ],
+        [
+          1273.4246948284895,
+          2076.276869125031
+        ],
+        [
+          1280.7701886679415,
+          2076.3848142739607
+        ],
+        [
+          1288.1018242093505,
+          2076.5350966768915
+        ],
+        [
+          1295.419601452716,
+          2076.727716333823
+        ],
+        [
+          1302.7235203980383,
+          2076.9626732447564
+        ],
+        [
+          1310.013581045317,
+          2077.2399674096905
+        ],
+        [
+          1317.2897833945524,
+          2077.5595988286263
+        ],
+        [
+          1324.5521274457442,
+          2077.921567501563
+        ],
+        [
+          1331.8006131988927,
+          2078.3258734285014
+        ],
+        [
+          1339.035240653998,
+          2078.7725166094406
+        ],
+        [
+          1346.2560098110598,
+          2079.261497044381
+        ],
+        [
+          1353.462920670078,
+          2079.792814733323
+        ],
+        [
+          1360.655973231053,
+          2080.366469676266
+        ],
+        [
+          1367.8351674939845,
+          2080.9824618732105
+        ],
+        [
+          1375.0005034588726,
+          2081.640791324156
+        ],
+        [
+          1382.1519811257172,
+          2082.341458029103
+        ],
+        [
+          1389.2896004945185,
+          2083.084461988051
+        ],
+        [
+          1396.4133615652763,
+          2083.8698032010007
+        ],
+        [
+          1403.523264337991,
+          2084.6974816679513
+        ],
+        [
+          1410.619308812662,
+          2085.5674973889027
+        ],
+        [
+          1417.7014949892896,
+          2086.479850363856
+        ],
+        [
+          1424.769822867874,
+          2087.43454059281
+        ],
+        [
+          1431.8242924484148,
+          2088.431568075766
+        ],
+        [
+          1438.8649037309121,
+          2089.470932812723
+        ],
+        [
+          1445.8916567153663,
+          2090.552634803681
+        ],
+        [
+          1452.9045514017769,
+          2091.67667404864
+        ],
+        [
+          1459.9035877901442,
+          2092.843050547601
+        ],
+        [
+          1466.8887658804679,
+          2094.051764300563
+        ],
+        [
+          1473.8600856727485,
+          2095.3028153075256
+        ],
+        [
+          1480.8175471669854,
+          2096.59620356849
+        ],
+        [
+          1487.761150363179,
+          2097.9319290834555
+        ],
+        [
+          1494.6908952613294,
+          2099.3099918524226
+        ],
+        [
+          1501.606781861436,
+          2100.7303918753905
+        ],
+        [
+          1508.5088101634994,
+          2102.19312915236
+        ],
+        [
+          1515.3969801675194,
+          2103.6982036833306
+        ],
+        [
+          1522.271291873496,
+          2105.2456154683027
+        ],
+        [
+          1529.1317452814292,
+          2106.8353645072757
+        ],
+        [
+          1535.978340391319,
+          2108.46745080025
+        ],
+        [
+          1542.8110772031655,
+          2110.141874347226
+        ],
+        [
+          1549.6299557169684,
+          2111.8586351482027
+        ],
+        [
+          1556.434975932728,
+          2113.6177332031807
+        ],
+        [
+          1563.2261378504443,
+          2115.41916851216
+        ],
+        [
+          1570.003441470117,
+          2117.2629410751406
+        ],
+        [
+          1576.7668867917464,
+          2119.1490508921224
+        ],
+        [
+          1583.5164738153323,
+          2121.0774979631055
+        ],
+        [
+          1590.2522025408748,
+          2123.04828228809
+        ],
+        [
+          1596.974072968374,
+          2125.0614038670756
+        ],
+        [
+          1603.6820850978297,
+          2127.1168627000625
+        ],
+        [
+          1610.3762389292422,
+          2129.2146587870507
+        ],
+        [
+          1617.0565344626111,
+          2131.35479212804
+        ],
+        [
+          1623.7229716979366,
+          2133.537262723031
+        ],
+        [
+          1630.3755506352186,
+          2135.7620705720224
+        ],
+        [
+          1637.0142712744575,
+          2138.0292156750156
+        ],
+        [
+          1643.6391336156528,
+          2140.33869803201
+        ],
+        [
+          1650.2501376588048,
+          2142.6905176430055
+        ],
+        [
+          1656.8472834039133,
+          2145.0846745080025
+        ],
+        [
+          1663.4305708509783,
+          2147.5211686270004
+        ],
+        [
+          1670.0,
+          2150.0
+        ]
       ],
-      [
-        2890,
-        1810.2103929999987
+      "control": [
+        1460,
+        2070
       ],
-      [
-        2890,
-        1907
+      "end": [
+        1670,
+        2150
       ],
-      [
-        2911,
-        1907
-      ]
-    ],
-    [
-      [
-        1672.6704959999984,
-        2047.1291121666654
+      "length": 457.2974673697219
+    },
+    {
+      "cityId": "nippur",
+      "points": [
+        [
+          1755.6048458100618,
+          2492.4781662065207
+        ],
+        [
+          1760.1136799365565,
+          2491.458945721113
+        ],
+        [
+          1764.6154851791694,
+          2490.4311696527993
+        ],
+        [
+          1769.1102615379004,
+          2489.394838001578
+        ],
+        [
+          1773.5980090127496,
+          2488.3499507674496
+        ],
+        [
+          1778.078727603717,
+          2487.2965079504147
+        ],
+        [
+          1782.5524173108026,
+          2486.2345095504725
+        ],
+        [
+          1787.0190781340066,
+          2485.1639555676234
+        ],
+        [
+          1791.4787100733286,
+          2484.0848460018674
+        ],
+        [
+          1795.9313131287688,
+          2482.9971808532046
+        ],
+        [
+          1800.376887300327,
+          2481.9009601216344
+        ],
+        [
+          1804.815432588004,
+          2480.7961838071574
+        ],
+        [
+          1809.2469489917985,
+          2479.6828519097735
+        ],
+        [
+          1813.6714365117116,
+          2478.5609644294827
+        ],
+        [
+          1818.0888951477427,
+          2477.4305213662847
+        ],
+        [
+          1822.4993248998921,
+          2476.2915227201797
+        ],
+        [
+          1826.9027257681596,
+          2475.143968491168
+        ],
+        [
+          1831.2990977525455,
+          2473.9878586792493
+        ],
+        [
+          1835.6884408530495,
+          2472.8231932844233
+        ],
+        [
+          1840.0707550696716,
+          2471.6499723066904
+        ],
+        [
+          1844.446040402412,
+          2470.4681957460507
+        ],
+        [
+          1848.8142968512707,
+          2469.277863602504
+        ],
+        [
+          1853.1755244162473,
+          2468.07897587605
+        ],
+        [
+          1857.5297230973422,
+          2466.87153256669
+        ],
+        [
+          1861.8768928945553,
+          2465.6555336744223
+        ],
+        [
+          1866.2170338078868,
+          2464.4309791992473
+        ],
+        [
+          1870.5501458373362,
+          2463.197869141166
+        ],
+        [
+          1874.876228982904,
+          2461.9562035001773
+        ],
+        [
+          1879.19528324459,
+          2460.705982276282
+        ],
+        [
+          1883.5073086223938,
+          2459.4472054694793
+        ],
+        [
+          1887.8123051163163,
+          2458.17987307977
+        ],
+        [
+          1892.1102727263567,
+          2456.9039851071534
+        ],
+        [
+          1896.4012114525153,
+          2455.6195415516304
+        ],
+        [
+          1900.6851212947922,
+          2454.3265424131996
+        ],
+        [
+          1904.9620022531874,
+          2453.0249876918624
+        ],
+        [
+          1909.2318543277006,
+          2451.714877387618
+        ],
+        [
+          1913.494677518332,
+          2450.396211500467
+        ],
+        [
+          1917.7504718250818,
+          2449.0689900304087
+        ],
+        [
+          1921.9992372479496,
+          2447.733212977443
+        ],
+        [
+          1926.2409737869357,
+          2446.388880341571
+        ],
+        [
+          1930.47568144204,
+          2445.035992122792
+        ],
+        [
+          1934.7033602132624,
+          2443.6745483211057
+        ],
+        [
+          1938.924010100603,
+          2442.3045489365127
+        ],
+        [
+          1943.1376311040617,
+          2440.925993969013
+        ],
+        [
+          1947.344223223639,
+          2439.5388834186056
+        ],
+        [
+          1951.5437864593341,
+          2438.1432172852915
+        ],
+        [
+          1955.7363208111474,
+          2436.7389955690705
+        ],
+        [
+          1959.9218262790791,
+          2435.3262182699427
+        ],
+        [
+          1964.100302863129,
+          2433.9048853879076
+        ],
+        [
+          1968.2717505632968,
+          2432.4749969229656
+        ],
+        [
+          1972.4361693795831,
+          2431.0365528751167
+        ],
+        [
+          1976.5935593119875,
+          2429.589553244361
+        ],
+        [
+          1980.74392036051,
+          2428.133998030698
+        ],
+        [
+          1984.8872525251509,
+          2426.669887234128
+        ],
+        [
+          1989.0235558059098,
+          2425.1972208546513
+        ],
+        [
+          1993.1528302027868,
+          2423.7159988922676
+        ],
+        [
+          1997.2750757157824,
+          2422.2262213469767
+        ],
+        [
+          2001.390292344896,
+          2420.7278882187793
+        ],
+        [
+          2005.4984800901275,
+          2419.2209995076746
+        ],
+        [
+          2009.5996389514773,
+          2417.7055552136626
+        ],
+        [
+          2013.6937689289455,
+          2416.181555336744
+        ],
+        [
+          2017.7808700225319,
+          2414.6489998769184
+        ],
+        [
+          2021.8609422322363,
+          2413.1078888341863
+        ],
+        [
+          2025.933985558059,
+          2411.5582222085463
+        ],
+        [
+          2030.0,
+          2410.0
+        ]
       ],
-      [
-        2872,
-        2047.1291121666654
+      "control": [
+        1900,
+        2460
       ],
-      [
-        2872,
-        2167
+      "end": [
+        2030,
+        2410
       ],
-      [
-        2911,
-        2167
-      ]
-    ],
-    [
-      [
-        1861.202600695999,
-        2146.491336093499
+      "length": 286.77740436804396
+    },
+    {
+      "cityId": "adab",
+      "points": [
+        [
+          2084.6554430760493,
+          2666.2803952745317
+        ],
+        [
+          2092.3382455002047,
+          2666.7204318468303
+        ],
+        [
+          2100.052617964925,
+          2667.1830662683838
+        ],
+        [
+          2107.79856047021,
+          2667.6682985391926
+        ],
+        [
+          2115.576073016059,
+          2668.1761286592564
+        ],
+        [
+          2123.385155602473,
+          2668.7065566285755
+        ],
+        [
+          2131.2258082294506,
+          2669.2595824471496
+        ],
+        [
+          2139.098030896993,
+          2669.835206114979
+        ],
+        [
+          2147.0018236051,
+          2670.4334276320633
+        ],
+        [
+          2154.9371863537717,
+          2671.054246998403
+        ],
+        [
+          2162.904119143008,
+          2671.6976642139975
+        ],
+        [
+          2170.9026219728084,
+          2672.3636792788475
+        ],
+        [
+          2178.9326948431735,
+          2673.0522921929523
+        ],
+        [
+          2186.9943377541026,
+          2673.7635029563125
+        ],
+        [
+          2195.087550705596,
+          2674.497311568928
+        ],
+        [
+          2203.2123336976547,
+          2675.253718030798
+        ],
+        [
+          2211.3686867302777,
+          2676.032722341924
+        ],
+        [
+          2219.556609803465,
+          2676.8343245023048
+        ],
+        [
+          2227.776102917217,
+          2677.6585245119404
+        ],
+        [
+          2236.0271660715334,
+          2678.505322370832
+        ],
+        [
+          2244.309799266414,
+          2679.374718078978
+        ],
+        [
+          2252.624002501859,
+          2680.266711636379
+        ],
+        [
+          2260.969775777869,
+          2681.1813030430358
+        ],
+        [
+          2269.347119094443,
+          2682.118492298947
+        ],
+        [
+          2277.7560324515816,
+          2683.0782794041143
+        ],
+        [
+          2286.196515849285,
+          2684.060664358536
+        ],
+        [
+          2294.6685692875526,
+          2685.065647162213
+        ],
+        [
+          2303.172192766385,
+          2686.093227815145
+        ],
+        [
+          2311.7073862857815,
+          2687.1434063173324
+        ],
+        [
+          2320.274149845742,
+          2688.2161826687748
+        ],
+        [
+          2328.872483446268,
+          2689.311556869472
+        ],
+        [
+          2337.502387087358,
+          2690.429528919425
+        ],
+        [
+          2346.1638607690124,
+          2691.5700988186327
+        ],
+        [
+          2354.856904491231,
+          2692.733266567096
+        ],
+        [
+          2363.5815182540146,
+          2693.919032164814
+        ],
+        [
+          2372.3377020573625,
+          2695.1273956117875
+        ],
+        [
+          2381.125455901275,
+          2696.3583569080156
+        ],
+        [
+          2389.944779785752,
+          2697.6119160534995
+        ],
+        [
+          2398.7956737107934,
+          2698.888073048238
+        ],
+        [
+          2407.6781376763993,
+          2700.186827892232
+        ],
+        [
+          2416.5921716825696,
+          2701.508180585481
+        ],
+        [
+          2425.5377757293045,
+          2702.852131127985
+        ],
+        [
+          2434.514949816604,
+          2704.2186795197445
+        ],
+        [
+          2443.523693944467,
+          2705.6078257607587
+        ],
+        [
+          2452.5640081128954,
+          2707.019569851029
+        ],
+        [
+          2461.635892321888,
+          2708.4539117905533
+        ],
+        [
+          2470.7393465714454,
+          2709.910851579333
+        ],
+        [
+          2479.874370861567,
+          2711.390389217368
+        ],
+        [
+          2489.040965192253,
+          2712.892524704658
+        ],
+        [
+          2498.2391295635034,
+          2714.4172580412032
+        ],
+        [
+          2507.4688639753185,
+          2715.9645892270037
+        ],
+        [
+          2516.730168427698,
+          2717.5345182620595
+        ],
+        [
+          2526.023042920642,
+          2719.12704514637
+        ],
+        [
+          2535.3474874541507,
+          2720.7421698799362
+        ],
+        [
+          2544.7035020282237,
+          2722.379892462757
+        ],
+        [
+          2554.0910866428612,
+          2724.0402128948335
+        ],
+        [
+          2563.510241298063,
+          2725.7231311761643
+        ],
+        [
+          2572.9609659938296,
+          2727.428647306751
+        ],
+        [
+          2582.4432607301605,
+          2729.1567612865924
+        ],
+        [
+          2591.957125507056,
+          2730.9074731156893
+        ],
+        [
+          2601.502560324516,
+          2732.680782794041
+        ],
+        [
+          2611.07956518254,
+          2734.476690321648
+        ],
+        [
+          2620.688140081129,
+          2736.2951956985103
+        ],
+        [
+          2630.3282850202822,
+          2738.1362989246277
+        ],
+        [
+          2640.0,
+          2740.0
+        ]
       ],
-      [
-        2854,
-        2146.491336093499
+      "control": [
+        2330,
+        2680
       ],
-      [
-        2854,
-        2527
+      "end": [
+        2640,
+        2740
       ],
-      [
-        2911,
-        2527
-      ]
-    ],
-    [
-      [
-        1982.9266578657484,
-        2263.734654909561
+      "length": 560.6351924838641
+    },
+    {
+      "cityId": "zabalam",
+      "points": [
+        [
+          2297.104000725843,
+          2870.932567312472
+        ],
+        [
+          2306.5443796095874,
+          2870.630214761524
+        ],
+        [
+          2315.9345163061867,
+          2870.406442565709
+        ],
+        [
+          2325.2744108156403,
+          2870.2612507250265
+        ],
+        [
+          2334.564063137948,
+          2870.1946392394775
+        ],
+        [
+          2343.8034732731103,
+          2870.2066081090616
+        ],
+        [
+          2352.992641221127,
+          2870.2971573337786
+        ],
+        [
+          2362.131566981998,
+          2870.4662869136287
+        ],
+        [
+          2371.2202505557234,
+          2870.7139968486117
+        ],
+        [
+          2380.2586919423034,
+          2871.0402871387278
+        ],
+        [
+          2389.246891141738,
+          2871.445157783977
+        ],
+        [
+          2398.1848481540264,
+          2871.9286087843593
+        ],
+        [
+          2407.0725629791696,
+          2872.490640139874
+        ],
+        [
+          2415.9100356171675,
+          2873.1312518505224
+        ],
+        [
+          2424.6972660680194,
+          2873.850443916304
+        ],
+        [
+          2433.434254331726,
+          2874.6482163372184
+        ],
+        [
+          2442.121000408287,
+          2875.524569113266
+        ],
+        [
+          2450.757504297702,
+          2876.479502244446
+        ],
+        [
+          2459.3437659999718,
+          2877.5130157307594
+        ],
+        [
+          2467.879785515096,
+          2878.6251095722064
+        ],
+        [
+          2476.3655628430743,
+          2879.815783768786
+        ],
+        [
+          2484.8010979839073,
+          2881.0850383204984
+        ],
+        [
+          2493.1863909375943,
+          2882.4328732273443
+        ],
+        [
+          2501.521441704136,
+          2883.859288489323
+        ],
+        [
+          2509.8062502835323,
+          2885.3642841064348
+        ],
+        [
+          2518.040816675783,
+          2886.9478600786792
+        ],
+        [
+          2526.225140880888,
+          2888.610016406057
+        ],
+        [
+          2534.3592228988473,
+          2890.350753088568
+        ],
+        [
+          2542.4430627296615,
+          2892.170070126212
+        ],
+        [
+          2550.4766603733297,
+          2894.067967518989
+        ],
+        [
+          2558.460015829852,
+          2896.044445266899
+        ],
+        [
+          2566.393129099229,
+          2898.099503369942
+        ],
+        [
+          2574.276000181461,
+          2900.2331418281183
+        ],
+        [
+          2582.1086290765465,
+          2902.445360641427
+        ],
+        [
+          2589.891015784487,
+          2904.7361598098696
+        ],
+        [
+          2597.623160305282,
+          2907.1055393334445
+        ],
+        [
+          2605.305062638931,
+          2909.553499212153
+        ],
+        [
+          2612.9367227854345,
+          2912.0800394459943
+        ],
+        [
+          2620.5181407447926,
+          2914.6851600349682
+        ],
+        [
+          2628.0493165170046,
+          2917.368860979076
+        ],
+        [
+          2635.5302501020715,
+          2920.1311422783165
+        ],
+        [
+          2642.960941499993,
+          2922.97200393269
+        ],
+        [
+          2650.341390710769,
+          2925.8914459421967
+        ],
+        [
+          2657.6715977343983,
+          2928.889468306836
+        ],
+        [
+          2664.951562570883,
+          2931.966071026609
+        ],
+        [
+          2672.181285220222,
+          2935.1212541015143
+        ],
+        [
+          2679.360765682415,
+          2938.355017531553
+        ],
+        [
+          2686.490003957463,
+          2941.667361316725
+        ],
+        [
+          2693.569000045365,
+          2945.0582854570293
+        ],
+        [
+          2700.597753946122,
+          2948.527789952467
+        ],
+        [
+          2707.5762656597326,
+          2952.0758748030385
+        ],
+        [
+          2714.504535186198,
+          2955.7025400087423
+        ],
+        [
+          2721.3825625255176,
+          2959.407785569579
+        ],
+        [
+          2728.210347677692,
+          2963.191611485549
+        ],
+        [
+          2734.9878906427207,
+          2967.0540177566522
+        ],
+        [
+          2741.715191420604,
+          2970.9950043828885
+        ],
+        [
+          2748.3922500113413,
+          2975.0145713642573
+        ],
+        [
+          2755.019066414933,
+          2979.1127187007596
+        ],
+        [
+          2761.5956406313794,
+          2983.289446392395
+        ],
+        [
+          2768.12197266068,
+          2987.544754439163
+        ],
+        [
+          2774.598062502835,
+          2991.8786428410644
+        ],
+        [
+          2781.023910157845,
+          2996.2911115980987
+        ],
+        [
+          2787.399515625709,
+          3000.782160710266
+        ],
+        [
+          2793.7248789064274,
+          3005.3517901775667
+        ],
+        [
+          2800.0,
+          3010.0
+        ]
       ],
-      [
-        2836,
-        2263.734654909561
+      "control": [
+        2600,
+        2860
       ],
-      [
-        2836,
-        2817
-      ],
-      [
-        2911,
-        2817
-      ]
-    ],
-    [
-      [
-        1987.6572376702563,
-        2306.3552790015874
-      ],
-      [
-        2818,
-        2306.3552790015874
-      ],
-      [
-        2818,
-        3047
-      ],
-      [
-        2911,
-        3047
-      ]
-    ],
-    [
-      [
-        2127.2649349167423,
-        2367.1318444424223
-      ],
-      [
+      "end": [
         2800,
-        2367.1318444424223
+        3010
       ],
-      [
-        2800,
-        3277
+      "length": 532.2894664607251
+    },
+    {
+      "cityId": "umma",
+      "points": [
+        [
+          2305.3604200375444,
+          2945.214539215211
+        ],
+        [
+          2304.8914812326693,
+          2947.5577407580986
+        ],
+        [
+          2304.444691070391,
+          2949.9132540877126
+        ],
+        [
+          2304.020049550709,
+          2952.2810792040527
+        ],
+        [
+          2303.617556673623,
+          2954.661216107119
+        ],
+        [
+          2303.237212439134,
+          2957.0536647969116
+        ],
+        [
+          2302.879016847241,
+          2959.4584252734303
+        ],
+        [
+          2302.5429698979447,
+          2961.875497536675
+        ],
+        [
+          2302.229071591245,
+          2964.304881586646
+        ],
+        [
+          2301.9373219271415,
+          2966.7465774233433
+        ],
+        [
+          2301.6677209056347,
+          2969.2005850467663
+        ],
+        [
+          2301.420268526724,
+          2971.666904456916
+        ],
+        [
+          2301.1949647904103,
+          2974.1455356537917
+        ],
+        [
+          2300.9918096966926,
+          2976.6364786373933
+        ],
+        [
+          2300.8108032455716,
+          2979.139733407722
+        ],
+        [
+          2300.651945437047,
+          2981.6552999647756
+        ],
+        [
+          2300.5152362711187,
+          2984.1831783085563
+        ],
+        [
+          2300.4006757477873,
+          2986.723368439063
+        ],
+        [
+          2300.3082638670517,
+          2989.275870356296
+        ],
+        [
+          2300.238000628913,
+          2991.8406840602547
+        ],
+        [
+          2300.1898860333704,
+          2994.4178095509396
+        ],
+        [
+          2300.1639200804248,
+          2997.0072468283506
+        ],
+        [
+          2300.1601027700754,
+          2999.6089958924886
+        ],
+        [
+          2300.178434102322,
+          3002.2230567433517
+        ],
+        [
+          2300.2189140771657,
+          3004.8494293809417
+        ],
+        [
+          2300.281542694606,
+          3007.488113805258
+        ],
+        [
+          2300.366319954642,
+          3010.1391100163
+        ],
+        [
+          2300.473245857275,
+          3012.8024180140683
+        ],
+        [
+          2300.602320402504,
+          3015.478037798563
+        ],
+        [
+          2300.75354359033,
+          3018.165969369784
+        ],
+        [
+          2300.9269154207523,
+          3020.8662127277303
+        ],
+        [
+          2301.1224358937707,
+          3023.5787678724037
+        ],
+        [
+          2301.340105009386,
+          3026.3036348038027
+        ],
+        [
+          2301.579922767598,
+          3029.040813521928
+        ],
+        [
+          2301.841889168406,
+          3031.7903040267797
+        ],
+        [
+          2302.12600421181,
+          3034.552106318358
+        ],
+        [
+          2302.4322678978115,
+          3037.3262203966615
+        ],
+        [
+          2302.7606802264086,
+          3040.1126462616917
+        ],
+        [
+          2303.111241197603,
+          3042.911383913448
+        ],
+        [
+          2303.483950811393,
+          3045.7224333519307
+        ],
+        [
+          2303.87880906778,
+          3048.545794577139
+        ],
+        [
+          2304.295815966763,
+          3051.381467589074
+        ],
+        [
+          2304.734971508343,
+          3054.229452387735
+        ],
+        [
+          2305.1962756925186,
+          3057.0897489731224
+        ],
+        [
+          2305.6797285192915,
+          3059.9623573452354
+        ],
+        [
+          2306.1853299886607,
+          3062.847277504075
+        ],
+        [
+          2306.713080100626,
+          3065.7445094496406
+        ],
+        [
+          2307.262978855188,
+          3068.654053181933
+        ],
+        [
+          2307.8350262523463,
+          3071.575908700951
+        ],
+        [
+          2308.4292222921013,
+          3074.510076006695
+        ],
+        [
+          2309.045566974453,
+          3077.4565550991656
+        ],
+        [
+          2309.6840602994007,
+          3080.415345978362
+        ],
+        [
+          2310.344702266945,
+          3083.386448644285
+        ],
+        [
+          2311.027492877086,
+          3086.369863096934
+        ],
+        [
+          2311.732432129823,
+          3089.365589336309
+        ],
+        [
+          2312.4595200251565,
+          3092.37362736241
+        ],
+        [
+          2313.2087565630864,
+          3095.3939771752375
+        ],
+        [
+          2313.9801417436133,
+          3098.426638774791
+        ],
+        [
+          2314.773675566736,
+          3101.4716121610713
+        ],
+        [
+          2315.5893580324555,
+          3104.528897334077
+        ],
+        [
+          2316.4271891407716,
+          3107.5984942938094
+        ],
+        [
+          2317.287168891684,
+          3110.6804030402677
+        ],
+        [
+          2318.169297285193,
+          3113.774623573452
+        ],
+        [
+          2319.073574321298,
+          3116.881155893363
+        ],
+        [
+          2320.0,
+          3120.0
+        ]
       ],
-      [
-        2911,
-        3277
-      ]
-    ],
-    [
-      [
-        2238.6464,
-        2446.8214875000003
+      "control": [
+        2290,
+        3020
       ],
-      [
-        2782,
-        2446.8214875000003
+      "end": [
+        2320,
+        3120
       ],
-      [
-        2782,
-        3637
+      "length": 177.1738302089264
+    },
+    {
+      "cityId": "girsu",
+      "points": [
+        [
+          2549.021817845404,
+          3051.0356072826944
+        ],
+        [
+          2554.3792956612324,
+          3051.9483216076696
+        ],
+        [
+          2559.7655927240558,
+          3052.876190037763
+        ],
+        [
+          2565.180709033874,
+          3053.819212572975
+        ],
+        [
+          2570.624644590687,
+          3054.7773892133055
+        ],
+        [
+          2576.097399394495,
+          3055.750719958755
+        ],
+        [
+          2581.5989734452974,
+          3056.7392048093225
+        ],
+        [
+          2587.129366743095,
+          3057.7428437650083
+        ],
+        [
+          2592.6885792878875,
+          3058.7616368258127
+        ],
+        [
+          2598.2766110796747,
+          3059.795583991736
+        ],
+        [
+          2603.8934621184562,
+          3060.8446852627776
+        ],
+        [
+          2609.539132404233,
+          3061.9089406389376
+        ],
+        [
+          2615.213621937005,
+          3062.988350120216
+        ],
+        [
+          2620.9169307167713,
+          3064.082913706613
+        ],
+        [
+          2626.649058743533,
+          3065.192631398129
+        ],
+        [
+          2632.4100060172887,
+          3066.317503194763
+        ],
+        [
+          2638.1997725380397,
+          3067.457529096516
+        ],
+        [
+          2644.018358305785,
+          3068.612709103387
+        ],
+        [
+          2649.8657633205257,
+          3069.783043215376
+        ],
+        [
+          2655.7419875822616,
+          3070.9685314324843
+        ],
+        [
+          2661.6470310909917,
+          3072.1691737547108
+        ],
+        [
+          2667.5808938467167,
+          3073.3849701820563
+        ],
+        [
+          2673.543575849437,
+          3074.6159207145197
+        ],
+        [
+          2679.5350770991513,
+          3075.862025352102
+        ],
+        [
+          2685.555397595861,
+          3077.1232840948023
+        ],
+        [
+          2691.6045373395655,
+          3078.3996969426216
+        ],
+        [
+          2697.6824963302643,
+          3079.691263895559
+        ],
+        [
+          2703.7892745679583,
+          3080.9979849536153
+        ],
+        [
+          2709.9248720526475,
+          3082.31986011679
+        ],
+        [
+          2716.089288784331,
+          3083.656889385083
+        ],
+        [
+          2722.2825247630094,
+          3085.0090727584948
+        ],
+        [
+          2728.504579988683,
+          3086.376410237025
+        ],
+        [
+          2734.755454461351,
+          3087.7589018206736
+        ],
+        [
+          2741.035148181014,
+          3089.1565475094408
+        ],
+        [
+          2747.343661147672,
+          3090.569347303326
+        ],
+        [
+          2753.6809933613245,
+          3091.9973012023306
+        ],
+        [
+          2760.047144821972,
+          3093.4404092064533
+        ],
+        [
+          2766.442115529614,
+          3094.8986713156946
+        ],
+        [
+          2772.865905484251,
+          3096.372087530054
+        ],
+        [
+          2779.318514685883,
+          3097.8606578495323
+        ],
+        [
+          2785.7999431345097,
+          3099.3643822741287
+        ],
+        [
+          2792.3101908301314,
+          3100.8832608038438
+        ],
+        [
+          2798.849257772748,
+          3102.417293438678
+        ],
+        [
+          2805.417143962359,
+          3103.96648017863
+        ],
+        [
+          2812.0138493989652,
+          3105.530821023701
+        ],
+        [
+          2818.639374082566,
+          3107.1103159738896
+        ],
+        [
+          2825.293718013162,
+          3108.7049650291974
+        ],
+        [
+          2831.9768811907525,
+          3110.3147681896235
+        ],
+        [
+          2838.688863615338,
+          3111.9397254551686
+        ],
+        [
+          2845.429665286918,
+          3113.5798368258315
+        ],
+        [
+          2852.199286205493,
+          3115.2351023016136
+        ],
+        [
+          2858.9977263710625,
+          3116.9055218825133
+        ],
+        [
+          2865.824985783627,
+          3118.591095568532
+        ],
+        [
+          2872.681064443187,
+          3120.2918233596693
+        ],
+        [
+          2879.5659623497413,
+          3122.0077052559254
+        ],
+        [
+          2886.4796795032903,
+          3123.7387412572994
+        ],
+        [
+          2893.4222159038345,
+          3125.4849313637924
+        ],
+        [
+          2900.3935715513735,
+          3127.246275575403
+        ],
+        [
+          2907.393746445907,
+          3129.022773892133
+        ],
+        [
+          2914.4227405874353,
+          3130.814426313981
+        ],
+        [
+          2921.4805539759586,
+          3132.621232840948
+        ],
+        [
+          2928.5671866114767,
+          3134.4431934730333
+        ],
+        [
+          2935.6826384939895,
+          3136.280308210237
+        ],
+        [
+          2942.8269096234976,
+          3138.132577052559
+        ],
+        [
+          2950.0,
+          3140.0
+        ]
       ],
-      [
-        2911,
-        3637
-      ]
-    ],
-    [
-      [
-        2279.6424080000006,
-        2470.5091125
+      "control": [
+        2720,
+        3080
       ],
-      [
-        2764,
-        2470.5091125
+      "end": [
+        2950,
+        3140
       ],
-      [
-        2764,
-        3977
+      "length": 410.8550974620992
+    },
+    {
+      "cityId": "lagash",
+      "points": [
+        [
+          2743.4191469851994,
+          3189.602466606541
+        ],
+        [
+          2748.261863863344,
+          3203.6357885647853
+        ],
+        [
+          2753.003711184352,
+          3217.5859086024275
+        ],
+        [
+          2757.6446889482245,
+          3231.4528267194673
+        ],
+        [
+          2762.1847971549605,
+          3245.236542915905
+        ],
+        [
+          2766.62403580456,
+          3258.9370571917407
+        ],
+        [
+          2770.962404897024,
+          3272.5543695469737
+        ],
+        [
+          2775.1999044323516,
+          3286.0884799816045
+        ],
+        [
+          2779.336534410543,
+          3299.539388495633
+        ],
+        [
+          2783.372294831599,
+          3312.907095089059
+        ],
+        [
+          2787.307185695518,
+          3326.191599761883
+        ],
+        [
+          2791.141207002301,
+          3339.3929025141047
+        ],
+        [
+          2794.874358751948,
+          3352.5110033457245
+        ],
+        [
+          2798.506640944459,
+          3365.5459022567416
+        ],
+        [
+          2802.0380535798336,
+          3378.4975992471564
+        ],
+        [
+          2805.468596658072,
+          3391.366094316969
+        ],
+        [
+          2808.798270179175,
+          3404.1513874661796
+        ],
+        [
+          2812.027074143141,
+          3416.8534786947876
+        ],
+        [
+          2815.155008549971,
+          3429.472368002793
+        ],
+        [
+          2818.1820733996656,
+          3442.0080553901967
+        ],
+        [
+          2821.108268692223,
+          3454.460540856998
+        ],
+        [
+          2823.933594427645,
+          3466.8298244031967
+        ],
+        [
+          2826.658050605931,
+          3479.1159060287937
+        ],
+        [
+          2829.28163722708,
+          3491.318785733788
+        ],
+        [
+          2831.8043542910937,
+          3503.43846351818
+        ],
+        [
+          2834.226201797971,
+          3515.47493938197
+        ],
+        [
+          2836.547179747712,
+          3527.4282133251572
+        ],
+        [
+          2838.767288140317,
+          3539.298285347743
+        ],
+        [
+          2840.8865269757857,
+          3551.085155449726
+        ],
+        [
+          2842.9048962541183,
+          3562.7888236311064
+        ],
+        [
+          2844.822395975315,
+          3574.4092898918852
+        ],
+        [
+          2846.6390261393753,
+          3585.9465542320613
+        ],
+        [
+          2848.3547867463,
+          3597.400616651635
+        ],
+        [
+          2849.969677796088,
+          3608.771477150607
+        ],
+        [
+          2851.4836992887404,
+          3620.0591357289763
+        ],
+        [
+          2852.896851224256,
+          3631.2635923867433
+        ],
+        [
+          2854.209133602636,
+          3642.384847123908
+        ],
+        [
+          2855.4205464238794,
+          3653.422899940471
+        ],
+        [
+          2856.531089687987,
+          3664.377750836431
+        ],
+        [
+          2857.5407633949585,
+          3675.249399811789
+        ],
+        [
+          2858.449567544794,
+          3686.037846866545
+        ],
+        [
+          2859.257502137493,
+          3696.743092000698
+        ],
+        [
+          2859.964567173056,
+          3707.3651352142497
+        ],
+        [
+          2860.5707626514827,
+          3717.9039765071984
+        ],
+        [
+          2861.076088572773,
+          3728.359615879545
+        ],
+        [
+          2861.480544936928,
+          3738.7320533312895
+        ],
+        [
+          2861.7841317439465,
+          3749.0212888624314
+        ],
+        [
+          2861.986848993829,
+          3759.2273224729715
+        ],
+        [
+          2862.088696686575,
+          3769.350154162909
+        ],
+        [
+          2862.089674822185,
+          3779.389783932244
+        ],
+        [
+          2861.989783400659,
+          3789.346211780977
+        ],
+        [
+          2861.789022421997,
+          3799.2194377091078
+        ],
+        [
+          2861.4873918861986,
+          3809.009461716636
+        ],
+        [
+          2861.084891793264,
+          3818.7162838035624
+        ],
+        [
+          2860.581522143193,
+          3828.339903969886
+        ],
+        [
+          2859.9772829359868,
+          3837.880322215608
+        ],
+        [
+          2859.2721741716437,
+          3847.337538540727
+        ],
+        [
+          2858.4661958501647,
+          3856.7115529452444
+        ],
+        [
+          2857.55934797155,
+          3866.002365429159
+        ],
+        [
+          2856.5516305357983,
+          3875.2099759924713
+        ],
+        [
+          2855.443043542911,
+          3884.334384635182
+        ],
+        [
+          2854.2335869928875,
+          3893.3755913572895
+        ],
+        [
+          2852.923260885728,
+          3902.3335961587954
+        ],
+        [
+          2851.512065221432,
+          3911.2083990396986
+        ],
+        [
+          2850.0,
+          3920.0
+        ]
       ],
-      [
-        2911,
-        3977
-      ]
-    ]
+      "control": [
+        2900,
+        3640
+      ],
+      "end": [
+        2850,
+        3920
+      ],
+      "length": 745.6797038085933
+    },
+    {
+      "cityId": "nigin",
+      "points": [
+        [
+          2814.9706789625943,
+          3230.751044046526
+        ],
+        [
+          2816.430328320932,
+          3239.126194780435
+        ],
+        [
+          2817.9949438311064,
+          3247.42358723507
+        ],
+        [
+          2819.6645254931186,
+          3255.6432214104307
+        ],
+        [
+          2821.4390733069677,
+          3263.785097306517
+        ],
+        [
+          2823.318587272654,
+          3271.8492149233293
+        ],
+        [
+          2825.3030673901776,
+          3279.835574260868
+        ],
+        [
+          2827.3925136595385,
+          3287.744175319132
+        ],
+        [
+          2829.5869260807362,
+          3295.5750180981217
+        ],
+        [
+          2831.8863046537713,
+          3303.328102597837
+        ],
+        [
+          2834.290649378644,
+          3311.0034288182787
+        ],
+        [
+          2836.7999602553537,
+          3318.6009967594464
+        ],
+        [
+          2839.4142372839,
+          3326.1208064213397
+        ],
+        [
+          2842.133480464284,
+          3333.5628578039587
+        ],
+        [
+          2844.9576897965053,
+          3340.9271509073033
+        ],
+        [
+          2847.886865280564,
+          3348.2136857313744
+        ],
+        [
+          2850.921006916459,
+          3355.4224622761712
+        ],
+        [
+          2854.060114704192,
+          3362.5534805416937
+        ],
+        [
+          2857.3041886437622,
+          3369.606740527942
+        ],
+        [
+          2860.6532287351693,
+          3376.5822422349156
+        ],
+        [
+          2864.1072349784135,
+          3383.479985662616
+        ],
+        [
+          2867.666207373495,
+          3390.299970811042
+        ],
+        [
+          2871.330145920414,
+          3397.0421976801936
+        ],
+        [
+          2875.09905061917,
+          3403.706666270071
+        ],
+        [
+          2878.9729214697636,
+          3410.2933765806742
+        ],
+        [
+          2882.951758472194,
+          3416.8023286120033
+        ],
+        [
+          2887.0355616264615,
+          3423.2335223640584
+        ],
+        [
+          2891.2243309325663,
+          3429.5869578368392
+        ],
+        [
+          2895.5180663905085,
+          3435.862635030346
+        ],
+        [
+          2899.9167680002874,
+          3442.0605539445787
+        ],
+        [
+          2904.420435761904,
+          3448.1807145795374
+        ],
+        [
+          2909.0290696753577,
+          3454.2231169352217
+        ],
+        [
+          2913.7426697406486,
+          3460.1877610116317
+        ],
+        [
+          2918.5612359577767,
+          3466.0746468087673
+        ],
+        [
+          2923.4847683267417,
+          3471.8837743266295
+        ],
+        [
+          2928.5132668475444,
+          3477.615143565217
+        ],
+        [
+          2933.646731520184,
+          3483.2687545245303
+        ],
+        [
+          2938.885162344661,
+          3488.84460720457
+        ],
+        [
+          2944.228559320975,
+          3494.3427016053347
+        ],
+        [
+          2949.6769224491263,
+          3499.763037726826
+        ],
+        [
+          2955.2302517291146,
+          3505.1056155690426
+        ],
+        [
+          2960.8885471609406,
+          3510.3704351319857
+        ],
+        [
+          2966.6518087446034,
+          3515.557496415654
+        ],
+        [
+          2972.5200364801035,
+          3520.6667994200484
+        ],
+        [
+          2978.493230367441,
+          3525.6983441451684
+        ],
+        [
+          2984.571390406615,
+          3530.6521305910146
+        ],
+        [
+          2990.754516597627,
+          3535.5281587575864
+        ],
+        [
+          2997.042608940476,
+          3540.3264286448843
+        ],
+        [
+          3003.435667435162,
+          3545.046940252908
+        ],
+        [
+          3009.9336920816854,
+          3549.6896935816576
+        ],
+        [
+          3016.536682880046,
+          3554.254688631133
+        ],
+        [
+          3023.2446398302436,
+          3558.741925401334
+        ],
+        [
+          3030.0575629322784,
+          3563.1514038922605
+        ],
+        [
+          3036.975452186151,
+          3567.4831241039137
+        ],
+        [
+          3043.9983075918603,
+          3571.737086036292
+        ],
+        [
+          3051.1261291494066,
+          3575.9132896893966
+        ],
+        [
+          3058.3589168587905,
+          3580.011735063227
+        ],
+        [
+          3065.6966707200118,
+          3584.032422157783
+        ],
+        [
+          3073.13939073307,
+          3587.9753509730654
+        ],
+        [
+          3080.687076897965,
+          3591.840521509073
+        ],
+        [
+          3088.3397292146974,
+          3595.6279337658066
+        ],
+        [
+          3096.0973476832673,
+          3599.3375877432663
+        ],
+        [
+          3103.9599323036746,
+          3602.9694834414518
+        ],
+        [
+          3111.9274830759186,
+          3606.523620860363
+        ],
+        [
+          3120.0,
+          3610.0
+        ]
+      ],
+      "control": [
+        2860,
+        3500
+      ],
+      "end": [
+        3120,
+        3610
+      ],
+      "length": 510.16363603846463
+    }
   ],
   "geographicLabels": [
     {
-      "text": "Lower Mesopotamia",
-      "position": [
-        1890,
-        1170
-      ],
-      "leaderCollisions": 0
+      "text": "Tigris",
+      "box": [
+        1590,
+        1530,
+        1689.3333333333333,
+        1568.6666666666667
+      ]
     },
     {
       "text": "Euphrates",
-      "position": [
-        1640,
-        2600
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Tigris",
-      "position": [
-        1730,
-        1720
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Zagros Mountains",
-      "position": [
-        3120,
-        1070
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Arabian Desert",
-      "position": [
-        1350,
-        3210
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Persian Gulf",
-      "position": [
-        3220,
-        4260
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Shatt al-Arab",
-      "position": [
-        2450,
-        2840
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Hawizeh",
-      "position": [
-        2610,
-        2490
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Central marshes",
-      "position": [
-        2405,
-        2590
-      ],
-      "leaderCollisions": 0
-    },
-    {
-      "text": "Hammar",
-      "position": [
-        2360,
-        2790
-      ],
-      "leaderCollisions": 0
+      "box": [
+        1300,
+        3160,
+        1474.0,
+        3202.6666666666665
+      ]
     }
-  ]
+  ],
+  "riverFeaturesDrawn": 853,
+  "projection": {
+    "type": "mercator",
+    "lon0": 45.2,
+    "lat0": 32.2,
+    "x0": 1730,
+    "y0": 2420,
+    "scale": 48000
+  }
 }

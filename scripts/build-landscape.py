@@ -19,7 +19,10 @@ from shapely.geometry import shape, box, mapping, Polygon, MultiPolygon, LineStr
 from shapely.ops import unary_union, linemerge
 from rasterio.features import rasterize
 from rasterio.transform import from_bounds
-D=ROOT/'docs/data'; L=json.loads((D/'poster-layout.json').read_text('utf8'));p=L['projection']
+D=ROOT/'docs/data'
+# The terrain study keeps its original, documented geographic frame independently.
+terrain_layout=ROOT/'docs/exploration/terrain-layout.json'
+L=json.loads((terrain_layout if terrain_layout.exists() else D/'poster-layout.json').read_text('utf8'));p=L['projection']
 FRAME=[120,1030,3880,4340];PW,PH=FRAME[2]-FRAME[0],FRAME[3]-FRAME[1]
 WEST=p['lon0']+(FRAME[0]-p['x0'])/p['pxPerLon'];EAST=p['lon0']+(FRAME[2]-p['x0'])/p['pxPerLon']
 NORTH=p['lat0']-(FRAME[1]-p['y0'])/p['pxPerLat'];SOUTH=p['lat0']-(FRAME[3]-p['y0'])/p['pxPerLat']

@@ -33,4 +33,6 @@ The incorporated river subset retains the upstream terms in Appendix A of [Hydro
 
 **Gentium Plus**, SIL International, is used under the SIL Open Font License 1.1. Its regular and bold fonts and complete license are in `docs/vendor/`. No AI-generated pictorial assets are used.
 
+**Source Sans 3**, Adobe, supplies the poster's place labels and supporting notes under the SIL Open Font License 1.1. Regular and bold fonts and the complete license are in `docs/vendor/`; [official font source](https://github.com/adobe-fonts/source-sans). The Greek atlas was consulted as a read-only visual reference. Its files were not modified.
+
 The project's original code is released under MIT; the newly authored research summaries, composition and poster are licensed under CC BY 4.0. Upstream geography, fonts, source texts and third-party scholarship retain their own licenses. A license to this project's summaries does not grant rights to republish the linked modern translations.

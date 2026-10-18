@@ -7,7 +7,7 @@
     4000,
     5000
   ],
-  "pngSHA256": "732216e6f04ffb7f2e2bf2e0c2b1ecdf9420808523cd2bc60d3ae229d8481efc",
+  "pngSHA256": "2181e805a8251f60fe2f98f386642a501dde5e1b8b7cc059b47415d65c5d01ab",
   "riverCenterlineFeatures": 1040,
   "floodScenario": {
     "levelMetresEGM2008": 4,
@@ -18,5 +18,6 @@
     "polygonFeatures": 580,
     "classification": "modern terrain; not a dated ancient shoreline"
   },
-  "checks": "data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, zero leader crossings, geographic name / leader separation, width bounds, terrain/flood file hashes, river line geometry, explicit scenario annotation"
+  "defaultPoster": "quiet geography; individual curved leaders; terrain and flood study separate",
+  "checks": "data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, no leaders through captions, zero leader crossings, fixed geographic pin coordinates, geographic name separation, width bounds, retained terrain/flood file hashes, river line geometry, separate optional exploration"
 }

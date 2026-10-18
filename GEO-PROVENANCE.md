@@ -1,5 +1,7 @@
 # Geographic provenance
 
+**Current default poster:** quiet flat geography, individually positioned callouts, and a north-up Mercator projection (48,000 pixels per radian). Its scale bar is 50 km at 32° N. The closer frame emphasizes the archaeological river corridor; most of today's Gulf lies southeast of that frame. Site coordinates and source coastal/river vertices have not been moved or simplified. The former equirectangular terrain, ecology and +4 m composition is retained separately at `docs/exploration/`, including its original layout and flood visibility control. The sections below document both the shared source data and that optional study.
+
 The basemap is **modern reference geography**, not a reconstruction of a single ancient period. Southern Iraq's river channels, wetlands, and the head of the Persian Gulf have changed. The position of an ancient city relative to a modern river or shore does not establish its ancient waterfront. The translucent **+4 m EGM2008 overlay is a modern-terrain elevation scenario**, not a dated ancient shoreline. Terrain and ecological colours distinguish broad landscapes; they do not reconstruct ancient vegetation or a period-specific wetland boundary.
 
 ## Original full-resolution shoreline
@@ -75,7 +77,7 @@ Reproducibility assets: `flood-manifest.json`, `flood-4m-native.tif`, and unsimp
 
 The 25 candidate archaeological-site anchors in `docs/data/cities.json` were selected from the Pleiades GIS `places.csv` distribution downloaded on 18 October 2026. Only 22 appear as poster callouts. Each selected point retains its individual canonical Pleiades URL, gazetteer title and precision classification. The CSV member's SHA-256 and retrieval URL are in `docs/data/site-provenance.json`. These are representative points for archaeological sites or complexes, not exact temple, myth-event or birth coordinates. Older ORACC gazetteer snapshots sometimes differ; the selected current Pleiades distribution is used consistently here. Other named sites remain null where location or identification is insufficiently secure. Pleiades contributors' data are licensed CC BY 3.0.
 
-The poster uses a local equirectangular projection with 480 pixels per longitude degree and 565 per latitude degree (approximately cos 31.8° longitude scaling), north up. The scale bar is approximate at 31° N. Scene clipping affects only the displayed frame; it does not further simplify the original coastal vertices.
+The optional terrain study retains the former local equirectangular projection with 480 pixels per longitude degree and 565 per latitude degree (approximately cos 31.8° longitude scaling), north up. Its scale bar is approximate at 31° N. The default poster now uses the north-up Mercator projection described above. Scene clipping affects only each displayed frame; it does not further simplify original coastal vertices.
 
 ## License and attribution
 
