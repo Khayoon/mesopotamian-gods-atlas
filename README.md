@@ -39,7 +39,7 @@ python -m http.server 8766 --directory docs
 
 Open `http://localhost:8766/`. Search the catalogue by name, alias, city or text; filter explicit city births, cosmic/unlocated origins, and cult places. The composition workbench moves SVG label groups and their leaders, exports a 4000 × 5000 PNG or font-embedded SVG, and saves label offsets. Browser edits are temporary and do not modify the published poster or source catalogue. Inspect edited exports for collisions.
 
-The reviewed poster can be regenerated with Python 3 and Pillow:
+The reviewed poster can be regenerated with Python 3 and Pillow from the included geographic assets:
 
 ```sh
 python -m pip install -r requirements.txt
@@ -48,11 +48,24 @@ python scripts/render-poster.py
 
 Edit `docs/data/poster-layout.json` to change wording or positions, then rerun. The SVG retains editable text and exact geographic paths. Gentium Plus font files are bundled; installing them helps desktop SVG editors preserve typography. The browser export embeds the fonts.
 
-`scripts/build-data.py PATH_TO_PLEIADES_places.csv` merges the two evidence working files and imports the selected site coordinates from the [Pleiades GIS release](https://atlantides.org/downloads/pleiades/gis/). The merged, ready-to-use data are already included; regeneration is optional. `scripts/build-geography.py` reproduces the original full-resolution regional shoreline and river extract; see its provenance document and the manifest for hashes and retained vertex counts.
+`scripts/build-data.py PATH_TO_PLEIADES_places.csv` merges the two evidence working files and imports the selected site coordinates from the [Pleiades GIS release](https://atlantides.org/downloads/pleiades/gis/). The merged, ready-to-use data are already included; regeneration is optional. `scripts/build-geography.py` reproduces the original full-resolution regional shoreline and retained WDBII source extract; see its provenance document and the manifest for hashes and retained vertex counts.
+
+To rebuild the revised relief, clean river centrelines and native-cell coastal elevation scenario, install the additional packages in `requirements.txt` and run:
+
+```sh
+python scripts/build-landscape.py
+python scripts/build-flood.py
+python scripts/render-poster.py
+python scripts/validate.py
+```
+
+The two geographic builders cache downloads in ignored `work/terrain/` directories; `--cache PATH` can select another location. They need network access and substantial RAM. The flood builder retrieves selected original DeltaDTM TIFF members with validated HTTP range requests, not the entire 17 GB Asia archive. The ready-made native mask, polygons and manifests are already included, so rebuilding these layers is optional.
 
 ## Geographic accuracy and checks
 
-The map uses a local equirectangular projection with longitude scaled by approximately cos(31.8°). Modern political borders are omitted. The scale bar is approximate at 31° N; north is up. GSHHG full-resolution polygons are clipped as a scene without additional simplification. WDBII waterways are older modern-reference mapping, not a current survey and not ancient channels. Ramsar symbols mark named modern marsh regions, not reconstructed wetland boundaries. No single ancient Gulf shoreline is asserted.
+The map uses a local equirectangular projection with longitude scaled by approximately cos(31.8°). Modern political borders are omitted. The scale bar is approximate at 31° N; north is up. GSHHG full-resolution ocean coast and offshore islands are retained without additional simplification; inland lake and reservoir outlines are omitted. Thicker HydroRIVERS centrelines replace the displayed WDBII network. They are modern-reference modelled channels, not reconstructed ancient waterways. Mapzen / USGS terrain supplies the Zagros relief. A soft alluvial wash and the RESOLVE 2017 marsh region distinguish the plains, wetlands and desert, without claiming dated vegetation. Ramsar anchors identify the named modern marsh regions.
+
+The **+4 m EGM2008 elevation scenario** uses corrected DeltaDTM 1.1.1 at native one-arcsecond spacing (about 30 m), before display reprojection. Only valid low ground connected to the Gulf is flooded. This is not a dated ancient shoreline: sedimentation, subsidence, historical sea level and ancient channels are not reconstructed. EGM2008 is not local mean sea level; nominal cell spacing is not a shoreline-accuracy guarantee. The native GeoTIFF, exact-cell GeoJSON, 3 m / 5 m threshold comparisons and source hashes are downloadable from the companion. The workbench can hide the overlay. Full methods, crop limitations and licensing are in [GEO-PROVENANCE.md](GEO-PROVENANCE.md).
 
 The exported PNG and a browser PNG export were visually inspected. Layout checks cover label bounds and geographic-name/leader collisions. Catalogue checks cover unique IDs, referenced city IDs, exact passages/URLs on each evidence claim, and null coordinates for unlocated places. These checks support an illustrated research aid; they do not substitute for a critical edition or specialist review of every deity.
 

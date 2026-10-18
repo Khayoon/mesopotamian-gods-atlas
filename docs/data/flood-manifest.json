@@ -1,0 +1,896 @@
+{
+  "title": "Ocean-connected +4 m EGM2008 modern-terrain scenario",
+  "generated_at": "2026-10-18T14:18:42.517991+00:00",
+  "requested_bbox_west_south_east_north": [
+    45.5,
+    29.0,
+    49.85,
+    32.0
+  ],
+  "actual_bbox_west_south_east_north": [
+    45.500138888888884,
+    29.000138888888884,
+    49.850138888888885,
+    32.000138888888884
+  ],
+  "grid": {
+    "width": 15660,
+    "height": 10800,
+    "resolution_degrees": 0.0002777777777777778,
+    "transform": [
+      0.0002777777777777778,
+      0.0,
+      45.500138888888884,
+      0.0,
+      -0.0002777777777777778,
+      32.000138888888884
+    ],
+    "horizontal_crs": "EPSG:4326",
+    "source_vertical_reference": "EGM2008 (EPSG:3855), per official README; GeoTIFFs expose EPSG:4326 horizontal CRS",
+    "local_mean_sea_level_conversion": "none",
+    "classification_resolution": "native 1 arcsecond; no resampling"
+  },
+  "methodology": {
+    "threshold": "valid modern DeltaDTM land cell elevation <= chosen level (metres above EGM2008 geoid)",
+    "connectivity": "4-neighbour ocean-connected binary propagation on native grid",
+    "ocean_seeds": "All pixels outside original full-resolution GSHHG 2.3.7 level-1 land polygons; levels 2-4 excluded so inland lakes are filled land, not seeds",
+    "missing_data": "unavailable or clipped land is a barrier, never assumed zero",
+    "output": "Additional flooded land only in GeoJSON; native raster separately distinguishes modern sea, flooded land, dry land, unknown land",
+    "polygonization": "Exact native-grid cell boundaries, 4-neighbour; no geometry simplification",
+    "sensitivity": "3 and 5 m EGM2008 are threshold sensitivity scenarios, not statistical confidence limits"
+  },
+  "limitations": [
+    "This is a static modern-terrain elevation/connectivity scenario, not an ancient shoreline reconstruction.",
+    "No sediment deposition, erosion, compaction, tectonics, subsidence, ancient channels, or historical sea-level correction is modelled.",
+    "EGM2008 geoid height is not local present mean sea level; the threshold is exactly +4 m EGM2008, not a precise 4 m sea-level rise.",
+    "Native 1 arcsecond spacing (roughly 27 x 31 m here) does not imply equivalent elevation or shoreline accuracy.",
+    "Published global mean absolute elevation error (v1.1 record: 0.43 m) is not a site-specific error bound; no local ground-truth validation has been performed.",
+    "Modern levees, embankments and altered waterways can affect connectivity; 4-neighbour grid connectivity can miss sub-cell channels.",
+    "GSHHG modern coast and DeltaDTM can disagree at the shoreline; seeding uses documented full-resolution GSHHG without coastline simplification.",
+    "No tides, flow friction, storm surge, waves, barriers removed, or timed hydraulic propagation is modelled."
+  ],
+  "sources": [
+    {
+      "title": "DeltaDTM v1.1, official version 4 dataset",
+      "url": "https://doi.org/10.4121/21997565.v4",
+      "license": "CC BY 4.0",
+      "temporal_coverage": "2012-2024"
+    },
+    {
+      "title": "Pronk et al. (2024), DeltaDTM: A global coastal digital terrain model",
+      "url": "https://doi.org/10.1038/s41597-024-03091-9"
+    },
+    {
+      "title": "Official v1.1 README, including EGM2008 datum and 30 m clipping",
+      "url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/71c77b5f-b340-4fdb-a1b1-1d255b8ddb0f"
+    },
+    {
+      "title": "GSHHG 2.3.7 full-resolution geography",
+      "url": "https://github.com/GenericMappingTools/gshhg-gmt/releases/tag/2.3.7",
+      "local_coast_sha256": "c175b8ef1332c63591d61ca439732f24015ec610ab1b2ec208a29be4cb3c8d6a"
+    }
+  ],
+  "attribution": "DeltaDTM: Maarten Pronk, 2024, CC BY 4.0. Produced using Copernicus WorldDEM-30 \u00a9 DLR e.V. 2010\u20132014 and \u00a9 Airbus Defence and Space GmbH 2014\u20132018, provided under COPERNICUS by the European Union and ESA; all rights reserved. Derived threshold/connectivity/polygonization by this atlas.",
+  "input_archives": [
+    {
+      "url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "archive_bytes": 17279481550,
+      "etag": "\"1733899064.872604-17279481550-3226409894\"",
+      "last_modified": "Wed, 11 Dec 2024 06:37:44 GMT",
+      "central_directory_offset": 17279212894,
+      "central_directory_bytes": 268558,
+      "central_directory_sha256": "6471a4f89f95ead27c657ed570e620612a3ede5054c504849867e26e58cbfcad"
+    },
+    {
+      "url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+      "archive_bytes": 428178062,
+      "etag": "\"1733899095.132639-428178062-3867286902\"",
+      "last_modified": "Wed, 11 Dec 2024 06:38:15 GMT",
+      "central_directory_offset": 427428923,
+      "central_directory_bytes": 749117,
+      "central_directory_sha256": "56b0835894250e67a635f8d3042a1ff559abb78eb00c965cb1a27edf6ecf0429"
+    }
+  ],
+  "input_tiles": [
+    {
+      "name": "DeltaDTM_v1_1_N29E045.tif",
+      "available": false
+    },
+    {
+      "name": "DeltaDTM_v1_1_N29E046.tif",
+      "available": false
+    },
+    {
+      "name": "DeltaDTM_v1_1_N29E047.tif",
+      "method": 0,
+      "crc32": 556292765,
+      "compressed_bytes": 4160406,
+      "bytes": 4160406,
+      "local_header_offset": 89795704,
+      "sha256": "3451c2a479d98396e4b48fdc4a2faed1b604f730d1d8a9852e1ba6f3f94c003d",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N29E047.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N29E047.tif",
+        "method": 0,
+        "crc32": 1489075085,
+        "compressed_bytes": 13899,
+        "bytes": 13899,
+        "local_header_offset": 113392349,
+        "sha256": "b797bb3f5cb55ebfe729fac221d645d50355d92bbe79949b534037f921519f31",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N29E047.tif"
+      },
+      "bounds": [
+        46.99986111111111,
+        29.000138888888888,
+        47.99986111111111,
+        30.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        46.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        30.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12446676,
+        "1": 508784,
+        "2": 1786,
+        "3": 2754
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N29E048.tif",
+      "method": 0,
+      "crc32": 3820312286,
+      "compressed_bytes": 8044880,
+      "bytes": 8044880,
+      "local_header_offset": 36959466,
+      "sha256": "bffc4e08c68ee17f01ac0e6bf4264e10ce3555cb87e1a11d0f616e49c0130394",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N29E048.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N29E048.tif",
+        "method": 0,
+        "crc32": 3012140481,
+        "compressed_bytes": 66765,
+        "bytes": 66765,
+        "local_header_offset": 113406337,
+        "sha256": "3fbee666cef1965b90ea495b4dfe142d4b255e0f93650ab6394745d16e070942",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N29E048.tif"
+      },
+      "bounds": [
+        47.99986111111111,
+        29.000138888888888,
+        48.99986111111111,
+        30.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        47.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        30.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 2345213,
+        "1": 10462371,
+        "2": 135568,
+        "3": 16848
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N29E049.tif",
+      "method": 0,
+      "crc32": 1361039522,
+      "compressed_bytes": 14458,
+      "bytes": 14458,
+      "local_header_offset": 8408967605,
+      "sha256": "cfd5602805995253de8ad6df8447de3f7728945319785ae6f7c7d7596c59e3da",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N29E049.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N29E049.tif",
+        "method": 0,
+        "crc32": 3671366706,
+        "compressed_bytes": 5906,
+        "bytes": 5906,
+        "local_header_offset": 113473191,
+        "sha256": "6352587f404ef58d1246035defef8e57a416ed2ff71f7132e3bfb3b0bc4493ac",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N29E049.tif"
+      },
+      "bounds": [
+        48.99986111111111,
+        29.000138888888888,
+        49.99986111111111,
+        30.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        48.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        30.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 215,
+        "1": 12959785
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N30E045.tif",
+      "method": 0,
+      "crc32": 1808108936,
+      "compressed_bytes": 7209813,
+      "bytes": 7209813,
+      "local_header_offset": 8586075378,
+      "sha256": "2de2214164198007d86a89bdc82a9316bf46a30a3bdebd11ad7d5693550ae71a",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N30E045.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N30E045.tif",
+        "method": 0,
+        "crc32": 3461457207,
+        "compressed_bytes": 16830,
+        "bytes": 16830,
+        "local_header_offset": 121685180,
+        "sha256": "dac88911f133b4ee5714d3a9eee5a671c80b31142938b5ac63d93b15283f049f",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N30E045.tif"
+      },
+      "bounds": [
+        44.99986111111111,
+        30.000138888888888,
+        45.99986111111111,
+        31.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        44.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        31.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12827450,
+        "2": 132319,
+        "3": 231
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N30E046.tif",
+      "method": 0,
+      "crc32": 2248135659,
+      "compressed_bytes": 21217232,
+      "bytes": 21217232,
+      "local_header_offset": 8533187613,
+      "sha256": "82a0198729e60f7df55328b98ce4e030400a10064da06ce420e478f221cece2e",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N30E046.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N30E046.tif",
+        "method": 0,
+        "crc32": 448320294,
+        "compressed_bytes": 76988,
+        "bytes": 76988,
+        "local_header_offset": 121702099,
+        "sha256": "8b029fd33e56f8abb2ecb69bb463b095c8e1dfa473e10426e7b4e195101736e2",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N30E046.tif"
+      },
+      "bounds": [
+        45.99986111111111,
+        30.000138888888888,
+        46.99986111111111,
+        31.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        45.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        31.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12774933,
+        "2": 150278,
+        "3": 34789
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N30E047.tif",
+      "method": 0,
+      "crc32": 2417791133,
+      "compressed_bytes": 36959383,
+      "bytes": 36959383,
+      "local_header_offset": 0,
+      "sha256": "2a8b2df4776b81f04929357b6064d5fe46fb4914f11febde5d04c18632122399",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N30E047.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N30E047.tif",
+        "method": 0,
+        "crc32": 1287736427,
+        "compressed_bytes": 150034,
+        "bytes": 150034,
+        "local_header_offset": 121779176,
+        "sha256": "eec294aff6447263d2864104e732bb4a024586bdfc98b1f3b937449e1fbdbb43",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N30E047.tif"
+      },
+      "bounds": [
+        46.99986111111111,
+        30.000138888888888,
+        47.99986111111111,
+        31.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        46.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        31.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12288958,
+        "2": 556666,
+        "3": 114376
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N30E048.tif",
+      "method": 0,
+      "crc32": 3528069426,
+      "compressed_bytes": 44791192,
+      "bytes": 44791192,
+      "local_header_offset": 45004429,
+      "sha256": "08145cff4e5810f2cbcfa8de2bb2abc4559ad960dfd01ba207d72c6615c8fb12",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N30E048.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N30E048.tif",
+        "method": 0,
+        "crc32": 3789145903,
+        "compressed_bytes": 281791,
+        "bytes": 281791,
+        "local_header_offset": 121929299,
+        "sha256": "b2ba811ea09a3e55b8179d2510604a29d63b31ce77d363a8e7738ee600e74eac",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N30E048.tif"
+      },
+      "bounds": [
+        47.99986111111111,
+        30.000138888888888,
+        48.99986111111111,
+        31.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        47.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        31.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 11020237,
+        "1": 540149,
+        "2": 1215872,
+        "3": 183742
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N30E049.tif",
+      "method": 0,
+      "crc32": 58985294,
+      "compressed_bytes": 30606897,
+      "bytes": 30606897,
+      "local_header_offset": 8316016967,
+      "sha256": "c4c2987f09bd2d9ec33d014fa390c5cad3c8cd4508e28666d7417f0eb50d086f",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N30E049.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N30E049.tif",
+        "method": 0,
+        "crc32": 258427632,
+        "compressed_bytes": 130171,
+        "bytes": 130171,
+        "local_header_offset": 122211179,
+        "sha256": "cedf9ea6ec6ea06c16c180af0f4e5d91b440658413a6c8f363a9880ce5053bb8",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N30E049.tif"
+      },
+      "bounds": [
+        48.99986111111111,
+        30.000138888888888,
+        49.99986111111111,
+        31.000138888888888
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        48.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        31.000138888888888
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 10509808,
+        "1": 2250599,
+        "2": 81188,
+        "3": 118405
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N31E045.tif",
+      "method": 0,
+      "crc32": 4067213020,
+      "compressed_bytes": 45909333,
+      "bytes": 45909333,
+      "local_header_offset": 8487278197,
+      "sha256": "6f7a8e7aa5ace97dbee50c4b13b86a438d26134336c9a8e3fc2f3fcc81d3fb26",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N31E045.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N31E045.tif",
+        "method": 0,
+        "crc32": 1741610520,
+        "compressed_bytes": 49636,
+        "bytes": 49636,
+        "local_header_offset": 131121845,
+        "sha256": "54f5ee758863889c30f6a5c0c40e156c8be9d2163802a034a4c2ee7b7b41765a",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N31E045.tif"
+      },
+      "bounds": [
+        44.99986111111111,
+        31.00013888888889,
+        45.99986111111111,
+        32.00013888888889
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        44.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        32.00013888888889
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12917817,
+        "2": 4675,
+        "3": 37508
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N31E046.tif",
+      "method": 0,
+      "crc32": 1991768091,
+      "compressed_bytes": 49451334,
+      "bytes": 49451334,
+      "local_header_offset": 8599447908,
+      "sha256": "32b0d44b6d26eeae521b13d437f22209692dbfbd7863658dafd1771889b2c788",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N31E046.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N31E046.tif",
+        "method": 0,
+        "crc32": 291612184,
+        "compressed_bytes": 52949,
+        "bytes": 52949,
+        "local_header_offset": 131171570,
+        "sha256": "ba5f127dbc3b52c90555f9a71e1d40e534a35704325f0eb29e82b9f0cbf355a9",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N31E046.tif"
+      },
+      "bounds": [
+        45.99986111111111,
+        31.00013888888889,
+        46.99986111111111,
+        32.00013888888889
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        45.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        32.00013888888889
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12912719,
+        "2": 11839,
+        "3": 35442
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N31E047.tif",
+      "method": 0,
+      "crc32": 2664812592,
+      "compressed_bytes": 48476680,
+      "bytes": 48476680,
+      "local_header_offset": 8648899325,
+      "sha256": "20b8756c3160b78231f5973072546ca0d0cb2b2af5143d2a038d95720618b7ed",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N31E047.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N31E047.tif",
+        "method": 0,
+        "crc32": 1674554040,
+        "compressed_bytes": 91237,
+        "bytes": 91237,
+        "local_header_offset": 131224608,
+        "sha256": "6bde6f5831c20d2194294a273be5e964c0926b7c6e2f254a0bdc023411b6c749",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N31E047.tif"
+      },
+      "bounds": [
+        46.99986111111111,
+        31.00013888888889,
+        47.99986111111111,
+        32.00013888888889
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        46.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        32.00013888888889
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12703615,
+        "2": 227863,
+        "3": 28522
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N31E048.tif",
+      "method": 0,
+      "crc32": 3213741710,
+      "compressed_bytes": 36084317,
+      "bytes": 36084317,
+      "local_header_offset": 13927039783,
+      "sha256": "fce4fbf27cfd88d4b40ac933469d1dcbd9573c09d94f5cfe6df2a4206f094b28",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N31E048.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N31E048.tif",
+        "method": 0,
+        "crc32": 2259181931,
+        "compressed_bytes": 132408,
+        "bytes": 132408,
+        "local_header_offset": 131315934,
+        "sha256": "5812aca8e1d95045d96e8577ccbe8bb677c223d711b565180a5b269c71ca2db8",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N31E048.tif"
+      },
+      "bounds": [
+        47.99986111111111,
+        31.00013888888889,
+        48.99986111111111,
+        32.00013888888889
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        47.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        32.00013888888889
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12808785,
+        "2": 57618,
+        "3": 93597
+      }
+    },
+    {
+      "name": "DeltaDTM_v1_1_N31E049.tif",
+      "method": 0,
+      "crc32": 3241727550,
+      "compressed_bytes": 4222897,
+      "bytes": 4222897,
+      "local_header_offset": 13922816803,
+      "sha256": "02777995ea03976f24bdb179b3508ee0ede33ec4be656ea15ae6be79a1cfd7d8",
+      "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/672eba4c-1334-44c6-8119-8879ded25912",
+      "cache_path": "terrain\\deltadtm\\DeltaDTM_v1_1_N31E049.tif",
+      "source_water_mask": {
+        "name": "masks/DeltaDTM_v1_1_N31E049.tif",
+        "method": 0,
+        "crc32": 2404886601,
+        "compressed_bytes": 20731,
+        "bytes": 20731,
+        "local_header_offset": 131448431,
+        "sha256": "4ed159499b9a329622d20105fbd5c9ebfffafc64b2a8423b214d45cbffda6df7",
+        "archive_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/bfe0fbc1-fdf3-40d0-a62c-adc58bfd9478",
+        "cache_path": "terrain\\deltadtm\\masks\\DeltaDTM_v1_1_N31E049.tif"
+      },
+      "bounds": [
+        48.99986111111111,
+        31.00013888888889,
+        49.99986111111111,
+        32.00013888888889
+      ],
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        48.99986111111111,
+        0.0,
+        -0.0002777777777777778,
+        32.00013888888889
+      ],
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "nodata": -9999.0,
+      "width": 3600,
+      "height": 3600,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "DeltaDTM v1.1.1. doi 10.4121/21997565",
+        "TIFFTAG_IMAGEDESCRIPTION": "A global coastal digital terrain model, based on CopernicusDEM, ESA WorldCover, ICESat-2 and GEDI data. For more information, see Pronk et al. (2024) DeltaDTM: A global coastal digital terrain model.",
+        "TIFFTAG_SOFTWARE": "DeltaDTM.jl v1.1.1",
+        "TIFFTAG_ARTIST": "Maarten Pronk (maarten.pronk@deltares.nl)",
+        "TIFFTAG_COPYRIGHT": "CC-BY 4.0",
+        "AREA_OR_POINT": "Area"
+      },
+      "mask_counts": {
+        "0": 12940766,
+        "2": 15205,
+        "3": 4029
+      }
+    }
+  ],
+  "native_counts": {
+    "modern_sea": 24579753,
+    "valid_land": 121767564,
+    "unknown_or_clipped_land": 22780683
+  },
+  "scenarios": {
+    "3": {
+      "additional_flooded_native_cells": 9823465,
+      "additional_area_km2": 8090.133744943246,
+      "polygon_features": 645,
+      "file": "flood-3m.geojson",
+      "bytes": 9520267,
+      "sha256": "c01b6e15a728f2c6399dcbadde655b818b69c8616840673173b24f07a52f655c",
+      "flooded_land_cells_on_model_boundary": {
+        "west": 0,
+        "east": 209,
+        "north": 0,
+        "south": 0
+      },
+      "invalid_geojson_polygons": 0
+    },
+    "4": {
+      "additional_flooded_native_cells": 12128802,
+      "additional_area_km2": 9983.320300506122,
+      "polygon_features": 580,
+      "file": "flood-4m.geojson",
+      "bytes": 9196713,
+      "sha256": "98086b6c84263097683a95f2f392636255a28789141906caed7bfaeafdb411cc",
+      "flooded_land_cells_on_model_boundary": {
+        "west": 0,
+        "east": 308,
+        "north": 0,
+        "south": 0
+      },
+      "invalid_geojson_polygons": 0
+    },
+    "5": {
+      "additional_flooded_native_cells": 13304695,
+      "additional_area_km2": 10948.437308579398,
+      "polygon_features": 455,
+      "file": "flood-5m.geojson",
+      "bytes": 9210805,
+      "sha256": "72b28beea906fe1a6265c5eb5a8a1f17ad977d637f2a736c91e2de3fe4e10eec",
+      "flooded_land_cells_on_model_boundary": {
+        "west": 0,
+        "east": 383,
+        "north": 0,
+        "south": 3
+      },
+      "invalid_geojson_polygons": 0
+    }
+  },
+  "native_mask": {
+    "file": "flood-4m-native.tif",
+    "bytes": 926058,
+    "sha256": "027e0e3cf58f45f7b82d151ff1dfafb78efaec2959fcf21b006deb2bb361020f",
+    "values": {
+      "0": "dry valid land",
+      "1": "modern sea",
+      "2": "additional flooded land",
+      "255": "unavailable or clipped land; barrier"
+    }
+  },
+  "verification": {
+    "native_raster_dimensions": [
+      15660,
+      10800
+    ],
+    "native_raster_category_counts": {
+      "0": 109638762,
+      "1": 24579753,
+      "2": 12128802,
+      "255": 22780683
+    },
+    "additional_flooded_cells_above_4m_or_nodata": 0,
+    "invalid_geojson_polygons": {
+      "3m": 0,
+      "4m": 0,
+      "5m": 0
+    },
+    "east_boundary_4m_contact_latitude_range": [
+      30.16222222222222,
+      30.248888888888885
+    ],
+    "boundary_note": "The eastern coastal fringe is clipped at longitude49.8501389; western/northern/southern boundaries have no4m flooded land cells. This scenario does not claim a closed or Gulf-wide shoreline.",
+    "downloaded_dtm_members": 13,
+    "downloaded_dtm_member_bytes": 337148822,
+    "archive_download_strategy": "HTTP206 central-directory and selected-member byte ranges; full17.28GB Asia archive not downloaded"
+  },
+  "dataset_version": {
+    "repository_version": 4,
+    "repository_label": "DeltaDTM v1.1",
+    "actual_processing_version": "1.1.1",
+    "correction_date": "2024-12-10",
+    "correction": "Reprocessed after ICESat-2 processing errors in the previous release caused large inland depressions.",
+    "changelog_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/b0403ff2-0aa5-4394-9413-2eb851e0fa50",
+    "changelog_sha256": "e17613a95229ddc981533ed164b26b59c30f95f650287a52de7cb36523dccb4c",
+    "readme_url": "https://data.4tu.nl/file/1da2e70f-6c4d-4b03-86bd-b53e789cc629/71c77b5f-b340-4fdb-a1b1-1d255b8ddb0f",
+    "readme_sha256": "9da10b0576ff4368a756bd5646b091fab6b7c7c7d217a6f758fbe0803f826e00"
+  }
+}

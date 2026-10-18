@@ -1,3 +1,8 @@
 Pillow>=10.0
-# Optional, only for regenerating geography:
+# Optional below: regenerate geography, landscape and native-cell flood scenario.
 Shapely>=2.0
+numpy>=2.0,<2.3
+scipy>=1.14
+rasterio>=1.4
+pyshp>=2.3
+requests>=2.32

@@ -33,6 +33,7 @@ Promise.all([fetch('data/research.json').then(r=>r.json()),fetch('data/cities.js
  research=r;cities=c;layout=l;$('totals').textContent=`${r.deities.length} researched deity records; ${r.deities.reduce((n,g)=>n+g.originTraditions.length,0)} separately recorded origin claims. The poster is a geographic selection; cosmic, disputed and unlocated claims remain here with their sources.`;
  cities.filter(c=>research.deities.some(g=>g.cultCityIds.includes(c.id))).sort((a,b)=>a.name.localeCompare(b.name)).forEach(c=>$('city').add(new Option(c.name+(c.coordinates?'':' — unpinned'),c.id)));
  $('artboard').innerHTML=svg;svgRoot=$('artboard').querySelector('svg');
+ $('floodToggle').onchange=()=>{for(const id of ['flood-overlay','scenario-key'])svgRoot.querySelector('#'+id)?.setAttribute('display',$('floodToggle').checked?'inline':'none');};
  layout.labels.forEach(l=>$('label').add(new Option(cityName(l.cityId),l.cityId)));
  ['search','city','evidence'].forEach(id=>$(id).addEventListener('input',filter));$('label').onchange=syncControls;
  ['offsetX','offsetY'].forEach(id=>$(id).oninput=()=>applyOffset($('label').value,Number($('offsetX').value),Number($('offsetY').value)));

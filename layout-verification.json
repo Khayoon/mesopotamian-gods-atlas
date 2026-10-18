@@ -458,6 +458,42 @@
       ]
     },
     {
+      "text": "Alluvial plain",
+      "box": [
+        220,
+        972,
+        405.33333333333337,
+        1007.7
+      ]
+    },
+    {
+      "text": "Marsh region",
+      "box": [
+        1195,
+        972,
+        1381.6666666666667,
+        1007.7
+      ]
+    },
+    {
+      "text": "Desert",
+      "box": [
+        2135,
+        972,
+        2225.6666666666665,
+        1007.7
+      ]
+    },
+    {
+      "text": "Mountain relief",
+      "box": [
+        2925,
+        972,
+        3143.6666666666665,
+        1007.7
+      ]
+    },
+    {
       "text": "Sippar",
       "box": [
         155,
@@ -1367,6 +1403,24 @@
       ]
     },
     {
+      "text": "Zagros Mountains",
+      "box": [
+        3120,
+        1070,
+        3430.6666666666665,
+        1114.1
+      ]
+    },
+    {
+      "text": "Arabian Desert",
+      "box": [
+        1350,
+        3210,
+        1606.6666666666667,
+        3254.1
+      ]
+    },
+    {
       "text": "Persian Gulf",
       "box": [
         3220,
@@ -1439,21 +1493,57 @@
       ]
     },
     {
-      "text": "Modern watercourses orient the reader. Ancient rivers, marshes and the",
+      "text": "+4 m elevation scenario",
       "box": [
-        1335,
-        3700.0,
-        2599.0,
-        3745.15
+        1395,
+        3590,
+        1871.0,
+        3639.35
       ]
     },
     {
-      "text": "Gulf shore shifted; no single ancient shoreline is asserted.",
+      "text": "Gulf-connected terrain ≤4 m EGM2008. DeltaDTM: 30 m cells. Modern terrain has",
       "box": [
         1335,
-        3749.02,
-        2337.6666666666665,
-        3794.17
+        3660.0,
+        2651.666666666667,
+        3702.0
+      ]
+    },
+    {
+      "text": "changed through sedimentation and subsidence; this is not a dated ancient",
+      "box": [
+        1335,
+        3705.6,
+        2561.666666666667,
+        3747.6
+      ]
+    },
+    {
+      "text": "shoreline.",
+      "box": [
+        1335,
+        3751.2,
+        1498.3333333333333,
+        3793.2
+      ]
+    },
+    {
+      "text": "Terrain and ecological colours describe broad landscapes. Ancient river courses and marsh",
+      "box": [
+        1335,
+        3900.0,
+        2624.333333333333,
+        3936.75
+      ]
+    },
+    {
+      "text": "extents varied.",
+      "box": [
+        1335,
+        3939.9,
+        1547.0,
+        3976.65
       ]
     },
     {
@@ -1556,12 +1646,21 @@
       ]
     },
     {
-      "text": "Geography: GSHHG 2.3.7 full resolution · WDBII rivers · Pleiades site points · Ramsar marsh centres.",
+      "text": "Geography: GSHHG full-resolution coast · HydroRIVERS · Pleiades · Ramsar · RESOLVE 2017 · Mapzen / USGS relief.",
       "box": [
         165,
-        4905,
-        1533.0,
-        4940.7
+        4870,
+        1577.6666666666667,
+        4902.55
+      ]
+    },
+    {
+      "text": "+4 m test: DeltaDTM 1.1.1, EGM2008 · Pronk et al., Scientific Data 11 (2024), 273. Methods and limits in the companion.",
+      "box": [
+        165,
+        4920,
+        1632.3333333333333,
+        4952.55
       ]
     }
   ],
@@ -1985,6 +2084,22 @@
       "position": [
         1730,
         1720
+      ],
+      "leaderCollisions": 0
+    },
+    {
+      "text": "Zagros Mountains",
+      "position": [
+        3120,
+        1070
+      ],
+      "leaderCollisions": 0
+    },
+    {
+      "text": "Arabian Desert",
+      "position": [
+        1350,
+        3210
       ],
       "leaderCollisions": 0
     },

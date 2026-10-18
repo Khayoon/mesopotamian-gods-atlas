@@ -1,20 +1,21 @@
 """Deterministic 4:5 PNG + editable SVG. All geography is sourced geometry.
 Run from any directory: python scripts/render-poster.py
 """
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from pathlib import Path
-import json, math, html, random
+import json, math, html, random, base64
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs'; DATA=OUT/'data'
 L=json.loads((DATA/'poster-layout.json').read_text('utf-8'))
 C={v['id']:v for v in json.loads((DATA/'cities.json').read_text('utf-8'))}
 W,H=L['width'],L['height']; S=1.5
 PAPER='#f5f0e5'; INK='#273f3a'; MUTED='#66766d'; LAND='#e9e5d7'; WATER='#dfe9e5'
-RIVER='#719390'; COAST='#7d9385'; RUST='#a45035'; GOLD='#ac883b'
+RIVER='#477f87'; COAST='#708b81'; RUST='#a45035'; GOLD='#ac883b'
 im=Image.new('RGB',(int(W*S),int(H*S)),PAPER); d=ImageDraw.Draw(im)
 fontdir=OUT/'vendor'; FONT={'serif':fontdir/'GentiumPlus-Regular.ttf','bold':fontdir/'GentiumPlus-Bold.ttf'}
 fonts={}; svg=[]; boxes=[]; leaders=[]
 svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><title>{html.escape(L["title"][0]+" "+L["title"][1])}</title><desc>Cult seats and separately identified birth traditions. Full source data accompanies this image.</desc><defs><style>@font-face{{font-family:Gentium;src:url(vendor/GentiumPlus-Regular.ttf)}}@font-face{{font-family:Gentium;src:url(vendor/GentiumPlus-Bold.ttf);font-weight:700}}text{{font-family:Gentium,serif}}</style><clipPath id="mapclip"><rect x="120" y="1030" width="3760" height="3310"/></clipPath><pattern id="dots" width="31" height="31" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r="1.1" fill="#d9d2c2"/></pattern></defs>')
 svg.append(f'<rect width="4000" height="5000" fill="{PAPER}"/><rect width="4000" height="5000" fill="url(#dots)"/>')
+svg.append('<defs><filter id="labelwash" x="-25%" y="-80%" width="150%" height="260%"><feGaussianBlur stdDeviation="24"/></filter></defs>')
 def font(size,kind='serif'):
     key=(size,kind)
     if key not in fonts:fonts[key]=ImageFont.truetype(str(FONT[kind]),round(size*S))
@@ -45,13 +46,17 @@ def text(x,y,string,size=42,kind='serif',fill=INK,halo=True,track=True):
     if track:boxes.append({'text':string,'box':[x,y,x+width,y+size*1.05]})
     svg.append(f'<text x="{x}" y="{y+size*.74}" font-size="{size}" font-weight="{700 if kind=="bold" else 400}" fill="{fill}"'+(f' stroke="{PAPER}" stroke-width="5" paint-order="stroke fill"' if halo else '')+'>'+html.escape(string)+'</text>')
     return width
-def wrapped(x,y,string,width,size=42,kind='serif',fill=MUTED,leading=1.14):
+def wrap_rows(string,width,size=42,kind='serif'):
     words=string.split();rows=[];cur=''
     for word in words:
         nxt=(cur+' '+word).strip()
         if cur and d.textlength(nxt,font=font(size,kind))/S>width:rows.append(cur);cur=word
         else:cur=nxt
     if cur:rows.append(cur)
+    return rows
+
+def wrapped(x,y,string,width,size=42,kind='serif',fill=MUTED,leading=1.14):
+    rows=wrap_rows(string,width,size,kind)
     for j,row in enumerate(rows):text(x,y+j*size*leading,row,size,kind,fill)
     return y+len(rows)*size*leading
 for y in range(15,H,31):
@@ -74,53 +79,68 @@ def marker(x,y,kind='cult',r=12):
     elif kind=='inferred':ellipse((x-17,y-17,x+17,y+17),PAPER,RUST,3);ellipse((x-5,y-5,x+5,y+5),RUST)
 legend=[(185,'cult','Cult seat / patronage'),(1160,'birth','Explicit city birth'),(2100,'conception','Conception'),(2890,'inferred','Inferred shrine birth')]
 for x,kind,s in legend:marker(x,928,kind);text(x+35,900,s,42,fill=MUTED,halo=False)
+for x,color,s in [(185,'#ccd9b7','Alluvial plain'),(1160,'#b5c8ab','Marsh region'),(2100,'#eddfc3','Desert'),(2890,'#c9c4af','Mountain relief')]:
+    poly([(x-12,983),(x+12,983),(x+12,1005),(x-12,1005)],color)
+    text(x+35,972,s,34,fill=MUTED,halo=False)
 p=L['projection']
 def project(lon,lat):return p['x0']+p['pxPerLon']*(lon-p['lon0']),p['y0']+p['pxPerLat']*(p['lat0']-lat)
-# Geography layer cropped as a scene; source paths retain every coastal vertex.
-base=Image.new('RGB',im.size,PAPER);bd=ImageDraw.Draw(base)
+# Source-derived terrain is an embedded raster; original coastal paths remain vectors.
+clip=(round(120*S),round(1030*S),round(3880*S),round(4340*S))
+background=(DATA/'landscape-base.png').read_bytes()
+landscape=Image.open(DATA/'landscape-base.png').convert('RGB').resize((clip[2]-clip[0],clip[3]-clip[1]),Image.Resampling.LANCZOS)
+im.paste(landscape,clip[:2]);d=ImageDraw.Draw(im)
 svg.append('<g clip-path="url(#mapclip)">')
+svg.append('<image id="landscape" x="120" y="1030" width="3760" height="3310" href="data:image/png;base64,'+base64.b64encode(background).decode()+'"/>')
+# Only ocean coastline / offshore islands are shown. Inland lakes/reservoirs are omitted.
+cl=Image.new('RGBA',im.size,(0,0,0,0));cd=ImageDraw.Draw(cl)
 for feature in json.loads((DATA/'coastline.geojson').read_text())['features']:
-    geom=feature['geometry'];level=feature['properties']['level'];fill=LAND if level in [1,3] else WATER
+    geom=feature['geometry'];level=feature['properties']['level']
+    if level!=1:continue
     polygons=geom['coordinates'] if geom['type']=='MultiPolygon' else [geom['coordinates']]
     for rings in polygons:
-        for j,ring in enumerate(rings):
+        for ring in rings[:1]:
             pp=[project(x,y) for x,y,*_ in ring]
-            # Drawing through an isolated layer provides true clipping at poster edge.
-            bd.polygon(pts(pp),fill=fill if j==0 else WATER)
-            bd.line(pts(pp),fill=COAST,width=round(1.6*S),joint='curve')
-            svg.append('<path d="M'+'L'.join(f'{x:.3f},{y:.3f}' for x,y in pp)+f'Z" fill="{fill if j==0 else WATER}" stroke="{COAST}" stroke-width="1.6"/>')
-# The map's ocean ground is water; GSHHG level 1 polygons cover the mainland.
-# Reconstruct base with a water fill beneath these already drawn polygons.
-waterbase=Image.new('RGB',im.size,WATER);wd=ImageDraw.Draw(waterbase)
-for feature in json.loads((DATA/'coastline.geojson').read_text())['features']:
-    g=feature['geometry'];lvl=feature['properties']['level'];ff=LAND if lvl in [1,3] else WATER
-    for rings in (g['coordinates'] if g['type']=='MultiPolygon' else [g['coordinates']]):
-        for j,ring in enumerate(rings):
-            pp=[project(x,y) for x,y,*_ in ring];wd.polygon(pts(pp),fill=ff if j==0 else WATER);wd.line(pts(pp),fill=COAST,width=round(1.6*S),joint='curve')
-clip=(round(120*S),round(1030*S),round(3880*S),round(4340*S));im.paste(waterbase.crop(clip),clip[:2]);d=ImageDraw.Draw(im)
-# Put ocean colour before the SVG geography group, preserving exact draw order.
-gstart=next(i for i,v in enumerate(svg) if v=='<g clip-path="url(#mapclip)">')
-svg.insert(gstart+1,f'<rect x="120" y="1030" width="3760" height="3310" fill="{WATER}"/>')
-# Dotted paper texture continues subtly across the land.
+            cd.line(pts(pp),fill=COAST,width=round(1.6*S),joint='curve')
+            svg.append('<path data-geometry="ocean-coast" d="M'+'L'.join(f'{x:.3f},{y:.3f}' for x,y in pp)+f'Z" fill="none" stroke="{COAST}" stroke-width="1.6"/>')
+im.paste(cl.crop(clip),clip[:2],cl.crop(clip));d=ImageDraw.Draw(im)
+# A native-cell, Gulf-connected threshold scenario. It is never called an ancient coast.
+if (DATA/'flood-4m.geojson').exists():
+    fl=Image.new('RGBA',im.size,(0,0,0,0));fd=ImageDraw.Draw(fl)
+    svg.append('<g id="flood-overlay" data-datum="EGM2008" data-level-metres="4">')
+    for f in json.loads((DATA/'flood-4m.geojson').read_text('utf8'))['features']:
+        g=f['geometry'];polys=g['coordinates'] if g['type']=='MultiPolygon' else [g['coordinates']]
+        for rings in polys:
+            svgpath=[]
+            for j,ring in enumerate(rings):
+                pp=[project(x,y) for x,y,*_ in ring]
+                fd.polygon(pts(pp),fill=(114,173,183,96) if j==0 else (0,0,0,0))
+                fd.line(pts(pp),fill=(76,132,146,110),width=max(1,round(1.25*S)),joint='curve')
+                svgpath.append('M'+'L'.join(f'{x:.3f},{y:.3f}' for x,y in pp)+'Z')
+            svg.append('<path d="'+''.join(svgpath)+'" fill="#72adb7" fill-opacity=".38" fill-rule="evenodd" stroke="#4c8492" stroke-opacity=".43" stroke-width="1.25"/>')
+    im.paste(fl.crop(clip),clip[:2],fl.crop(clip));d=ImageDraw.Draw(im)
+    svg.append('</g>')
 svg.append('<rect x="120" y="1030" width="3760" height="3310" fill="url(#dots)" opacity=".5"/>')
 for y in range(1040,4340,31):
     for x in range(130,3880,31):d.point((round(x*S),round(y*S)),fill='#d0d4c5')
 rl=Image.new('RGBA',im.size,(0,0,0,0));rd=ImageDraw.Draw(rl)
-for feature in json.loads((DATA/'rivers.geojson').read_text())['features']:
+for feature in json.loads((DATA/'rivers-display.geojson').read_text())['features']:
     g=feature['geometry'];prop=feature['properties']
     if g['type'] not in ['LineString','MultiLineString']:continue
     paths=g['coordinates'] if g['type']=='MultiLineString' else [g['coordinates']]
     for path in paths:
         pp=[project(x,y) for x,y,*_ in path]
         # Clip raster river paths to a dedicated layer so off-frame points cannot cross title.
-        width=2.0 if prop.get('level',2)<=2 else 1.2
-        rd.line(pts(pp),fill=RIVER,width=round(width*S),joint='curve')
-        svg.append('<path d="M'+'L'.join(f'{x:.3f},{y:.3f}' for x,y in pp)+f'" fill="none" stroke="{RIVER}" stroke-width="{width}"/>')
+        area=prop['UPLAND_SKM'];flow=prop['DIS_AV_CMS']
+        width=5.6 if area>=85000 else 4.5 if flow>=300 else 3.2 if flow>=80 else 1.8
+        color=RIVER if width>=3.2 else '#84a3a0'
+        rd.line(pts(pp),fill=color,width=round(width*S),joint='curve')
+        svg.append('<path data-geometry="river-centerline" d="M'+'L'.join(f'{x:.3f},{y:.3f}' for x,y in pp)+f'" fill="none" stroke="{color}" stroke-width="{width}" stroke-linecap="round" stroke-linejoin="round"/>')
 im.paste(rl.crop(clip),clip[:2],rl.crop(clip));d=ImageDraw.Draw(im)
 svg.append('</g>')
 # Geographic names are intentionally sparse; the research labels carry the hierarchy.
 geo_labels=[(1890,1170,'Lower Mesopotamia',49,MUTED),
- (1640,2600,'Euphrates',42,RIVER),(1730,1720,'Tigris',42,RIVER)]
+ (1640,2600,'Euphrates',42,RIVER),(1730,1720,'Tigris',42,RIVER),
+ (3040,1070,'Zagros Mountains',42,MUTED),(1350,3210,'Arabian Desert',42,MUTED)]
 for feat in json.loads((DATA/'marsh-labels.geojson').read_text())['features']:
     x,y=project(*feat['geometry']['coordinates'])
     # Marsh symbols indicate named centres, not reconstructed boundaries.
@@ -161,6 +181,16 @@ for label in L['labels']:
 for label in L['labels']:
     x,y,w=label['x'],label['y'],label['width'];start=y
     svg.append(f'<g id="label-{label["cityId"]}" data-city="{label["cityId"]}">')
+    ns=label.get('nameSize',62)
+    bottom=y+53+len(label['names'])*(ns+6)+2+len(wrap_rows(label['note'],w,42))*42*1.14
+    panel=[x-15,y-12,x+w+15,bottom+8]
+    padding=80
+    pixel_box=tuple(round(a*S) for a in [panel[0]-padding,panel[1]-padding,panel[2]+padding,panel[3]+padding])
+    mask=Image.new('L',(pixel_box[2]-pixel_box[0],pixel_box[3]-pixel_box[1]),0)
+    ImageDraw.Draw(mask).rectangle((padding*S,padding*S,mask.width-padding*S,mask.height-padding*S),fill=210)
+    mask=mask.filter(ImageFilter.GaussianBlur(24*S))
+    im.paste(PAPER,pixel_box,mask);d=ImageDraw.Draw(im)
+    svg.append(f'<rect x="{panel[0]}" y="{panel[1]}" width="{panel[2]-panel[0]}" height="{panel[3]-panel[1]}" fill="{PAPER}" fill-opacity=".824" filter="url(#labelwash)"/>')
     text(x,y,C[label['cityId']]['name'],43,fill=RUST if label['mark']=='birth' else MUTED)
     y+=53
     for row in label['names']:
@@ -201,14 +231,20 @@ line([(sx,sy),(sx+bar,sy)],INK,4)
 for xx in [sx,sx+bar/2,sx+bar]:line([(xx,sy-9),(xx,sy+9)],INK,3)
 text(sx,sy+20,'0',32,fill=MUTED);text(sx+bar-42,sy+20,'100 km',32,fill=MUTED)
 line([(2700,4150),(2700,4050)],INK,3);poly([(2700,4033),(2692,4057),(2708,4057)],INK);text(2685,3990,'N',34,fill=INK)
-wrapped(1335,3700,'Modern watercourses orient the reader. Ancient rivers, marshes and the Gulf shore shifted; no single ancient shoreline is asserted.',1320,43,fill=MUTED)
+svg.append('<g id="scenario-key">')
+poly([(1335,3600),(1374,3600),(1374,3634),(1335,3634)],'#abd0d0',RIVER,1.5)
+text(1395,3590,'+4 m elevation scenario',47,'bold',RIVER)
+wrapped(1335,3660,'Gulf-connected terrain ≤4 m EGM2008. DeltaDTM: 30 m cells. Modern terrain has changed through sedimentation and subsidence; this is not a dated ancient shoreline.',1320,40,fill=MUTED)
+wrapped(1335,3900,'Terrain and ecological colours describe broad landscapes. Ancient river courses and marsh extents varied.',1320,35,fill=MUTED)
+svg.append('</g>')
 line([(165,4450),(3835,4450)],'#a9b5a6',2)
 text(165,4485,'Sources',42,'bold')
 columns=[165,1420,2675]
 for i,source in enumerate(L['sources']):
     col=i//3;row=i%3
     wrapped(columns[col],4552+row*104,f'[{source["number"]}] '+source['short'],1160,33,fill=MUTED,leading=1.05)
-text(165,4905,'Geography: GSHHG 2.3.7 full resolution · WDBII rivers · Pleiades site points · Ramsar marsh centres.',34,fill=MUTED)
+text(165,4870,'Geography: GSHHG full-resolution coast · HydroRIVERS · Pleiades · Ramsar · RESOLVE 2017 · Mapzen / USGS relief.',31,fill=MUTED)
+text(165,4920,'+4 m test: DeltaDTM 1.1.1, EGM2008 · Pronk et al., Scientific Data 11 (2024), 273. Methods and limits in the companion.',31,fill=MUTED)
 svg.append('</svg>')
 im=im.resize((W,H),Image.Resampling.LANCZOS)
 im.save(OUT/'mesopotamian-gods.png',optimize=True,dpi=(300,300))
