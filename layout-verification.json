@@ -1408,10 +1408,10 @@
     {
       "text": "Persian Gulf",
       "box": [
-        3230,
-        4140,
-        3578.0,
-        4194.0
+        3060,
+        3900,
+        3408.0,
+        3954.0
       ]
     },
     {
@@ -1433,12 +1433,30 @@
       ]
     },
     {
-      "text": "Southern marshes",
+      "text": "Delta marshes",
       "box": [
-        2490,
-        3030,
-        2808.0,
-        3063.333333333333
+        1920,
+        2780,
+        2166.6666666666665,
+        2813.333333333333
+      ]
+    },
+    {
+      "text": "Dashed: suggested ancient shore",
+      "box": [
+        2980,
+        4000,
+        3434.6666666666665,
+        4034.6666666666665
+      ]
+    },
+    {
+      "text": "5000–4000 years ago · Forti et al.",
+      "box": [
+        2980,
+        4050,
+        3425.3333333333335,
+        4084.6666666666665
       ]
     },
     {
@@ -1604,11 +1622,11 @@
       ]
     },
     {
-      "text": "Geography: GSHHG · HydroRIVERS · Pleiades · Mapzen / USGS · RESOLVE 2017. Modern reference; ancient channels and marshes varied.",
+      "text": "Geography: GSHHG · HydroRIVERS · Pleiades · Mapzen / USGS · RESOLVE. Suggested ancient Gulf: Forti et al. (2022), Fig. 14.",
       "box": [
         165,
         4920,
-        1731.6666666666667,
+        1580.3333333333333,
         4947.333333333334
       ]
     }
@@ -7865,10 +7883,10 @@
     {
       "text": "Persian Gulf",
       "box": [
-        3230,
-        4140,
-        3578.0,
-        4194.0
+        3060,
+        3900,
+        3408.0,
+        3954.0
       ]
     },
     {
@@ -7890,12 +7908,30 @@
       ]
     },
     {
-      "text": "Southern marshes",
+      "text": "Delta marshes",
       "box": [
-        2490,
-        3030,
-        2808.0,
-        3063.333333333333
+        1920,
+        2780,
+        2166.6666666666665,
+        2813.333333333333
+      ]
+    },
+    {
+      "text": "Dashed: suggested ancient shore",
+      "box": [
+        2980,
+        4000,
+        3434.6666666666665,
+        4034.6666666666665
+      ]
+    },
+    {
+      "text": "5000–4000 years ago · Forti et al.",
+      "box": [
+        2980,
+        4050,
+        3425.3333333333335,
+        4084.6666666666665
       ]
     }
   ],

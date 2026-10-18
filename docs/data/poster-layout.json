@@ -719,8 +719,8 @@
       "size": 54
     },
     {
-      "x": 3230,
-      "y": 4140,
+      "x": 3060,
+      "y": 3900,
       "text": "Persian Gulf",
       "size": 70
     },
@@ -737,10 +737,27 @@
       "size": 47
     },
     {
-      "x": 2490,
-      "y": 3030,
-      "text": "Southern marshes",
+      "x": 1920,
+      "y": 2780,
+      "text": "Delta marshes",
       "size": 43
+    },
+    {
+      "text": "Dashed: suggested ancient shore",
+      "x": 2980,
+      "y": 4000,
+      "size": 34
+    },
+    {
+      "text": "5000–4000 years ago · Forti et al.",
+      "x": 2980,
+      "y": 4050,
+      "size": 34
     }
-  ]
+  ],
+  "historicalGeography": {
+    "layer": "palaeogulf.geojson",
+    "manifest": "palaeogulf-manifest.json",
+    "description": "Suggested Gulf, 5000–4000 years ago; Forti et al. (2022), Fig. 14. Modern-terrain +4 m calculation remains separate."
+  }
 }

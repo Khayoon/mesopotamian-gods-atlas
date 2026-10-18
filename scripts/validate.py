@@ -61,10 +61,16 @@ assert len(river['features'])==terrain['rivers']['features']
 assert all(f['geometry']['type'] in ['LineString','MultiLineString'] for f in river['features'])
 svg=(ROOT/'docs/mesopotamian-gods.svg').read_text('utf8')
 assert 'flood-overlay' not in svg and 'labelwash' not in svg
+assert 'id="suggested-ancient-gulf"' in svg and 'data-geometry="suggested-ancient-shore"' in svg
+assert '5000–4000 years ago' in svg
 assert svg.count('<image')==1 and 'id="landscape-context"' in svg and 'Persian Gulf' in svg
 context=json.loads((D/'context-manifest.json').read_text('utf8'))
 assert context['projection']==l['projection'] and context['mapFrame']==l['mapFrame']
 assert hashlib.sha256((D/'context-base.png').read_bytes()).hexdigest()==context['outputSHA256']
+palaeo=json.loads((D/'palaeogulf-manifest.json').read_text('utf8'))
+for asset in [palaeo['output'],palaeo['sourceFigure']]:
+    assert hashlib.sha256((D/asset['file']).read_bytes()).hexdigest()==asset['sha256']
+assert all(c['angularResidualDegrees']<.012 for c in palaeo['independentSiteChecks'])
 assert svg.count('data-curve="quadratic"')==22
 assert 'flood-overlay' in (ROOT/'docs/exploration/terrain-study.svg').read_text('utf8')
 stats={'deityRecords':len(r),'originClaims':sum(len(g['originTraditions']) for g in r),
@@ -72,7 +78,8 @@ stats={'deityRecords':len(r),'originClaims':sum(len(g['originTraditions']) for g
  'pngPixels':[4000,5000],'pngSHA256':hashlib.sha256((ROOT/'docs/mesopotamian-gods.png').read_bytes()).hexdigest(),
  'riverCenterlineFeatures':len(river['features']),
  'floodScenario':{'levelMetresEGM2008':4,'nativeCells':flood['verification']['native_raster_dimensions'],'polygonFeatures':flood['scenarios']['4']['polygon_features'],'classification':'modern terrain; not a dated ancient shoreline'},
- 'defaultPoster':'Persian Gulf context, clear major rivers and muted landscape; individual curved leaders; flood study separate',
+ 'defaultPoster':'Suggested ancient Gulf after Forti et al. (2022), Figure 14, 5000–4000 years ago; modern-terrain +4 m calculation separate',
+ 'historicalGulf':{'source':palaeo['source']['doi'],'period':palaeo['source']['periodAsPublished'],'figureSHA256':palaeo['sourceFigure']['sha256'],'georeferencingChecks':palaeo['independentSiteChecks']},
  'checks':'data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, no leaders through captions, zero leader crossings, fixed geographic pin coordinates, geographic name separation, width bounds, retained terrain/flood file hashes, river line geometry, separate optional exploration'}
 (ROOT/'verification.json').write_text(json.dumps(stats,indent=2)+'\n','utf8')
 print(json.dumps(stats,indent=2))

@@ -55,6 +55,7 @@ To rebuild the revised relief, clean river centrelines and native-cell coastal e
 ```sh
 python scripts/build-landscape.py
 python scripts/build-flood.py
+python scripts/build-palaeogulf.py
 python scripts/render-poster.py
 python scripts/validate.py
 ```
@@ -63,7 +64,7 @@ The two geographic builders cache downloads in ignored `work/terrain/` directori
 
 ## Geographic accuracy and checks
 
-The default poster uses a north-up Mercator projection that includes the river corridor and the northwestern Persian Gulf. The 50 km scale bar is calibrated at 32° N. GSHHG full-resolution coastal vertices and HydroRIVERS centrelines are retained without additional simplification; inland lake and reservoir outlines are omitted. The Tigris and Euphrates receive stronger strokes and clear names. A muted green alluvial/marsh wash, warm western desert and low-contrast eastern hillshade provide context beneath the short captions. These layers describe modern-reference relief and broad ecological setting, not dated ancient channels or vegetation. No flood layer is included in the default poster.
+The default poster uses a north-up Mercator projection that includes the river corridor and the northwestern Persian Gulf. The 50 km scale bar is calibrated at 32° N. GSHHG full-resolution coastal vertices and HydroRIVERS centrelines are retained without additional simplification; inland lake and reservoir outlines are omitted. The Tigris and Euphrates receive stronger strokes and clear names. A muted green alluvial/marsh wash, warm western desert and low-contrast eastern hillshade provide context beneath the short captions. These layers describe modern-reference relief and broad ecological setting, not dated ancient channels or vegetation. A pale-water, dashed overlay adds Forti et al. (2022), Figure 14’s suggested Gulf for 5000–4000 years ago. It is explicitly approximate and separate from the modern-terrain +4 m calculation. The source figure, registered vectors, calibration checks and model comparison are retained in `docs/data/palaeogulf-manifest.json` and `coastal-comparison.json`.
 
 `scripts/build-context.py` creates this restrained background from the documented elevation cache made by `build-landscape.py`, the original GSHHG land mask, HydroRIVERS envelopes and RESOLVE 2017 region 747. Run it after changing the poster projection, then run `render-poster.py`. Its projection, frame, source hashes and display limits are in `docs/data/context-manifest.json`. The full-resolution coastal/river vectors remain above the raster context.
 

@@ -7,7 +7,7 @@
     4000,
     5000
   ],
-  "pngSHA256": "247b4ba6d20d129efac5724ce90aac4ec728ed2277c960672c35c343d8a1f6be",
+  "pngSHA256": "1d15a610d1520928984b8bbfeee344c74790979b11f5cdf528753318f29f6378",
   "riverCenterlineFeatures": 1040,
   "floodScenario": {
     "levelMetresEGM2008": 4,
@@ -18,6 +18,45 @@
     "polygonFeatures": 580,
     "classification": "modern terrain; not a dated ancient shoreline"
   },
-  "defaultPoster": "Persian Gulf context, clear major rivers and muted landscape; individual curved leaders; flood study separate",
+  "defaultPoster": "Suggested ancient Gulf after Forti et al. (2022), Figure 14, 5000\u20134000 years ago; modern-terrain +4 m calculation separate",
+  "historicalGulf": {
+    "source": "https://doi.org/10.1017/qua.2022.22",
+    "period": "5000\u20134000 years ago",
+    "figureSHA256": "70262efbd92d647252fc351da28393b9692669569d70d6e0934eece9e57779a9",
+    "georeferencingChecks": [
+      {
+        "city": "ur",
+        "sourcePixel": [
+          227,
+          342
+        ],
+        "estimatedCoordinates": [
+          46.10601265822785,
+          30.956465517241377
+        ],
+        "siteCoordinates": [
+          46.10541981168791,
+          30.96131794655308
+        ],
+        "angularResidualDegrees": 0.004888510738967529
+      },
+      {
+        "city": "uruk",
+        "sourcePixel": [
+          128,
+          264
+        ],
+        "estimatedCoordinates": [
+          45.63607594936709,
+          31.326293103448275
+        ],
+        "siteCoordinates": [
+          45.6390521574333,
+          31.32337501090747
+        ],
+        "angularResidualDegrees": 0.004168102509544585
+      }
+    ]
+  },
   "checks": "data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, no leaders through captions, zero leader crossings, fixed geographic pin coordinates, geographic name separation, width bounds, retained terrain/flood file hashes, river line geometry, separate optional exploration"
 }

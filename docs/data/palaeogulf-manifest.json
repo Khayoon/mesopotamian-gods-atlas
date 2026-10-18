@@ -1,0 +1,84 @@
+{
+  "source": {
+    "source": "Forti et al. (2022), Quaternary Research 110, 165\u2013183, Figure 14",
+    "doi": "https://doi.org/10.1017/qua.2022.22",
+    "periodAsPublished": "5000\u20134000 years ago",
+    "claim": "Suggested position of the Persian Gulf coastline",
+    "precision": "Approximate cartographic reconstruction; source pixels about 450\u2013530 m. Not a surveyed or universally accepted shoreline.",
+    "license": "CC BY 4.0; adapted from the source figure; original copyright University of Washington, 2022"
+  },
+  "articleURL": "https://www.cambridge.org/core/journals/quaternary-research/article/paleoenvironment-and-depositional-context-of-the-sumerian-site-of-abu-tbeirah-nasiriyah-southern-mesopotamia-iraq/FE5F0F666EEF1BEC71C3C5AC58999322",
+  "officialRepositoryURL": "https://iris.cnr.it/handle/20.500.14243/441568",
+  "retrievedPDFMirror": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/IndOc-Gulf/AbuTbeirah-Forti2022.pdf",
+  "sourceFigure": {
+    "file": "sources/forti-2022-figure14.jpg",
+    "pixels": [
+      875,
+      623
+    ],
+    "sha256": "70262efbd92d647252fc351da28393b9692669569d70d6e0934eece9e57779a9"
+  },
+  "graticuleControl": {
+    "longitude": [
+      [
+        310,
+        46.5
+      ],
+      [
+        626,
+        48
+      ]
+    ],
+    "latitude": [
+      [
+        143,
+        31.9
+      ],
+      [
+        375,
+        30.8
+      ]
+    ]
+  },
+  "independentSiteChecks": [
+    {
+      "city": "ur",
+      "sourcePixel": [
+        227,
+        342
+      ],
+      "estimatedCoordinates": [
+        46.10601265822785,
+        30.956465517241377
+      ],
+      "siteCoordinates": [
+        46.10541981168791,
+        30.96131794655308
+      ],
+      "angularResidualDegrees": 0.004888510738967529
+    },
+    {
+      "city": "uruk",
+      "sourcePixel": [
+        128,
+        264
+      ],
+      "estimatedCoordinates": [
+        45.63607594936709,
+        31.326293103448275
+      ],
+      "siteCoordinates": [
+        45.6390521574333,
+        31.32337501090747
+      ],
+      "angularResidualDegrees": 0.004168102509544585
+    }
+  ],
+  "method": "Largest connected cyan region in the retained source figure; internal text holes filled. Exact pixel-edge tracing, affine graticule registration, with crop edges excluded from the shoreline. No shoreline was moved to meet archaeological sites.",
+  "limits": "One published suggested configuration, not an ancient DEM or a dated coastline for every deity tradition. It does not make Girsu or Nigin open-sea ports. Deltaic freshwater/brackish marshes extended beyond the marine Gulf. Modern rivers and GSHHG coast remain reference layers. The +4 m EGM2008 scenario is retained separately and is not this reconstruction.",
+  "output": {
+    "file": "palaeogulf.geojson",
+    "sha256": "255120a3591dcba41e54ff1c5316d8fee41e2e93213ea1928373fb35fb5f8035",
+    "boundaryVertices": 2375
+  }
+}

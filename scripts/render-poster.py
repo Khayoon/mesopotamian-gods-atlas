@@ -1,5 +1,6 @@
 """Canonical poster with restrained landscape context. Run: python scripts/render-poster.py
-Full terrain / flood exploration remains separate in docs/exploration/.
+The suggested ancient Gulf is adapted from Forti et al. (2022), Figure 14.
+The modern-terrain flood calculation remains separate in docs/exploration/.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageChops
@@ -82,6 +83,30 @@ for feature in json.loads((DATA/'rivers-display.geojson').read_text('utf8'))['fe
         points=[project(lon,lat) for lon,lat,*_ in path]
         ld.line(scaled(points),fill=colour,width=max(1,round(stroke*S)),joint='curve')
         svg.append(f'<path data-geometry="river-centerline" d="{path_string(points)}" fill="none" stroke="{colour}" stroke-width="{stroke}" stroke-linecap="round" stroke-linejoin="round"/>')
+# A published historical hypothesis is not the modern-terrain +4 m calculation.
+# Draw it over the modern river/coast reference so those lines become subdued
+# within the suggested Gulf; its crop edges must never masquerade as shores.
+historic=json.loads((DATA/'palaeogulf.geojson').read_text('utf8'))['features']
+water_feature=next(f for f in historic if f['properties']['role']=='suggested-water-area')
+points=[project(*p) for p in water_feature['geometry']['coordinates'][0]]
+overlay=Image.new('RGBA',im.size,(0,0,0,0));od=ImageDraw.Draw(overlay)
+od.polygon(scaled(points),fill=(218,232,227,235))
+layer=Image.alpha_composite(layer,overlay);ld=ImageDraw.Draw(layer)
+svg.append(f'<g id="suggested-ancient-gulf"><path d="{path_string(points)}Z" fill="#dae8e3" fill-opacity="{235/255:.6f}"/>')
+shore=next(f for f in historic if f['properties']['role']=='suggested-shore')
+for path in shore['geometry']['coordinates']:
+    points=[project(*p) for p in path];distance=0
+    # Same dashed symbol in Pillow and SVG, independent of source vertex spacing.
+    for a,b in zip(points[:-1],points[1:]):
+        length=math.dist(a,b);at=0
+        while at<length:
+            stop=min(length,at+(18-distance%18))
+            if distance%18<10:
+                stop=min(stop,at+(10-distance%18))
+                ld.line(scaled([(a[0]+(b[0]-a[0])*t/length,a[1]+(b[1]-a[1])*t/length) for t in [at,stop]]),fill='#7eaaa1',width=round(2.1*S))
+            distance+=stop-at;at=stop
+    svg.append(f'<path data-geometry="suggested-ancient-shore" d="{path_string(points)}" fill="none" stroke="#7eaaa1" stroke-width="2.1" stroke-dasharray="10 8"/>')
+svg.append('</g>');del overlay,od
 svg.append('</g></g>')
 pixel_frame=tuple(round(v*S) for v in frame);crop=layer.crop(pixel_frame);cw,ch=crop.size
 fx=Image.new('L',(cw,ch),255);fy=Image.new('L',(cw,ch),255);xd=ImageDraw.Draw(fx);yd=ImageDraw.Draw(fy)
@@ -144,7 +169,7 @@ line([(165,4600),(3835,4600)],'#b9bead',1.5);text(165,4630,'SOURCES',29,'sansbol
 for i,source in enumerate(L['sources']):
     col=i//3;row=i%3;text(165+col*1240,4680+row*43,f'{source["number"]}  {source["posterShort"]}',30,'sans',MUTED)
 text(165,4855,'Full passages, competing traditions and bibliography: khayoon.github.io/mesopotamian-gods-atlas',34,'sans',MUTED)
-text(165,4920,'Geography: GSHHG · HydroRIVERS · Pleiades · Mapzen / USGS · RESOLVE 2017. Modern reference; ancient channels and marshes varied.',28,'sans',MUTED)
+text(165,4920,'Geography: GSHHG · HydroRIVERS · Pleiades · Mapzen / USGS · RESOLVE. Suggested ancient Gulf: Forti et al. (2022), Fig. 14.',28,'sans',MUTED)
 svg.append('</svg>');im=im.resize((W,H),Image.Resampling.LANCZOS)
 im.save(OUT/'mesopotamian-gods.png',optimize=True,dpi=(300,300))
 im.resize((1600,2000),Image.Resampling.LANCZOS).save(OUT/'poster-preview.jpg',quality=93)

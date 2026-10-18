@@ -1,0 +1,63 @@
+{
+  "modernTerrainScenario": "+4 metres EGM2008, ocean-connected native-grid DeltaDTM 1.1.1; not four feet",
+  "historicalComparison": "Forti et al. (2022), Figure 14, suggested Gulf 5000\u20134000 years ago",
+  "distanceMethod": "Minimum point-to-polygon distance in WGS84 / UTM zone 38N (EPSG:32638), rounded to 0.01 km for reproducibility, not an accuracy claim. Additional 4 m flooded-land polygons compared with the published suggested Gulf area.",
+  "limits": "Representative site points may lie on archaeological mounds. Distances are to these model geometries, not to surveyed ancient shorelines, harbours or marsh margins. The published historical outline has much greater uncertainty than its digitization; no claim that all cities were seaports.",
+  "sites": [
+    {
+      "city": "ur",
+      "coordinates": [
+        46.10541981168791,
+        30.96131794655308
+      ],
+      "nativeFloodCategoryAtSite": 0,
+      "distanceToAdditional4mWaterKm": 103.55,
+      "sourceElevationEGM2008": 12.71688461303711,
+      "distanceToSuggestedAncientGulfKm": 38.53
+    },
+    {
+      "city": "eridu",
+      "coordinates": [
+        45.995643011905315,
+        30.819990551261686
+      ],
+      "nativeFloodCategoryAtSite": 0,
+      "distanceToAdditional4mWaterKm": 110.9,
+      "sourceElevationEGM2008": 6.040153980255127,
+      "distanceToSuggestedAncientGulfKm": 41.1
+    },
+    {
+      "city": "girsu",
+      "coordinates": [
+        46.17763528107655,
+        31.56038611603111
+      ],
+      "nativeFloodCategoryAtSite": 0,
+      "distanceToAdditional4mWaterKm": 132.21,
+      "sourceElevationEGM2008": 15.187409400939941,
+      "distanceToSuggestedAncientGulfKm": 70.32
+    },
+    {
+      "city": "nigin",
+      "coordinates": [
+        46.49508835,
+        31.3774175
+      ],
+      "nativeFloodCategoryAtSite": 0,
+      "distanceToAdditional4mWaterKm": 96.78,
+      "sourceElevationEGM2008": 9.703898429870605,
+      "distanceToSuggestedAncientGulfKm": 34.41
+    },
+    {
+      "city": "lagash",
+      "coordinates": [
+        46.40968,
+        31.4193425
+      ],
+      "nativeFloodCategoryAtSite": 0,
+      "distanceToAdditional4mWaterKm": 105.66,
+      "sourceElevationEGM2008": 10.340068817138672,
+      "distanceToSuggestedAncientGulfKm": 43.45
+    }
+  ]
+}
