@@ -1,4 +1,4 @@
-# Where were the Mesopotamian gods born?
+# The cities of the Mesopotamian gods
 
 A separate, source-led companion to the Greek gods atlas. **The main artifact is a 4000 × 5000 PNG poster.** The original Greek project was read only and was not changed.
 
@@ -10,7 +10,7 @@ A separate, source-led companion to the Greek gods atlas. **The main artifact is
 
 ## What the image means
 
-The poster retains the requested birthplace question, but answers it through a differentiated geography. Most pins are **cult seats or patronage associations**, not births. Its 22 city labels cover 41 deity identities, with names/aliases counted once even when a god has multiple cities. The companion contains 90 researched identity records, including lesser southern deities and unlocated/cosmic figures. This is a substantial selected catalogue, not an exhaustive god list or a claim to have searched every unpublished tablet.
+The poster's main subject is **cult centres and patron deities**: the cities where gods had temples, civic roles and local associations. The few located birth, conception and inferred-origin traditions are marked as secondary distinctions. Its 22 city labels cover 41 deity identities, with names/aliases counted once even when a god has multiple cities. The companion contains 90 researched identity records, including lesser southern deities and unlocated/cosmic figures. This is a substantial selected catalogue, not an exhaustive god list or a claim to have searched every unpublished tablet.
 
 Four categories are actually used on the poster:
 

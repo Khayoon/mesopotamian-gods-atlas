@@ -2,11 +2,11 @@
   "width": 4000,
   "height": 5000,
   "title": [
-    "Where were the",
-    "Mesopotamian gods born?"
+    "The cities of the",
+    "Mesopotamian gods"
   ],
-  "subtitle": "Ancient traditions—and the cities the gods called home.",
-  "readingNote": "Most pins mark cult seats, not birthplaces.",
+  "subtitle": "Cult centres and patron deities across ancient traditions.",
+  "readingNote": "The few located birth and conception traditions are marked separately.",
   "projection": {
     "type": "mercator",
     "lon0": 45.2,

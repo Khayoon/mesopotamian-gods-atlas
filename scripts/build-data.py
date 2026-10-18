@@ -24,7 +24,7 @@ for item in merged.values():
     item['cultCityIds']=sorted(set(e['cityId'] for e in item['cityEvidence'] if e.get('cityId')))
     item['originStatus']='documented tradition' if item['originTraditions'] else 'No origin established in the sources checked'
 data={
-    'title':'Where were the Mesopotamian gods born?',
+    'title':'The cities of the Mesopotamian gods',
     'scope':'Lower Mesopotamia: Sumerian-language, Akkadian-language and Babylonian traditions. A selected evidence catalogue, not an exhaustive ancient god list.',
     'compiled':'2026-10-18',
     'method':'Birth, creation, conception, childhood, genealogy and cult association are separate claims. Null origin coordinates are deliberate. Documentary attestation is not the date of a deity\u2019s first invention. A city may have many gods and a god many cities.',

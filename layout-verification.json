@@ -650,39 +650,39 @@
   ],
   "textBoxes": [
     {
-      "text": "Where were the",
+      "text": "The cities of the",
       "box": [
         155,
         125,
-        1625.6666666666667,
+        1644.3333333333333,
         290.99999999999994
       ]
     },
     {
-      "text": "Mesopotamian gods born?",
+      "text": "Mesopotamian gods",
       "box": [
         155,
         360,
-        2616.3333333333335,
+        2023.0,
         574.6666666666666
       ]
     },
     {
-      "text": "Ancient traditions—and the cities the gods called home.",
+      "text": "Cult centres and patron deities across ancient traditions.",
       "box": [
         166,
         655,
-        1570.6666666666667,
-        717.0
+        1592.0,
+        716.3333333333333
       ]
     },
     {
-      "text": "Most pins mark cult seats, not birthplaces.",
+      "text": "The few located birth and conception traditions are marked separately.",
       "box": [
         166,
         765,
-        985.3333333333334,
-        807.0
+        1550.6666666666667,
+        808.3333333333334
       ]
     },
     {
