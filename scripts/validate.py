@@ -39,6 +39,7 @@ for path in paths:
     assert all(abs(a-b)<1e-7 for a,b in zip(expected,path['points'][0])),path['cityId']
 for g in q['geographicLabels']:
     assert not any(overlap(g['box'],b['box']) for b in blocks),g['text']
+    assert not any(inside(p,g['box'],4) for path in paths for p in path['points']),('Geographic name / leader',g['text'])
 def cross(a,b,c):return (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])
 for i,path in enumerate(paths):
     for j,other in enumerate(paths[i+1:],i+1):
@@ -59,7 +60,11 @@ river=json.loads((D/'rivers-display.geojson').read_text('utf8'))
 assert len(river['features'])==terrain['rivers']['features']
 assert all(f['geometry']['type'] in ['LineString','MultiLineString'] for f in river['features'])
 svg=(ROOT/'docs/mesopotamian-gods.svg').read_text('utf8')
-assert 'flood-overlay' not in svg and 'labelwash' not in svg and '<image' not in svg
+assert 'flood-overlay' not in svg and 'labelwash' not in svg
+assert svg.count('<image')==1 and 'id="landscape-context"' in svg and 'Persian Gulf' in svg
+context=json.loads((D/'context-manifest.json').read_text('utf8'))
+assert context['projection']==l['projection'] and context['mapFrame']==l['mapFrame']
+assert hashlib.sha256((D/'context-base.png').read_bytes()).hexdigest()==context['outputSHA256']
 assert svg.count('data-curve="quadratic"')==22
 assert 'flood-overlay' in (ROOT/'docs/exploration/terrain-study.svg').read_text('utf8')
 stats={'deityRecords':len(r),'originClaims':sum(len(g['originTraditions']) for g in r),
@@ -67,7 +72,7 @@ stats={'deityRecords':len(r),'originClaims':sum(len(g['originTraditions']) for g
  'pngPixels':[4000,5000],'pngSHA256':hashlib.sha256((ROOT/'docs/mesopotamian-gods.png').read_bytes()).hexdigest(),
  'riverCenterlineFeatures':len(river['features']),
  'floodScenario':{'levelMetresEGM2008':4,'nativeCells':flood['verification']['native_raster_dimensions'],'polygonFeatures':flood['scenarios']['4']['polygon_features'],'classification':'modern terrain; not a dated ancient shoreline'},
- 'defaultPoster':'quiet geography; individual curved leaders; terrain and flood study separate',
+ 'defaultPoster':'Persian Gulf context, clear major rivers and muted landscape; individual curved leaders; flood study separate',
  'checks':'data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, no leaders through captions, zero leader crossings, fixed geographic pin coordinates, geographic name separation, width bounds, retained terrain/flood file hashes, river line geometry, separate optional exploration'}
 (ROOT/'verification.json').write_text(json.dumps(stats,indent=2)+'\n','utf8')
 print(json.dumps(stats,indent=2))

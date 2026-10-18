@@ -1,0 +1,31 @@
+{
+  "projection": {
+    "type": "mercator",
+    "lon0": 45.2,
+    "lat0": 32.2,
+    "x0": 1420,
+    "y0": 2240,
+    "scale": 36000
+  },
+  "mapFrame": [
+    110,
+    970,
+    3890,
+    4410
+  ],
+  "pixels": [
+    3780,
+    3440
+  ],
+  "sources": {
+    "elevationCacheSHA256": "5345237cfabd0f275ccdbbd0f5724dc196fd8e5a1f7410f87ef8d3468ea133c8",
+    "sourceTerrainManifest": "landscape-manifest.json",
+    "sourceTerrainManifestSHA256": "09972f1cb2aaf3a7c460224aa5ae6065876db6278cfea35571bd465d4981258c",
+    "coastlineSHA256": "c175b8ef1332c63591d61ca439732f24015ec610ab1b2ec208a29be4cb3c8d6a",
+    "ecoregionsSHA256": "63d3a66eaabc0e4bf6418e25ee33a5fc8448f8f6946f0071ebfa9bd9fdcb72e4",
+    "riversSHA256": "174e9f37ed74733b03a20db56d9a733141bee2147f93d52703fb98c783b80984"
+  },
+  "method": "Bilinear reprojection of documented Mapzen terrain to the Mercator poster grid. Full-resolution GSHHG land mask. Lowland colour follows major river envelopes; marsh colour follows RESOLVE 2017 region 747. Display-only twofold hillshade exaggeration with restrained contrast.",
+  "limits": "Modern-reference relief and broad ecological setting, not dated ancient channels, vegetation, marsh boundaries or shorelines. No flood overlay.",
+  "outputSHA256": "8b2b692e3c27ea0f70c201f39f8c62ab3ebb689f559b75ef4a78bd05771ee0e0"
+}

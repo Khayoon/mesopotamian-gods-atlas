@@ -1,15 +1,15 @@
-"""Canonical quiet poster. Run: python scripts/render-poster.py
-Terrain / flood exploration remains separate in docs/exploration/.
+"""Canonical poster with restrained landscape context. Run: python scripts/render-poster.py
+Full terrain / flood exploration remains separate in docs/exploration/.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageChops
-import html, json, math
+import html, json, math, base64
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs'; DATA=OUT/'data'
 L=json.loads((DATA/'poster-layout.json').read_text('utf8'))
 C={c['id']:c for c in json.loads((DATA/'cities.json').read_text('utf8'))}
 W,H=L['width'],L['height']; S=1.5
 PAPER='#f5f0e4'; LAND='#e9e4d5'; WATER='#e4ebe6'; INK='#263d33'
-MUTED='#727b6d'; COAST='#929b86'; RIVER='#94afa8'; RUST='#a0523b'
+MUTED='#727b6d'; COAST='#8f9a86'; RIVER='#68958f'; RUST='#a0523b'
 GOLD='#e7b84e'; BLUE='#496c75'; LEADER='#9ca58f'
 im=Image.new('RGB',(round(W*S),round(H*S)),PAPER); d=ImageDraw.Draw(im)
 FONT={'serif':'GentiumPlus-Regular.ttf','bold':'GentiumPlus-Bold.ttf','sans':'SourceSans3-Regular.ttf','sansbold':'SourceSans3-Bold.ttf'}
@@ -54,24 +54,30 @@ styles=''.join(f'@font-face{{font-family:{family};src:url(vendor/{name});font-we
 frame=L['mapFrame'];x1,y1,x2,y2=frame;fw,fh=x2-x1,y2-y1
 svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><title>{html.escape(" ".join(L["title"]))}</title><desc>Most locations are cult seats. Explicit birth, conception and inferred shrine birth are distinguished. Complete evidence is in the companion catalogue.</desc><defs><style>{styles}</style><clipPath id="mapclip"><rect x="{x1}" y="{y1}" width="{fw}" height="{fh}"/></clipPath><pattern id="dots" width="46" height="46" patternUnits="userSpaceOnUse"><circle cx="23" cy="23" r="1.5" fill="#d9d2c2"/></pattern><linearGradient id="fadeX"><stop offset="0" stop-color="black"/><stop offset=".025" stop-color="white"/><stop offset=".975" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient><linearGradient id="fadeY" x2="0" y2="1"><stop offset="0" stop-color="black"/><stop offset=".035" stop-color="white"/><stop offset=".965" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient><mask id="mx" maskUnits="userSpaceOnUse" x="{x1}" y="{y1}" width="{fw}" height="{fh}"><rect x="{x1}" y="{y1}" width="{fw}" height="{fh}" fill="url(#fadeX)"/></mask><mask id="my" maskUnits="userSpaceOnUse" x="{x1}" y="{y1}" width="{fw}" height="{fh}"><rect x="{x1}" y="{y1}" width="{fw}" height="{fh}" fill="url(#fadeY)"/></mask></defs>')
 svg.append(f'<rect width="{W}" height="{H}" fill="{PAPER}"/>')
-# Flat modern-reference geography. No interior coordinate simplification.
+# Muted modern-reference landscape. Original coastal/river vertices remain vectors.
 layer=Image.new('RGBA',im.size,(0,0,0,0)); ld=ImageDraw.Draw(layer)
 ld.rectangle(tuple(round(v*S) for v in frame),fill=WATER)
 svg.append(f'<g id="geography" clip-path="url(#mapclip)" mask="url(#mx)"><g mask="url(#my)"><rect x="{x1}" y="{y1}" width="{fw}" height="{fh}" fill="{WATER}"/>')
+context_manifest=json.loads((DATA/'context-manifest.json').read_text('utf8'))
+assert context_manifest['projection']==P and context_manifest['mapFrame']==frame, 'Rebuild geographic context for the new frame'
+context=(DATA/'context-base.png').read_bytes()
+background=Image.open(DATA/'context-base.png').convert('RGBA').resize((round(fw*S),round(fh*S)),Image.Resampling.LANCZOS)
+layer.paste(background,(round(x1*S),round(y1*S)));ld=ImageDraw.Draw(layer)
+svg.append(f'<image id="landscape-context" x="{x1}" y="{y1}" width="{fw}" height="{fh}" href="data:image/png;base64,'+base64.b64encode(context).decode()+'"/>')
 for feature in json.loads((DATA/'coastline.geojson').read_text('utf8'))['features']:
     if feature['properties']['level']!=1:continue
     g=feature['geometry'];polys=g['coordinates'] if g['type']=='MultiPolygon' else [g['coordinates']]
     for rings in polys:
         # Omit inland lake/reservoir outlines; preserve offshore islands.
         points=[project(lon,lat) for lon,lat,*_ in rings[0]]
-        ld.polygon(scaled(points),fill=LAND);ld.line(scaled(points),fill=COAST,width=round(1.7*S),joint='curve')
-        svg.append(f'<path data-geometry="ocean-coast" d="{path_string(points)}Z" fill="{LAND}" stroke="{COAST}" stroke-width="1.7"/>')
+        ld.line(scaled(points),fill=COAST,width=round(1.8*S),joint='curve')
+        svg.append(f'<path data-geometry="ocean-coast" d="{path_string(points)}Z" fill="none" stroke="{COAST}" stroke-width="1.8"/>')
 river_count=0
 for feature in json.loads((DATA/'rivers-display.geojson').read_text('utf8'))['features']:
     g=feature['geometry'];a=feature['properties'];area=a['UPLAND_SKM'];flow=a['DIS_AV_CMS']
     if area<15000 and flow<80:continue
-    stroke=3.4 if area>=85000 else 1.8 if flow>=300 else 1.1
-    colour=RIVER if area>=85000 else '#b8c4b5';river_count+=1
+    stroke=5.2 if area>=85000 else 2.6 if flow>=300 else 1.2
+    colour=RIVER if area>=85000 else '#afbfaf';river_count+=1
     for path in (g['coordinates'] if g['type']=='MultiLineString' else [g['coordinates']]):
         points=[project(lon,lat) for lon,lat,*_ in path]
         ld.line(scaled(points),fill=colour,width=max(1,round(stroke*S)),joint='curve')
@@ -123,7 +129,8 @@ for label in L['labels']:
     blocks.append({'cityId':label['cityId'],'box':box});label['actualBottom']=box[3];svg.append('</g>')
 geo=[]
 for item in L['geographicLabels']:
-    b=text(item['x'],item['y'],item['text'],item.get('size',40),'serif',MUTED,2);geo.append({'text':item['text'],'box':b})
+    colour=RIVER if item['text'] in ['Tigris','Euphrates','Persian Gulf','Southern marshes'] else MUTED
+    b=text(item['x'],item['y'],item['text'],item.get('size',40),'serif',colour,2);geo.append({'text':item['text'],'box':b})
 nx,ny=3700,1170
 line([(nx,ny+70),(nx,ny-38)],COAST,2);polygon([(nx,ny-55),(nx-10,ny-26),(nx+10,ny-26)],COAST)
 text(nx-13,ny-105,'N',32,'serif',MUTED)
@@ -137,7 +144,7 @@ line([(165,4600),(3835,4600)],'#b9bead',1.5);text(165,4630,'SOURCES',29,'sansbol
 for i,source in enumerate(L['sources']):
     col=i//3;row=i%3;text(165+col*1240,4680+row*43,f'{source["number"]}  {source["posterShort"]}',30,'sans',MUTED)
 text(165,4855,'Full passages, competing traditions and bibliography: khayoon.github.io/mesopotamian-gods-atlas',34,'sans',MUTED)
-text(165,4920,'Modern-reference geography: GSHHG full-resolution coast · HydroRIVERS · Pleiades site points. Ancient channels varied.',28,'sans',MUTED)
+text(165,4920,'Geography: GSHHG · HydroRIVERS · Pleiades · Mapzen / USGS · RESOLVE 2017. Modern reference; ancient channels and marshes varied.',28,'sans',MUTED)
 svg.append('</svg>');im=im.resize((W,H),Image.Resampling.LANCZOS)
 im.save(OUT/'mesopotamian-gods.png',optimize=True,dpi=(300,300))
 im.resize((1600,2000),Image.Resampling.LANCZOS).save(OUT/'poster-preview.jpg',quality=93)
