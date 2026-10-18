@@ -1,0 +1,10 @@
+{
+  "dataset": "Pleiades GIS places.csv",
+  "downloadURL": "https://atlantides.org/downloads/pleiades/gis/pleiades_gis_data.zip",
+  "downloaded": "2026-10-18",
+  "member": "data/gis/places.csv",
+  "memberBytes": 16633600,
+  "memberSHA256": "4bb6ac90d4371be6fb37ec799a0f54cfd73db1fa9006936b0062914279226ae5",
+  "license": "CC BY 3.0",
+  "coordinates": "Representative site points from selected published records; each record links its canonical Pleiades URL. Not myth-event or exact temple coordinates."
+}

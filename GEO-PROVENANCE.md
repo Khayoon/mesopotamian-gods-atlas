@@ -41,6 +41,12 @@ River classes used by this extract are documented in [the official GMT `gshhg` m
 
 The official Ramsar site descriptions identify these three areas as the southern Mesopotamian marshland complex. Their histories include drainage and reflooding; modern extents should not be extrapolated into antiquity. Only individual published coordinate facts and newly authored notes are redistributed here, not the Ramsar site's downloadable boundary database, photographs, or text.
 
+## Ancient-site points
+
+The 25 candidate archaeological-site anchors in `docs/data/cities.json` were selected from the Pleiades GIS `places.csv` distribution downloaded on 18 October 2026. Only 22 appear as poster callouts. Each selected point retains its individual canonical Pleiades URL, gazetteer title and precision classification. The CSV member's SHA-256 and retrieval URL are in `docs/data/site-provenance.json`. These are representative points for archaeological sites or complexes, not exact temple, myth-event or birth coordinates. Older ORACC gazetteer snapshots sometimes differ; the selected current Pleiades distribution is used consistently here. Other named sites remain null where location or identification is insufficiently secure. Pleiades contributors' data are licensed CC BY 3.0.
+
+The poster uses a local equirectangular projection with 480 pixels per longitude degree and 565 per latitude degree (approximately cos 31.8° longitude scaling), north up. The scale bar is approximate at 31° N. Scene clipping affects only the displayed frame; it does not further simplify the original coastal vertices.
+
 ## License and attribution
 
 GSHHG 2.3.7 is distributed under the **GNU Lesser General Public License, version 3 or any earlier version**, as the release's LICENSE states. The derived GeoJSON retains that upstream license. The original license, LGPL text, and README are included in `docs/data/GSHHG-LICENSE.txt`, `GSHHG-COPYING.LESSERv3.txt`, and `GSHHG-README.txt`. The atlas's own license does not replace these upstream terms.

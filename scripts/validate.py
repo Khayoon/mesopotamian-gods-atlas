@@ -26,11 +26,18 @@ for side in ['left','right']:
     labels=sorted([x for x in q['labels'] if x['side']==side],key=lambda a:a['y'])
     for a,b in zip(labels[:-1],labels[1:]):assert a['actualBottom']+8<=b['y'],(a['cityId'],b['cityId'])
 for g in q['geographicLabels']:assert g['leaderCollisions']==0
+def cross(a,b,c):return (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])
+paths=q['leaders']
+for i,path in enumerate(paths):
+    for j,other in enumerate(paths[i+1:],i+1):
+        for a,b in zip(path[:-1],path[1:]):
+            for c,d in zip(other[:-1],other[1:]):
+                assert not (cross(a,b,c)*cross(a,b,d)<0 and cross(c,d,a)*cross(c,d,b)<0),('Leader crossing',q['labels'][i]['cityId'],q['labels'][j]['cityId'])
 for source in l['sources']:assert str(source['number']) in re.findall(r'\d+', ' '.join(x['note'] for x in l['labels']))
 assert all(x['box'][2]<3900 for x in q['textBoxes']), 'Text exceeds page width'
 stats={'deityRecords':len(r),'originClaims':sum(len(g['originTraditions']) for g in r),
  'mappedIdentities':len({i for x in l['labels'] for i in x['deityIds']}),'cityLabels':len(l['labels']),
  'pngPixels':[4000,5000],'pngSHA256':hashlib.sha256((ROOT/'docs/mesopotamian-gods.png').read_bytes()).hexdigest(),
- 'checks':'data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, geographic name / leader separation, width bounds'}
+ 'checks':'data references, required evidence metadata, deliberate null coordinates, raster dimensions, callout separation, zero leader crossings, geographic name / leader separation, width bounds'}
 (ROOT/'verification.json').write_text(json.dumps(stats,indent=2)+'\n','utf8')
 print(json.dumps(stats,indent=2))

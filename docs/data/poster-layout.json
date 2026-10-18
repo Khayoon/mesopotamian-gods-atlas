@@ -115,7 +115,7 @@
       "cityId": "uruk",
       "side": "left",
       "x": 155,
-      "y": 2780,
+      "y": 3030,
       "width": 970,
       "names": [
         "An · Inanna / Ishtar",
@@ -134,7 +134,7 @@
       "cityId": "larsa",
       "side": "left",
       "x": 155,
-      "y": 3090,
+      "y": 3340,
       "width": 970,
       "names": [
         "Utu / Shamash"
@@ -149,7 +149,7 @@
       "cityId": "badtibira",
       "side": "left",
       "x": 155,
-      "y": 3330,
+      "y": 2790,
       "width": 970,
       "names": [
         "Dumuzi"
@@ -411,7 +411,7 @@
     },
     {
       "number": 7,
-      "short": "Gudea Cylinders, ETCSL 2.1.7; ETCSRI royal inscriptions (Lagash households).",
+      "short": "Gudea Cylinders, ETCSL 2.1.7; ETCSRI; Ragavan, CDLJ 2010:1 §3.1.1 (Lagash).",
       "url": "https://etcsl.orinst.ox.ac.uk/section2/tr217.htm"
     },
     {

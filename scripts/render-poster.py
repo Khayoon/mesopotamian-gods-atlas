@@ -126,19 +126,29 @@ for feat in json.loads((DATA/'marsh-labels.geojson').read_text())['features']:
     # Marsh symbols indicate named centres, not reconstructed boundaries.
     for dx in [-11,0,11]:line([(x+dx-3,y+7),(x+dx,y-8),(x+dx+3,y+3)],RIVER,1.6)
 geo_labels += [(3220,4260,'Persian Gulf',57,RIVER),
- (2660,2840,'Shatt al-Arab',36,RIVER),(2610,2410,'Hawizeh',34,RIVER),
+ (2450,2840,'Shatt al-Arab',36,RIVER),(2610,2410,'Hawizeh',34,RIVER),
  (2405,2590,'Central marshes',34,RIVER),(2360,2790,'Hammar',34,RIVER)]
 # Draw leaders before text. The two side corridors keep leaders out of labels.
+tracks={}
+for side in ['left','right']:
+    for direction in ['up','down']:
+        group=[]
+        for label in L['labels']:
+            x,y=project(*C[label['cityId']]['coordinates'])
+            if label['side']==side and ((label['y']+27<y)==(direction=='up')):group.append((y,label))
+        group.sort(key=lambda item:item[0])
+        for j,(_,label) in enumerate(group):
+            if side=='left':tx=1155+16*(len(group)-1-j) if direction=='up' else 1155+18*j
+            else:tx=2770+16*j if direction=='up' else 2890-18*j
+            tracks[label['cityId']]=tx
 for i,label in enumerate(L['labels']):
     x,y=project(*C[label['cityId']]['coordinates']);ly=label['y']+27
     if label['side']=='left':
         end=label['x']+label['width']+14
-        # Ordered elbows retain the north-to-south sequence at each side.
-        elbow=end+110+(i%11)*15
-        path=[(x,y),(elbow,ly),(end,ly)]
     else:
-        end=label['x']-24;elbow=end-120-(i-11)*11
-        path=[(x,y),(elbow,ly),(end,ly)]
+        end=label['x']-24
+    elbow=tracks[label['cityId']]
+    path=[(x,y),(elbow,y),(elbow,ly),(end,ly)]
     col=RUST if label['mark'] in ['birth','inferred'] else GOLD if label['mark']=='conception' else '#8a9b8c'
     line(path,PAPER,8)
     original=' '.join(f'{a:.3f},{b:.3f}' for a,b in path)
